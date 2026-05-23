@@ -1,0 +1,3001 @@
+date,category,region,store_size,month,day_of_week,is_weekend,promotion,footfall,avg_basket,discount_pct,sales
+2021-01-01,Groceries,West,Small,1,4,0,0,68,10.31,6.2,707.11
+2021-01-02,Sports,Central,Small,1,5,1,0,16,11.78,10.7,182.28
+2021-01-03,Electronics,West,Medium,1,6,1,0,115,9.48,14.4,1025.5
+2021-01-04,Electronics,East,Small,1,0,0,1,43,11.62,1.5,643.52
+2021-01-05,Groceries,Central,Large,1,1,0,1,269,8.84,4.0,2372.36
+2021-01-06,Clothing,North,Large,1,2,0,1,62,10.47,3.9,718.95
+2021-01-07,Groceries,North,Medium,1,3,0,0,60,9.32,14.4,484.55
+2021-01-08,Groceries,East,Medium,1,4,0,1,142,10.04,13.0,1395.78
+2021-01-09,Home & Garden,North,Medium,1,5,1,0,75,7.75,12.2,574.22
+2021-01-10,Sports,East,Large,1,6,1,0,74,11.94,11.3,777.79
+2021-01-11,Groceries,East,Medium,1,0,0,1,96,11.54,13.4,1059.52
+2021-01-12,Sports,North,Small,1,1,0,1,23,9.49,20.8,287.72
+2021-01-13,Sports,Central,Medium,1,2,0,0,48,11.17,15.1,448.85
+2021-01-14,Sports,Central,Small,1,3,0,1,42,9.1,0.5,487.72
+2021-01-15,Home & Garden,South,Small,1,4,0,1,41,9.61,27.2,367.65
+2021-01-16,Sports,North,Medium,1,5,1,1,46,8.81,8.3,556.56
+2021-01-17,Groceries,South,Medium,1,6,1,1,113,10.27,24.0,1059.93
+2021-01-18,Clothing,North,Large,1,0,0,1,62,10.96,10.6,717.87
+2021-01-19,Home & Garden,West,Large,1,1,0,1,61,12.01,16.4,665.15
+2021-01-20,Electronics,North,Small,1,2,0,0,65,9.27,23.6,435.41
+2021-01-21,Sports,West,Medium,1,3,0,0,24,8.3,24.5,170.31
+2021-01-22,Electronics,North,Large,1,4,0,1,80,8.61,0.5,881.91
+2021-01-23,Electronics,North,Small,1,5,1,1,40,10.38,5.2,532.84
+2021-01-24,Electronics,West,Small,1,6,1,1,73,9.17,19.3,698.11
+2021-01-25,Clothing,East,Medium,1,0,0,1,84,9.61,17.8,810.53
+2021-01-26,Groceries,South,Large,1,1,0,0,124,9.92,16.7,1056.43
+2021-01-27,Electronics,West,Small,1,2,0,1,45,9.91,12.3,517.95
+2021-01-28,Home & Garden,Central,Medium,1,3,0,1,76,8.88,25.2,673.46
+2021-01-29,Home & Garden,West,Medium,1,4,0,1,41,9.21,0.3,540.1
+2021-01-30,Groceries,East,Medium,1,5,1,0,170,12.53,23.1,1550.02
+2021-01-31,Groceries,East,Small,1,6,1,1,86,8.97,7.0,819.83
+2021-02-01,Sports,Central,Small,2,0,0,1,24,10.17,16.1,360.69
+2021-02-02,Clothing,West,Medium,2,1,0,0,65,12.33,14.4,647.41
+2021-02-03,Groceries,Central,Small,2,2,0,0,29,9.93,5.1,277.97
+2021-02-04,Home & Garden,Central,Large,2,3,0,1,181,8.95,21.3,1464.42
+2021-02-05,Clothing,South,Large,2,4,0,0,95,8.42,5.6,824.4
+2021-02-06,Home & Garden,North,Medium,2,5,1,1,69,10.57,5.8,830.81
+2021-02-07,Electronics,South,Medium,2,6,1,1,96,13.21,29.5,979.33
+2021-02-08,Clothing,Central,Large,2,0,0,0,81,9.25,14.9,652.95
+2021-02-09,Home & Garden,South,Small,2,1,0,1,54,9.9,9.5,650.48
+2021-02-10,Sports,Central,Large,2,2,0,1,93,7.64,26.4,637.96
+2021-02-11,Sports,South,Small,2,3,0,0,33,11.22,19.1,291.82
+2021-02-12,Clothing,South,Medium,2,4,0,0,53,8.65,13.9,388.42
+2021-02-13,Electronics,North,Medium,2,5,1,0,55,9.17,20.0,396.76
+2021-02-14,Clothing,South,Large,2,6,1,0,89,8.98,23.5,650.21
+2021-02-15,Electronics,West,Medium,2,0,0,0,73,10.21,18.5,662.02
+2021-02-16,Sports,Central,Small,2,1,0,1,60,8.84,2.2,650.22
+2021-02-17,Groceries,South,Large,2,2,0,1,232,8.61,24.4,1631.9
+2021-02-18,Electronics,North,Small,2,3,0,1,66,9.17,25.1,518.84
+2021-02-19,Electronics,Central,Large,2,4,0,1,139,9.51,1.1,1588.15
+2021-02-20,Sports,West,Small,2,5,1,0,24,10.17,28.8,195.52
+2021-02-21,Groceries,East,Small,2,6,1,0,124,10.93,29.1,891.99
+2021-02-22,Home & Garden,West,Medium,2,0,0,1,71,10.44,5.8,865.35
+2021-02-23,Electronics,West,Small,2,1,0,1,78,9.95,15.2,807.19
+2021-02-24,Groceries,West,Medium,2,2,0,1,150,7.81,27.5,1077.46
+2021-02-25,Sports,Central,Large,2,3,0,0,84,10.06,27.5,589.93
+2021-02-26,Home & Garden,Central,Medium,2,4,0,1,82,12.12,25.7,849.02
+2021-02-27,Home & Garden,Central,Medium,2,5,1,0,111,10.05,1.1,1015.3
+2021-02-28,Clothing,Central,Small,2,6,1,0,46,9.26,22.5,349.79
+2021-03-01,Clothing,West,Large,3,0,0,0,98,8.26,25.6,619.47
+2021-03-02,Clothing,Central,Small,3,1,0,0,44,10.5,23.1,338.76
+2021-03-03,Clothing,East,Large,3,2,0,1,116,9.27,17.9,997.91
+2021-03-04,Clothing,South,Medium,3,3,0,1,54,10.72,20.5,622.82
+2021-03-05,Clothing,Central,Medium,3,4,0,0,33,11.75,11.1,336.55
+2021-03-06,Sports,Central,Medium,3,5,1,0,55,9.12,16.4,432.15
+2021-03-07,Clothing,North,Small,3,6,1,0,35,8.85,11.4,268.08
+2021-03-08,Home & Garden,West,Small,3,0,0,1,39,12.53,7.9,552.92
+2021-03-09,Electronics,Central,Medium,3,1,0,0,101,10.07,6.9,1055.34
+2021-03-10,Groceries,North,Medium,3,2,0,1,112,12.15,17.6,1218.78
+2021-03-11,Home & Garden,Central,Medium,3,3,0,1,57,9.44,4.0,597.08
+2021-03-12,Electronics,North,Small,3,4,0,0,55,11.04,29.8,481.16
+2021-03-13,Sports,West,Large,3,5,1,0,30,13.14,0.9,375.38
+2021-03-14,Home & Garden,South,Medium,3,6,1,0,56,10.79,8.0,596.18
+2021-03-15,Groceries,West,Small,3,0,0,1,132,9.82,4.6,1364.31
+2021-03-16,Clothing,Central,Medium,3,1,0,1,54,10.03,19.3,610.13
+2021-03-17,Home & Garden,East,Medium,3,2,0,1,95,10.41,11.4,1009.56
+2021-03-18,Home & Garden,West,Large,3,3,0,0,191,8.22,3.0,1584.42
+2021-03-19,Home & Garden,Central,Medium,3,4,0,0,46,11.39,22.1,382.3
+2021-03-20,Electronics,East,Small,3,5,1,1,83,10.79,13.6,1035.34
+2021-03-21,Electronics,West,Medium,3,6,1,0,93,10.43,24.0,709.06
+2021-03-22,Clothing,Central,Large,3,0,0,0,84,10.71,12.4,771.43
+2021-03-23,Sports,North,Small,3,1,0,0,30,8.53,16.8,215.84
+2021-03-24,Clothing,South,Large,3,2,0,0,77,10.81,12.4,752.49
+2021-03-25,Electronics,South,Small,3,3,0,0,66,8.43,5.8,524.15
+2021-03-26,Home & Garden,East,Medium,3,4,0,1,109,8.77,28.1,837.37
+2021-03-27,Electronics,South,Small,3,5,1,1,69,12.41,16.7,866.74
+2021-03-28,Electronics,South,Large,3,6,1,0,140,11.62,17.7,1306.14
+2021-03-29,Groceries,South,Large,3,0,0,1,127,11.79,0.3,1742.86
+2021-03-30,Home & Garden,South,Large,3,1,0,1,107,9.73,29.3,922.06
+2021-03-31,Groceries,West,Small,3,2,0,0,99,12.61,14.4,1000.05
+2021-04-01,Sports,North,Medium,4,3,0,0,49,9.31,12.7,398.48
+2021-04-02,Home & Garden,East,Large,4,4,0,0,120,7.87,5.4,962.19
+2021-04-03,Sports,South,Small,4,5,1,1,38,10.12,13.8,523.03
+2021-04-04,Clothing,North,Medium,4,6,1,0,81,9.76,21.5,575.97
+2021-04-05,Home & Garden,West,Large,4,0,0,1,151,7.91,16.9,1187.78
+2021-04-06,Clothing,East,Small,4,1,0,1,38,8.8,28.5,436.15
+2021-04-07,Sports,East,Small,4,2,0,1,28,8.24,5.6,372.01
+2021-04-08,Electronics,South,Small,4,3,0,1,94,8.44,10.6,897.31
+2021-04-09,Groceries,East,Large,4,4,0,1,195,8.52,25.1,1353.16
+2021-04-10,Electronics,South,Medium,4,5,1,1,123,10.04,24.2,1039.44
+2021-04-11,Groceries,North,Large,4,6,1,1,188,11.54,22.6,1788.89
+2021-04-12,Home & Garden,West,Small,4,0,0,0,69,10.9,11.1,638.13
+2021-04-13,Groceries,North,Medium,4,1,0,0,112,10.95,12.5,1202.88
+2021-04-14,Home & Garden,East,Small,4,2,0,0,68,9.4,28.1,454.2
+2021-04-15,Home & Garden,West,Medium,4,3,0,0,63,12.64,13.3,651.08
+2021-04-16,Home & Garden,South,Small,4,4,0,0,61,11.18,18.2,524.76
+2021-04-17,Electronics,East,Small,4,5,1,1,87,9.22,5.0,824.87
+2021-04-18,Home & Garden,West,Medium,4,6,1,0,60,11.78,2.8,699.04
+2021-04-19,Electronics,South,Large,4,0,0,1,225,7.99,28.3,1500.6
+2021-04-20,Sports,East,Small,4,1,0,0,33,9.91,4.6,301.86
+2021-04-21,Electronics,North,Large,4,2,0,0,78,11.49,9.9,772.41
+2021-04-22,Home & Garden,North,Medium,4,3,0,1,94,8.86,23.8,721.21
+2021-04-23,Electronics,West,Small,4,4,0,0,74,9.03,12.1,619.13
+2021-04-24,Electronics,West,Medium,4,5,1,1,105,12.29,20.2,1101.63
+2021-04-25,Sports,East,Large,4,6,1,1,100,10.03,22.5,917.72
+2021-04-26,Electronics,Central,Medium,4,0,0,0,154,9.13,28.1,1025.2
+2021-04-27,Clothing,East,Small,4,1,0,0,36,10.97,21.5,293.54
+2021-04-28,Home & Garden,South,Large,4,2,0,1,146,9.65,18.8,1345.5
+2021-04-29,Sports,Central,Medium,4,3,0,0,70,10.94,27.0,601.83
+2021-04-30,Home & Garden,West,Large,4,4,0,0,59,11.32,24.2,514.43
+2021-05-01,Electronics,North,Medium,5,5,1,0,174,8.42,22.4,1189.66
+2021-05-02,Clothing,North,Medium,5,6,1,1,22,8.32,24.5,281.92
+2021-05-03,Electronics,North,Large,5,0,0,1,150,13.16,13.1,1726.54
+2021-05-04,Home & Garden,South,Large,5,1,0,1,119,11.36,7.1,1325.2
+2021-05-05,Clothing,Central,Small,5,2,0,0,44,9.7,20.4,375.61
+2021-05-06,Electronics,South,Large,5,3,0,1,135,8.85,3.7,1466.53
+2021-05-07,Clothing,South,Large,5,4,0,1,116,10.42,21.0,1117.24
+2021-05-08,Groceries,East,Large,5,5,1,0,145,8.88,3.3,1383.55
+2021-05-09,Clothing,Central,Small,5,6,1,1,26,10.3,3.8,379.74
+2021-05-10,Clothing,Central,Large,5,0,0,0,103,11.57,10.6,1068.87
+2021-05-11,Groceries,North,Medium,5,1,0,0,136,10.98,27.8,1015.35
+2021-05-12,Home & Garden,East,Large,5,2,0,0,145,9.53,19.4,1240.35
+2021-05-13,Groceries,North,Medium,5,3,0,1,92,8.52,28.4,787.32
+2021-05-14,Sports,North,Small,5,4,0,0,21,11.16,18.4,205.38
+2021-05-15,Electronics,North,Small,5,5,1,1,73,9.79,4.6,721.44
+2021-05-16,Electronics,West,Medium,5,6,1,0,102,8.85,19.6,787.53
+2021-05-17,Groceries,Central,Large,5,0,0,1,290,8.46,26.1,1941.32
+2021-05-18,Clothing,South,Large,5,1,0,1,82,11.3,1.0,998.46
+2021-05-19,Electronics,West,Medium,5,2,0,0,160,8.32,20.9,1065.2
+2021-05-20,Electronics,East,Medium,5,3,0,1,33,11.91,28.5,381.07
+2021-05-21,Clothing,West,Large,5,4,0,1,129,8.73,24.0,962.24
+2021-05-22,Clothing,North,Small,5,5,1,1,40,11.79,25.7,546.81
+2021-05-23,Sports,West,Small,5,6,1,0,44,9.88,24.9,327.2
+2021-05-24,Groceries,East,Small,5,0,0,1,122,10.49,25.9,1148.82
+2021-05-25,Electronics,North,Small,5,1,0,1,54,10.11,11.3,558.37
+2021-05-26,Groceries,South,Small,5,2,0,0,86,12.07,4.3,918.19
+2021-05-27,Clothing,West,Large,5,3,0,0,113,9.27,23.6,817.93
+2021-05-28,Groceries,West,Small,5,4,0,0,75,13.01,3.9,878.05
+2021-05-29,Groceries,East,Large,5,5,1,0,152,11.26,29.0,1181.12
+2021-05-30,Electronics,Central,Large,5,6,1,0,162,8.84,16.7,1178.15
+2021-05-31,Clothing,West,Large,5,0,0,1,61,8.57,21.1,569.73
+2021-06-01,Electronics,North,Small,6,1,0,1,67,8.35,20.8,670.37
+2021-06-02,Home & Garden,Central,Medium,6,2,0,0,53,8.9,11.0,462.19
+2021-06-03,Electronics,West,Large,6,3,0,1,101,11.82,15.3,1148.85
+2021-06-04,Home & Garden,East,Large,6,4,0,1,32,11.65,20.4,382.17
+2021-06-05,Electronics,South,Medium,6,5,1,1,43,10.64,6.3,594.02
+2021-06-06,Home & Garden,West,Large,6,6,1,0,86,12.03,26.4,790.41
+2021-06-07,Sports,Central,Large,6,0,0,0,67,9.69,5.7,640.7
+2021-06-08,Sports,Central,Large,6,1,0,1,97,10.09,25.4,862.48
+2021-06-09,Home & Garden,South,Small,6,2,0,0,36,10.02,8.7,334.02
+2021-06-10,Home & Garden,North,Medium,6,3,0,0,52,10.49,20.0,465.84
+2021-06-11,Sports,Central,Small,6,4,0,1,43,10.43,0.7,696.56
+2021-06-12,Home & Garden,North,Large,6,5,1,0,89,8.33,26.2,552.17
+2021-06-13,Electronics,South,Small,6,6,1,0,117,8.64,21.1,816.02
+2021-06-14,Groceries,Central,Small,6,0,0,1,120,12.24,19.2,1192.51
+2021-06-15,Clothing,East,Small,6,1,0,0,41,9.77,9.2,375.55
+2021-06-16,Clothing,West,Medium,6,2,0,1,35,9.94,26.7,340.8
+2021-06-17,Sports,West,Large,6,3,0,0,105,8.12,23.0,714.31
+2021-06-18,Sports,South,Medium,6,4,0,0,41,9.07,21.3,299.02
+2021-06-19,Electronics,Central,Large,6,5,1,0,133,11.52,15.4,1320.45
+2021-06-20,Sports,North,Small,6,6,1,0,21,11.05,24.2,185.77
+2021-06-21,Electronics,West,Large,6,0,0,1,123,12.04,29.4,1092.9
+2021-06-22,Clothing,West,Large,6,1,0,0,70,8.66,13.4,570.77
+2021-06-23,Electronics,North,Large,6,2,0,1,157,9.12,2.1,1511.72
+2021-06-24,Clothing,Central,Large,6,3,0,0,60,9.51,12.8,486.64
+2021-06-25,Sports,South,Small,6,4,0,0,49,11.71,24.7,455.84
+2021-06-26,Sports,Central,Small,6,5,1,0,25,11.28,2.1,289.09
+2021-06-27,Sports,South,Medium,6,6,1,0,54,9.78,22.2,389.07
+2021-06-28,Clothing,East,Small,6,0,0,1,47,13.18,6.0,707.72
+2021-06-29,Electronics,East,Small,6,1,0,0,73,11.68,10.7,702.72
+2021-06-30,Electronics,East,Large,6,2,0,1,119,12.89,24.8,1277.78
+2021-07-01,Home & Garden,West,Small,7,3,0,0,44,8.61,21.0,308.48
+2021-07-02,Electronics,West,Large,7,4,0,1,92,10.7,29.5,875.4
+2021-07-03,Electronics,East,Small,7,5,1,0,91,9.66,10.5,753.77
+2021-07-04,Groceries,South,Medium,7,6,1,0,83,9.02,5.9,660.37
+2021-07-05,Electronics,West,Small,7,0,0,1,46,12.2,5.8,634.43
+2021-07-06,Groceries,Central,Small,7,1,0,1,96,9.06,20.0,895.96
+2021-07-07,Clothing,Central,Small,7,2,0,0,3,8.84,3.1,50.0
+2021-07-08,Clothing,North,Medium,7,3,0,1,62,8.53,6.5,658.28
+2021-07-09,Sports,South,Large,7,4,0,0,73,9.44,15.0,592.95
+2021-07-10,Clothing,South,Small,7,5,1,0,32,11.61,25.6,289.92
+2021-07-11,Electronics,West,Small,7,6,1,1,49,10.69,20.4,597.73
+2021-07-12,Groceries,South,Small,7,0,0,1,83,9.6,26.5,739.55
+2021-07-13,Groceries,East,Small,7,1,0,0,73,11.62,24.7,641.56
+2021-07-14,Sports,South,Medium,7,2,0,0,44,10.86,8.8,494.97
+2021-07-15,Sports,Central,Large,7,3,0,0,73,9.35,6.1,595.48
+2021-07-16,Clothing,Central,Small,7,4,0,1,47,8.96,15.4,485.49
+2021-07-17,Home & Garden,North,Medium,7,5,1,1,56,8.14,24.1,509.47
+2021-07-18,Electronics,Central,Small,7,6,1,0,30,8.33,14.4,228.79
+2021-07-19,Clothing,West,Large,7,0,0,0,102,9.06,2.6,908.52
+2021-07-20,Clothing,West,Small,7,1,0,1,24,11.02,3.2,355.36
+2021-07-21,Groceries,West,Small,7,2,0,0,76,8.93,1.7,696.9
+2021-07-22,Groceries,East,Medium,7,3,0,0,134,11.49,2.3,1600.26
+2021-07-23,Clothing,Central,Small,7,4,0,0,21,12.52,12.1,222.48
+2021-07-24,Home & Garden,West,Large,7,5,1,1,86,8.62,21.8,721.16
+2021-07-25,Groceries,Central,Medium,7,6,1,1,80,10.7,3.9,935.51
+2021-07-26,Electronics,Central,Large,7,0,0,0,101,8.96,15.6,723.45
+2021-07-27,Sports,East,Large,7,1,0,1,52,10.02,6.0,604.22
+2021-07-28,Clothing,South,Small,7,2,0,1,60,10.06,23.8,500.41
+2021-07-29,Electronics,West,Medium,7,3,0,1,86,9.31,29.7,689.01
+2021-07-30,Electronics,South,Medium,7,4,0,0,90,9.93,0.0,836.01
+2021-07-31,Sports,East,Large,7,5,1,1,75,8.9,7.2,731.37
+2021-08-01,Groceries,South,Small,8,6,1,0,59,11.13,20.1,517.96
+2021-08-02,Sports,East,Medium,8,0,0,1,15,9.39,3.8,306.54
+2021-08-03,Home & Garden,East,Medium,8,1,0,0,35,11.55,26.0,328.15
+2021-08-04,Clothing,Central,Small,8,2,0,1,41,8.46,2.8,413.07
+2021-08-05,Groceries,West,Medium,8,3,0,1,142,9.22,7.7,1425.95
+2021-08-06,Clothing,North,Large,8,4,0,1,40,8.56,14.0,511.06
+2021-08-07,Groceries,East,Large,8,5,1,1,132,13.55,16.6,1433.1
+2021-08-08,Electronics,East,Medium,8,6,1,1,119,9.83,28.5,991.39
+2021-08-09,Clothing,South,Medium,8,0,0,1,41,9.85,29.9,371.66
+2021-08-10,Electronics,East,Medium,8,1,0,0,92,9.18,23.9,644.46
+2021-08-11,Groceries,East,Large,8,2,0,1,88,11.74,25.5,976.4
+2021-08-12,Clothing,South,Large,8,3,0,0,40,9.98,14.4,367.59
+2021-08-13,Electronics,East,Large,8,4,0,1,80,10.79,21.0,854.95
+2021-08-14,Electronics,Central,Small,8,5,1,1,57,9.45,8.0,687.21
+2021-08-15,Clothing,West,Medium,8,6,1,0,34,8.8,1.8,316.71
+2021-08-16,Home & Garden,South,Large,8,0,0,0,113,9.56,11.5,931.88
+2021-08-17,Home & Garden,West,Large,8,1,0,0,66,8.9,27.7,476.02
+2021-08-18,Electronics,Central,Small,8,2,0,0,31,9.42,26.4,211.47
+2021-08-19,Home & Garden,South,Large,8,3,0,1,93,10.26,16.5,949.22
+2021-08-20,Electronics,West,Large,8,4,0,0,97,9.85,1.1,908.05
+2021-08-21,Electronics,North,Small,8,5,1,1,62,8.29,25.3,489.49
+2021-08-22,Sports,West,Small,8,6,1,0,38,9.56,13.3,294.33
+2021-08-23,Home & Garden,North,Medium,8,0,0,1,58,8.64,27.4,534.47
+2021-08-24,Home & Garden,South,Medium,8,1,0,1,49,9.59,5.4,511.82
+2021-08-25,Sports,West,Medium,8,2,0,1,34,9.22,5.7,425.73
+2021-08-26,Electronics,South,Large,8,3,0,0,138,9.01,21.8,965.53
+2021-08-27,Sports,South,Medium,8,4,0,1,25,9.06,14.8,369.07
+2021-08-28,Electronics,East,Small,8,5,1,0,39,9.29,23.7,264.32
+2021-08-29,Clothing,Central,Small,8,6,1,1,31,9.93,5.4,467.85
+2021-08-30,Sports,East,Small,8,0,0,0,42,9.36,29.1,284.83
+2021-08-31,Electronics,West,Small,8,1,0,0,75,8.63,22.9,490.21
+2021-09-01,Groceries,Central,Large,9,2,0,1,130,11.17,20.4,1236.91
+2021-09-02,Groceries,West,Large,9,3,0,0,132,8.17,12.6,1027.85
+2021-09-03,Sports,West,Medium,9,4,0,1,26,8.6,8.0,424.4
+2021-09-04,Home & Garden,East,Large,9,5,1,1,101,8.92,22.2,774.51
+2021-09-05,Sports,East,Small,9,6,1,1,20,11.98,8.9,351.58
+2021-09-06,Groceries,East,Medium,9,0,0,0,105,8.68,4.4,854.64
+2021-09-07,Clothing,North,Medium,9,1,0,1,30,9.64,18.3,437.85
+2021-09-08,Sports,Central,Small,9,2,0,1,27,12.08,28.9,284.94
+2021-09-09,Groceries,North,Small,9,3,0,1,32,9.57,29.5,321.52
+2021-09-10,Home & Garden,East,Large,9,4,0,0,66,10.71,0.8,750.91
+2021-09-11,Clothing,East,Small,9,5,1,1,21,11.67,29.4,241.18
+2021-09-12,Home & Garden,East,Small,9,6,1,1,26,10.56,0.8,363.16
+2021-09-13,Clothing,North,Large,9,0,0,1,47,11.9,26.3,534.41
+2021-09-14,Groceries,South,Medium,9,1,0,1,89,8.91,12.6,897.48
+2021-09-15,Home & Garden,West,Small,9,2,0,0,13,11.54,1.5,150.31
+2021-09-16,Sports,South,Small,9,3,0,1,26,8.81,11.1,397.86
+2021-09-17,Electronics,Central,Medium,9,4,0,0,58,12.28,12.4,581.07
+2021-09-18,Clothing,North,Small,9,5,1,0,16,9.7,26.6,117.69
+2021-09-19,Groceries,South,Large,9,6,1,1,112,9.68,17.5,1052.97
+2021-09-20,Home & Garden,South,Medium,9,0,0,1,53,9.16,15.2,602.12
+2021-09-21,Home & Garden,North,Medium,9,1,0,0,46,8.87,12.9,347.76
+2021-09-22,Home & Garden,South,Medium,9,2,0,0,51,8.5,28.9,341.56
+2021-09-23,Clothing,East,Large,9,3,0,1,52,7.73,11.1,580.18
+2021-09-24,Clothing,East,Small,9,4,0,1,34,8.13,12.6,391.29
+2021-09-25,Clothing,North,Large,9,5,1,0,65,10.99,10.6,680.27
+2021-09-26,Home & Garden,West,Medium,9,6,1,0,35,8.75,0.8,328.01
+2021-09-27,Electronics,West,Large,9,0,0,1,64,10.08,2.9,738.79
+2021-09-28,Electronics,East,Small,9,1,0,1,45,11.44,7.3,627.31
+2021-09-29,Sports,West,Large,9,2,0,0,17,10.42,8.0,176.83
+2021-09-30,Electronics,South,Small,9,3,0,0,54,12.11,23.7,495.58
+2021-10-01,Sports,West,Medium,10,4,0,1,32,9.96,22.6,355.68
+2021-10-02,Electronics,South,Medium,10,5,1,1,72,9.96,16.1,833.39
+2021-10-03,Electronics,West,Small,10,6,1,1,36,11.53,19.2,455.97
+2021-10-04,Electronics,West,Medium,10,0,0,0,54,9.62,14.4,498.99
+2021-10-05,Clothing,East,Large,10,1,0,1,34,9.63,23.5,363.89
+2021-10-06,Sports,North,Medium,10,2,0,1,25,10.2,15.1,289.91
+2021-10-07,Groceries,West,Large,10,3,0,0,129,11.17,22.8,1051.71
+2021-10-08,Groceries,Central,Large,10,4,0,0,144,7.78,29.3,852.23
+2021-10-09,Home & Garden,East,Large,10,5,1,1,95,8.75,26.0,728.96
+2021-10-10,Home & Garden,North,Large,10,6,1,1,65,8.41,11.1,638.36
+2021-10-11,Home & Garden,Central,Small,10,0,0,1,25,8.75,11.6,307.71
+2021-10-12,Home & Garden,Central,Medium,10,1,0,0,64,12.44,5.3,702.89
+2021-10-13,Electronics,East,Small,10,2,0,0,37,10.75,0.8,389.35
+2021-10-14,Clothing,East,Medium,10,3,0,0,34,11.56,20.3,340.59
+2021-10-15,Electronics,East,Large,10,4,0,0,96,8.43,9.2,737.75
+2021-10-16,Home & Garden,South,Medium,10,5,1,0,39,12.1,14.1,426.58
+2021-10-17,Groceries,East,Medium,10,6,1,1,108,8.9,27.0,861.35
+2021-10-18,Electronics,East,Small,10,0,0,0,35,8.81,17.4,280.26
+2021-10-19,Groceries,West,Medium,10,1,0,1,78,8.18,3.4,776.86
+2021-10-20,Electronics,North,Small,10,2,0,0,24,11.4,2.9,281.68
+2021-10-21,Clothing,West,Medium,10,3,0,0,39,10.71,20.1,313.04
+2021-10-22,Clothing,East,Medium,10,4,0,1,15,10.25,2.4,314.31
+2021-10-23,Groceries,East,Small,10,5,1,0,58,8.29,19.9,432.02
+2021-10-24,Electronics,South,Medium,10,6,1,1,27,11.74,20.7,390.6
+2021-10-25,Clothing,Central,Large,10,0,0,0,71,9.25,6.7,636.39
+2021-10-26,Sports,Central,Medium,10,1,0,1,38,8.72,13.9,441.65
+2021-10-27,Electronics,East,Medium,10,2,0,0,97,8.67,18.1,738.3
+2021-10-28,Sports,South,Large,10,3,0,0,48,9.27,29.4,354.91
+2021-10-29,Groceries,East,Large,10,4,0,0,152,10.69,21.9,1171.62
+2021-10-30,Sports,West,Small,10,5,1,0,20,10.05,27.1,156.85
+2021-10-31,Sports,South,Small,10,6,1,1,27,8.75,28.6,276.79
+2021-11-01,Groceries,South,Large,11,0,0,0,74,13.34,23.9,697.53
+2021-11-02,Clothing,South,Medium,11,1,0,0,38,9.5,25.4,272.54
+2021-11-03,Clothing,West,Medium,11,2,0,0,15,11.37,23.5,145.37
+2021-11-04,Sports,Central,Large,11,3,0,1,49,11.66,23.4,512.57
+2021-11-05,Sports,South,Small,11,4,0,0,19,10.18,13.9,182.65
+2021-11-06,Electronics,Central,Large,11,5,1,1,83,9.94,28.1,648.38
+2021-11-07,Sports,West,Medium,11,6,1,0,41,8.92,6.7,364.94
+2021-11-08,Electronics,Central,Medium,11,0,0,1,69,8.31,23.1,539.88
+2021-11-09,Home & Garden,North,Small,11,1,0,0,38,10.31,11.1,381.14
+2021-11-10,Home & Garden,Central,Medium,11,2,0,1,57,11.67,22.9,588.24
+2021-11-11,Groceries,South,Medium,11,3,0,1,77,8.95,26.8,662.42
+2021-11-12,Electronics,North,Large,11,4,0,0,51,11.05,14.4,492.73
+2021-11-13,Groceries,South,Small,11,5,1,1,61,10.33,15.7,633.89
+2021-11-14,Electronics,Central,Small,11,6,1,1,38,11.29,4.4,586.5
+2021-11-15,Groceries,North,Large,11,0,0,0,90,10.11,26.3,719.09
+2021-11-16,Electronics,Central,Medium,11,1,0,1,40,10.12,24.4,386.85
+2021-11-17,Groceries,North,Large,11,2,0,0,111,9.1,6.1,988.78
+2021-11-18,Clothing,South,Medium,11,3,0,0,17,8.57,5.2,158.31
+2021-11-19,Clothing,South,Medium,11,4,0,0,30,11.76,25.9,260.73
+2021-11-20,Sports,East,Medium,11,5,1,0,37,10.15,16.4,303.27
+2021-11-21,Sports,West,Medium,11,6,1,1,20,11.86,7.3,377.65
+2021-11-22,Clothing,Central,Small,11,0,0,1,19,11.97,13.5,249.05
+2021-11-23,Groceries,East,Small,11,1,0,1,57,12.44,20.5,619.73
+2021-11-24,Groceries,West,Small,11,2,0,0,58,8.09,9.6,444.48
+2021-11-25,Home & Garden,Central,Large,11,3,0,1,53,11.48,7.6,725.31
+2021-11-26,Clothing,South,Medium,11,4,0,0,21,9.71,27.6,162.22
+2021-11-27,Home & Garden,Central,Small,11,5,1,0,26,10.76,18.5,260.0
+2021-11-28,Clothing,Central,Medium,11,6,1,0,27,10.31,29.0,224.44
+2021-11-29,Groceries,Central,Large,11,0,0,0,164,7.98,10.5,1277.89
+2021-11-30,Groceries,West,Medium,11,1,0,0,70,9.05,20.5,542.95
+2021-12-01,Home & Garden,Central,Medium,12,2,0,1,64,8.69,23.0,502.23
+2021-12-02,Groceries,West,Medium,12,3,0,0,87,9.45,27.3,585.52
+2021-12-03,Sports,North,Large,12,4,0,1,49,8.52,18.5,479.17
+2021-12-04,Groceries,West,Small,12,5,1,1,50,12.15,16.8,554.9
+2021-12-05,Sports,East,Medium,12,6,1,1,33,8.84,16.7,346.07
+2021-12-06,Clothing,Central,Large,12,0,0,0,55,11.7,22.0,525.29
+2021-12-07,Electronics,South,Medium,12,1,0,0,71,10.66,11.2,746.8
+2021-12-08,Home & Garden,South,Medium,12,2,0,0,28,10.78,6.6,290.21
+2021-12-09,Groceries,South,Medium,12,3,0,1,122,9.01,8.6,1115.15
+2021-12-10,Groceries,South,Large,12,4,0,0,95,11.83,21.0,846.06
+2021-12-11,Clothing,North,Large,12,5,1,0,50,10.7,25.2,437.98
+2021-12-12,Sports,South,Large,12,6,1,1,54,11.09,17.2,652.74
+2021-12-13,Groceries,West,Large,12,0,0,1,3,8.85,22.5,165.49
+2021-12-14,Electronics,East,Large,12,1,0,0,74,10.21,16.0,602.41
+2021-12-15,Groceries,North,Large,12,2,0,0,113,9.16,9.3,972.95
+2021-12-16,Clothing,South,Large,12,3,0,0,78,9.85,25.0,584.3
+2021-12-17,Clothing,West,Medium,12,4,0,0,32,11.26,0.5,395.76
+2021-12-18,Home & Garden,North,Large,12,5,1,0,58,12.04,3.9,657.91
+2021-12-19,Electronics,South,Medium,12,6,1,1,79,9.21,19.0,796.37
+2021-12-20,Clothing,South,Medium,12,0,0,0,53,12.85,8.1,614.06
+2021-12-21,Home & Garden,Central,Large,12,1,0,0,71,10.47,23.1,547.94
+2021-12-22,Clothing,East,Large,12,2,0,1,78,10.17,1.3,878.81
+2021-12-23,Electronics,North,Large,12,3,0,1,66,8.54,10.5,704.53
+2021-12-24,Home & Garden,Central,Medium,12,4,0,1,41,11.1,3.9,646.99
+2021-12-25,Clothing,West,Small,12,5,1,1,35,8.81,26.5,381.45
+2021-12-26,Groceries,West,Large,12,6,1,1,85,11.84,10.2,1021.67
+2021-12-27,Clothing,South,Medium,12,0,0,0,34,9.95,6.8,325.0
+2021-12-28,Groceries,West,Medium,12,1,0,1,91,9.78,23.7,864.58
+2021-12-29,Clothing,Central,Large,12,2,0,1,63,11.03,17.5,763.64
+2021-12-30,Electronics,West,Small,12,3,0,1,35,9.25,23.8,343.67
+2021-12-31,Groceries,West,Medium,12,4,0,0,95,10.78,24.3,735.54
+2022-01-01,Clothing,East,Large,1,5,1,1,60,11.71,8.0,759.12
+2022-01-02,Groceries,South,Large,1,6,1,0,137,12.26,11.9,1430.72
+2022-01-03,Sports,Central,Large,1,0,0,0,68,8.06,7.6,543.28
+2022-01-04,Sports,North,Small,1,1,0,1,37,9.16,1.2,508.19
+2022-01-05,Electronics,Central,Large,1,2,0,1,88,12.93,15.3,969.75
+2022-01-06,Sports,North,Large,1,3,0,0,43,10.23,8.0,433.23
+2022-01-07,Sports,West,Medium,1,4,0,0,50,7.81,13.9,366.99
+2022-01-08,Home & Garden,South,Large,1,5,1,0,83,12.8,8.7,930.7
+2022-01-09,Clothing,Central,Medium,1,6,1,1,33,8.53,8.6,311.98
+2022-01-10,Sports,East,Small,1,0,0,0,33,11.58,22.5,285.45
+2022-01-11,Sports,West,Medium,1,1,0,0,28,12.3,2.5,317.92
+2022-01-12,Groceries,Central,Small,1,2,0,1,83,9.42,23.8,776.15
+2022-01-13,Electronics,Central,Large,1,3,0,1,182,8.09,25.2,1241.93
+2022-01-14,Groceries,East,Small,1,4,0,1,68,11.27,6.5,914.15
+2022-01-15,Electronics,North,Medium,1,5,1,1,102,9.71,9.4,1054.46
+2022-01-16,Electronics,South,Medium,1,6,1,1,59,11.47,0.3,805.28
+2022-01-17,Electronics,West,Small,1,0,0,0,48,9.01,0.2,463.23
+2022-01-18,Electronics,South,Small,1,1,0,1,77,9.52,1.3,845.03
+2022-01-19,Groceries,Central,Small,1,2,0,0,151,9.12,26.8,978.75
+2022-01-20,Home & Garden,East,Small,1,3,0,0,42,11.67,14.5,397.53
+2022-01-21,Sports,South,Small,1,4,0,0,15,11.62,3.0,174.41
+2022-01-22,Electronics,Central,Large,1,5,1,0,150,8.1,6.9,1203.05
+2022-01-23,Home & Garden,East,Medium,1,6,1,1,83,9.13,16.7,803.33
+2022-01-24,Electronics,West,Small,1,0,0,1,35,10.74,19.3,444.97
+2022-01-25,Groceries,North,Small,1,1,0,1,75,9.18,14.3,751.69
+2022-01-26,Clothing,North,Small,1,2,0,0,10,12.91,4.5,123.32
+2022-01-27,Electronics,North,Large,1,3,0,1,115,9.78,5.5,1049.88
+2022-01-28,Home & Garden,South,Medium,1,4,0,1,41,10.33,6.0,531.45
+2022-01-29,Groceries,South,Large,1,5,1,1,205,8.4,10.6,1747.93
+2022-01-30,Groceries,East,Large,1,6,1,1,135,8.91,19.7,1106.87
+2022-01-31,Home & Garden,North,Large,1,0,0,1,105,9.02,20.4,923.15
+2022-02-01,Electronics,South,Small,2,1,0,1,101,9.85,2.3,1053.14
+2022-02-02,Sports,Central,Medium,2,2,0,0,52,9.41,18.9,382.04
+2022-02-03,Sports,East,Small,2,3,0,0,30,12.65,22.5,296.17
+2022-02-04,Clothing,South,Small,2,4,0,1,51,8.42,18.1,499.53
+2022-02-05,Electronics,West,Small,2,5,1,1,70,12.03,25.2,672.72
+2022-02-06,Groceries,East,Small,2,6,1,0,149,8.82,20.1,1098.73
+2022-02-07,Sports,Central,Large,2,0,0,1,56,11.92,14.4,603.74
+2022-02-08,Home & Garden,West,Large,2,1,0,1,82,12.2,4.8,1094.96
+2022-02-09,Sports,South,Large,2,2,0,1,75,9.91,29.5,671.25
+2022-02-10,Sports,West,Large,2,3,0,0,41,9.44,16.6,307.74
+2022-02-11,Clothing,North,Small,2,4,0,1,33,9.14,15.8,338.58
+2022-02-12,Clothing,South,Medium,2,5,1,0,45,12.05,13.4,487.54
+2022-02-13,Home & Garden,Central,Large,2,6,1,0,110,11.59,28.9,922.73
+2022-02-14,Home & Garden,East,Small,2,0,0,1,61,9.05,1.9,717.73
+2022-02-15,Groceries,South,Large,2,1,0,1,238,10.84,22.5,2025.2
+2022-02-16,Clothing,South,Large,2,2,0,0,79,9.14,2.0,780.13
+2022-02-17,Groceries,East,Medium,2,3,0,1,131,12.21,16.0,1303.01
+2022-02-18,Home & Garden,Central,Small,2,4,0,0,76,9.56,20.0,542.32
+2022-02-19,Groceries,Central,Large,2,5,1,1,369,7.64,1.5,3113.59
+2022-02-20,Groceries,North,Medium,2,6,1,1,177,8.93,18.2,1419.3
+2022-02-21,Groceries,East,Small,2,0,0,1,127,8.52,8.6,1194.56
+2022-02-22,Electronics,East,Large,2,1,0,1,150,9.38,6.9,1344.35
+2022-02-23,Clothing,East,Small,2,2,0,1,78,8.78,22.0,710.39
+2022-02-24,Sports,East,Large,2,3,0,1,62,9.12,1.3,645.81
+2022-02-25,Electronics,East,Medium,2,4,0,0,87,10.18,19.9,728.52
+2022-02-26,Sports,West,Medium,2,5,1,1,76,8.94,10.2,773.55
+2022-02-27,Clothing,West,Medium,2,6,1,0,66,10.23,26.2,484.63
+2022-02-28,Home & Garden,South,Small,2,0,0,0,36,11.01,14.8,339.26
+2022-03-01,Clothing,South,Medium,3,1,0,0,54,9.6,14.2,429.44
+2022-03-02,Sports,South,Small,3,2,0,1,42,8.71,20.3,406.71
+2022-03-03,Home & Garden,East,Large,3,3,0,0,178,8.46,21.4,1308.82
+2022-03-04,Clothing,East,Small,3,4,0,0,53,10.34,27.3,446.64
+2022-03-05,Sports,West,Small,3,5,1,0,22,11.03,24.5,180.66
+2022-03-06,Sports,North,Small,3,6,1,0,24,11.29,29.3,187.15
+2022-03-07,Clothing,North,Medium,3,0,0,0,54,10.79,4.4,602.37
+2022-03-08,Electronics,East,Large,3,1,0,0,177,9.84,17.9,1330.45
+2022-03-09,Clothing,Central,Small,3,2,0,1,66,8.58,29.6,624.04
+2022-03-10,Clothing,South,Small,3,3,0,0,52,10.25,20.5,415.87
+2022-03-11,Groceries,East,Small,3,4,0,0,154,9.08,7.5,1259.26
+2022-03-12,Groceries,West,Small,3,5,1,1,156,9.04,4.0,1379.41
+2022-03-13,Clothing,East,Small,3,6,1,1,54,9.48,27.0,466.65
+2022-03-14,Groceries,South,Medium,3,0,0,0,218,10.82,15.9,1862.54
+2022-03-15,Home & Garden,East,Large,3,1,0,1,97,10.66,22.8,974.41
+2022-03-16,Sports,South,Medium,3,2,0,0,47,11.82,13.9,481.24
+2022-03-17,Home & Garden,South,Medium,3,3,0,1,105,9.22,12.3,998.1
+2022-03-18,Electronics,South,Large,3,4,0,1,253,9.21,3.2,2236.14
+2022-03-19,Clothing,East,Large,3,5,1,0,92,9.91,1.6,848.76
+2022-03-20,Home & Garden,Central,Small,3,6,1,0,72,9.74,6.4,617.66
+2022-03-21,Electronics,East,Medium,3,0,0,0,146,9.29,27.5,982.96
+2022-03-22,Clothing,South,Large,3,1,0,0,108,11.2,24.4,928.91
+2022-03-23,Electronics,South,Small,3,2,0,0,92,10.76,20.3,813.37
+2022-03-24,Groceries,East,Large,3,3,0,0,112,10.07,11.4,1081.88
+2022-03-25,Clothing,Central,Small,3,4,0,1,60,10.02,1.6,759.32
+2022-03-26,Electronics,East,Small,3,5,1,1,99,9.95,13.0,1084.86
+2022-03-27,Groceries,Central,Medium,3,6,1,0,114,8.29,10.4,873.14
+2022-03-28,Home & Garden,East,Large,3,0,0,0,155,9.48,27.8,1016.75
+2022-03-29,Groceries,West,Medium,3,1,0,0,135,10.31,14.8,1135.95
+2022-03-30,Sports,North,Small,3,2,0,1,35,9.05,18.8,422.76
+2022-03-31,Sports,South,Large,3,3,0,1,31,9.32,22.0,417.91
+2022-04-01,Clothing,Central,Medium,4,4,0,1,61,9.9,29.4,508.92
+2022-04-02,Clothing,South,Large,4,5,1,0,68,9.77,25.1,553.24
+2022-04-03,Groceries,West,Large,4,6,1,0,183,13.22,17.6,1823.32
+2022-04-04,Groceries,West,Medium,4,0,0,0,112,11.03,13.8,1028.77
+2022-04-05,Home & Garden,West,Medium,4,1,0,0,108,8.89,15.4,842.55
+2022-04-06,Groceries,East,Small,4,2,0,1,71,11.47,19.3,762.95
+2022-04-07,Electronics,North,Small,4,3,0,0,67,10.88,25.9,584.27
+2022-04-08,Clothing,South,Medium,4,4,0,0,85,8.75,12.7,664.86
+2022-04-09,Sports,East,Small,4,5,1,1,57,8.52,26.3,459.11
+2022-04-10,Home & Garden,South,Medium,4,6,1,0,147,8.21,23.5,1007.62
+2022-04-11,Electronics,North,Small,4,0,0,1,99,9.77,23.5,912.66
+2022-04-12,Sports,North,Large,4,1,0,1,63,9.62,21.6,637.36
+2022-04-13,Sports,West,Medium,4,2,0,1,81,8.51,3.9,716.01
+2022-04-14,Sports,North,Large,4,3,0,1,77,8.07,19.2,709.48
+2022-04-15,Home & Garden,South,Small,4,4,0,1,38,11.96,3.1,546.45
+2022-04-16,Clothing,Central,Small,4,5,1,1,55,8.67,17.3,559.06
+2022-04-17,Sports,East,Small,4,6,1,1,48,10.52,8.6,496.66
+2022-04-18,Groceries,South,Medium,4,0,0,1,87,13.28,12.7,1114.32
+2022-04-19,Electronics,North,Small,4,1,0,1,85,8.64,13.1,758.66
+2022-04-20,Electronics,Central,Small,4,2,0,0,65,11.43,7.6,648.69
+2022-04-21,Sports,West,Small,4,3,0,0,22,10.0,21.8,186.99
+2022-04-22,Home & Garden,East,Large,4,4,0,1,64,12.16,5.1,874.81
+2022-04-23,Sports,South,Small,4,5,1,1,36,12.43,14.1,469.99
+2022-04-24,Clothing,Central,Small,4,6,1,1,46,9.23,7.8,567.26
+2022-04-25,Home & Garden,West,Large,4,0,0,1,124,11.73,25.3,1174.58
+2022-04-26,Clothing,Central,Large,4,1,0,1,70,12.39,4.5,999.5
+2022-04-27,Clothing,West,Large,4,2,0,0,77,8.55,26.7,483.32
+2022-04-28,Sports,South,Small,4,3,0,1,36,9.56,24.8,399.91
+2022-04-29,Home & Garden,West,Medium,4,4,0,0,149,8.76,13.0,1163.88
+2022-04-30,Clothing,North,Large,4,5,1,1,72,10.43,21.5,691.14
+2022-05-01,Electronics,Central,Small,5,6,1,1,62,10.53,2.5,856.9
+2022-05-02,Clothing,North,Large,5,0,0,1,27,9.22,8.7,393.22
+2022-05-03,Clothing,West,Small,5,1,0,0,38,13.16,7.2,449.37
+2022-05-04,Electronics,North,Large,5,2,0,0,139,9.01,2.9,1141.12
+2022-05-05,Electronics,West,Large,5,3,0,0,142,10.85,28.1,1228.28
+2022-05-06,Electronics,East,Medium,5,4,0,0,118,10.05,28.1,832.94
+2022-05-07,Electronics,North,Medium,5,5,1,1,53,8.47,5.6,653.6
+2022-05-08,Home & Garden,North,Medium,5,6,1,0,87,10.07,16.0,813.43
+2022-05-09,Home & Garden,Central,Medium,5,0,0,0,82,12.36,28.7,671.16
+2022-05-10,Electronics,Central,Small,5,1,0,1,84,8.97,0.7,1000.78
+2022-05-11,Groceries,West,Large,5,2,0,0,299,8.92,24.3,2031.32
+2022-05-12,Electronics,North,Small,5,3,0,0,76,9.0,19.4,520.51
+2022-05-13,Groceries,East,Small,5,4,0,0,57,11.18,0.2,679.72
+2022-05-14,Groceries,East,Medium,5,5,1,1,173,9.97,28.8,1323.73
+2022-05-15,Home & Garden,West,Large,5,6,1,1,132,9.81,26.7,1077.02
+2022-05-16,Electronics,West,Small,5,0,0,0,46,11.05,29.5,373.31
+2022-05-17,Home & Garden,East,Medium,5,1,0,0,129,11.1,17.6,1156.08
+2022-05-18,Groceries,South,Small,5,2,0,0,110,8.87,7.3,947.39
+2022-05-19,Home & Garden,North,Large,5,3,0,1,64,11.69,17.3,654.45
+2022-05-20,Home & Garden,North,Small,5,4,0,1,38,7.82,15.0,392.38
+2022-05-21,Clothing,South,Large,5,5,1,1,108,10.26,3.0,1087.43
+2022-05-22,Groceries,East,Small,5,6,1,1,81,8.88,18.4,759.18
+2022-05-23,Clothing,West,Small,5,0,0,1,57,7.61,29.0,496.28
+2022-05-24,Home & Garden,South,Small,5,1,0,0,56,12.19,6.3,636.78
+2022-05-25,Home & Garden,West,Medium,5,2,0,0,89,11.42,22.7,826.55
+2022-05-26,Sports,Central,Small,5,3,0,0,22,10.46,15.5,192.2
+2022-05-27,Groceries,South,Large,5,4,0,1,217,8.92,6.9,2078.53
+2022-05-28,Electronics,Central,Small,5,5,1,1,45,12.09,29.9,539.7
+2022-05-29,Electronics,Central,Large,5,6,1,1,186,9.16,1.4,1723.14
+2022-05-30,Groceries,East,Medium,5,0,0,1,172,9.6,4.9,1517.88
+2022-05-31,Sports,South,Large,5,1,0,1,49,11.02,18.0,564.29
+2022-06-01,Sports,West,Medium,6,2,0,0,33,10.98,25.8,282.56
+2022-06-02,Clothing,South,Large,6,3,0,1,61,11.32,22.3,734.17
+2022-06-03,Clothing,Central,Large,6,4,0,0,102,11.7,0.5,1145.81
+2022-06-04,Electronics,North,Small,6,5,1,1,70,7.91,0.2,682.15
+2022-06-05,Electronics,North,Small,6,6,1,1,87,9.12,21.6,692.49
+2022-06-06,Clothing,South,Medium,6,0,0,0,32,10.07,23.0,239.56
+2022-06-07,Electronics,Central,Medium,6,1,0,0,88,10.81,17.8,843.3
+2022-06-08,Clothing,East,Small,6,2,0,0,31,9.66,10.3,289.34
+2022-06-09,Groceries,North,Small,6,3,0,0,57,9.85,27.2,433.21
+2022-06-10,Sports,South,Small,6,4,0,1,43,8.88,22.6,390.2
+2022-06-11,Sports,South,Medium,6,5,1,0,30,9.72,22.4,233.07
+2022-06-12,Groceries,North,Medium,6,6,1,0,106,11.54,11.7,1022.11
+2022-06-13,Home & Garden,North,Large,6,0,0,0,125,10.14,1.7,1152.57
+2022-06-14,Electronics,East,Small,6,1,0,1,70,9.16,7.2,789.2
+2022-06-15,Electronics,East,Large,6,2,0,0,142,10.68,4.7,1323.28
+2022-06-16,Electronics,East,Medium,6,3,0,1,95,9.82,27.8,829.04
+2022-06-17,Sports,Central,Medium,6,4,0,1,46,12.54,17.7,519.79
+2022-06-18,Electronics,Central,Medium,6,5,1,1,109,9.3,29.0,949.25
+2022-06-19,Home & Garden,West,Small,6,6,1,1,45,12.84,20.2,526.78
+2022-06-20,Clothing,North,Large,6,0,0,0,56,12.15,12.4,566.64
+2022-06-21,Electronics,East,Small,6,1,0,1,59,10.96,10.0,803.36
+2022-06-22,Home & Garden,North,Small,6,2,0,1,39,10.9,14.3,428.05
+2022-06-23,Home & Garden,South,Large,6,3,0,0,175,8.59,0.1,1570.0
+2022-06-24,Sports,East,Medium,6,4,0,1,62,8.7,1.1,709.98
+2022-06-25,Sports,East,Medium,6,5,1,0,57,7.95,5.0,454.85
+2022-06-26,Sports,East,Large,6,6,1,0,60,11.0,10.1,644.79
+2022-06-27,Home & Garden,South,Small,6,0,0,0,44,12.86,7.6,486.87
+2022-06-28,Clothing,West,Large,6,1,0,0,53,12.24,3.0,603.04
+2022-06-29,Electronics,South,Small,6,2,0,1,77,10.22,28.2,736.21
+2022-06-30,Sports,South,Small,6,3,0,1,29,9.28,2.7,399.89
+2022-07-01,Sports,West,Small,7,4,0,0,22,11.25,14.8,211.85
+2022-07-02,Electronics,North,Medium,7,5,1,1,48,10.95,6.9,594.25
+2022-07-03,Groceries,Central,Large,7,6,1,1,296,10.06,22.6,2494.67
+2022-07-04,Clothing,West,Small,7,0,0,1,36,10.08,11.4,489.92
+2022-07-05,Home & Garden,South,Large,7,1,0,1,108,11.33,1.2,1283.24
+2022-07-06,Sports,West,Large,7,2,0,0,49,11.48,24.9,459.86
+2022-07-07,Sports,East,Large,7,3,0,1,67,9.04,21.4,555.41
+2022-07-08,Clothing,Central,Large,7,4,0,0,55,10.99,24.8,449.52
+2022-07-09,Electronics,East,Small,7,5,1,1,66,11.21,28.6,656.94
+2022-07-10,Groceries,West,Large,7,6,1,1,163,8.65,7.4,1468.01
+2022-07-11,Groceries,South,Small,7,0,0,1,98,8.96,5.0,1046.57
+2022-07-12,Clothing,North,Small,7,1,0,1,41,10.18,17.2,559.71
+2022-07-13,Clothing,East,Large,7,2,0,1,40,10.31,8.3,454.31
+2022-07-14,Home & Garden,East,Small,7,3,0,1,60,8.03,28.5,479.73
+2022-07-15,Home & Garden,West,Medium,7,4,0,1,39,10.2,3.4,527.17
+2022-07-16,Home & Garden,East,Large,7,5,1,1,124,8.39,20.7,1022.3
+2022-07-17,Home & Garden,South,Large,7,6,1,0,128,8.21,8.3,1072.61
+2022-07-18,Clothing,North,Large,7,0,0,1,66,9.26,15.1,639.16
+2022-07-19,Home & Garden,Central,Medium,7,1,0,0,48,9.46,6.6,393.91
+2022-07-20,Groceries,North,Small,7,2,0,0,90,9.92,6.4,900.83
+2022-07-21,Sports,Central,Small,7,3,0,1,33,9.75,29.5,372.45
+2022-07-22,Electronics,East,Small,7,4,0,1,59,8.81,11.4,578.23
+2022-07-23,Electronics,South,Small,7,5,1,1,105,8.42,24.7,756.58
+2022-07-24,Groceries,South,Medium,7,6,1,1,151,8.78,18.3,1319.23
+2022-07-25,Sports,North,Large,7,0,0,1,53,9.37,13.0,555.93
+2022-07-26,Groceries,West,Large,7,1,0,0,258,8.56,17.4,1833.87
+2022-07-27,Home & Garden,South,Large,7,2,0,0,134,9.86,13.5,1223.6
+2022-07-28,Home & Garden,South,Small,7,3,0,1,55,10.41,12.3,606.53
+2022-07-29,Sports,East,Large,7,4,0,0,61,9.72,12.3,533.45
+2022-07-30,Home & Garden,South,Medium,7,5,1,0,54,9.9,25.4,420.46
+2022-07-31,Electronics,South,Medium,7,6,1,0,122,9.21,2.2,1062.21
+2022-08-01,Home & Garden,East,Medium,8,0,0,0,56,11.44,14.3,519.95
+2022-08-02,Home & Garden,East,Medium,8,1,0,1,37,10.95,28.3,510.6
+2022-08-03,Electronics,Central,Large,8,2,0,0,118,10.74,20.5,1039.4
+2022-08-04,Sports,East,Large,8,3,0,1,26,9.35,14.7,277.39
+2022-08-05,Home & Garden,West,Large,8,4,0,0,69,10.87,10.9,685.99
+2022-08-06,Sports,North,Medium,8,5,1,1,25,9.3,5.4,373.47
+2022-08-07,Clothing,West,Medium,8,6,1,0,28,9.79,9.0,253.57
+2022-08-08,Electronics,North,Large,8,0,0,1,119,7.8,15.0,998.36
+2022-08-09,Sports,East,Medium,8,1,0,1,52,10.78,25.3,526.0
+2022-08-10,Clothing,South,Medium,8,2,0,1,58,10.26,29.2,443.9
+2022-08-11,Home & Garden,South,Large,8,3,0,1,110,8.1,3.4,1098.04
+2022-08-12,Groceries,Central,Large,8,4,0,0,140,8.83,6.8,1144.98
+2022-08-13,Sports,South,Small,8,5,1,1,39,10.45,0.9,453.01
+2022-08-14,Electronics,West,Small,8,6,1,1,45,10.98,21.4,534.72
+2022-08-15,Home & Garden,East,Small,8,0,0,1,36,11.11,7.1,551.43
+2022-08-16,Sports,North,Small,8,1,0,0,19,10.14,9.1,179.85
+2022-08-17,Sports,East,Small,8,2,0,1,31,12.57,17.5,382.79
+2022-08-18,Sports,North,Medium,8,3,0,1,32,11.56,28.2,459.97
+2022-08-19,Sports,East,Medium,8,4,0,0,31,12.71,1.8,382.99
+2022-08-20,Home & Garden,West,Large,8,5,1,1,86,10.84,13.6,929.36
+2022-08-21,Sports,South,Large,8,6,1,0,77,9.75,5.3,752.33
+2022-08-22,Groceries,South,Large,8,0,0,0,181,10.36,20.0,1373.26
+2022-08-23,Home & Garden,East,Medium,8,1,0,0,65,10.42,21.3,577.85
+2022-08-24,Electronics,West,Large,8,2,0,1,85,13.06,22.5,895.06
+2022-08-25,Groceries,South,Large,8,3,0,1,158,9.58,29.1,1147.44
+2022-08-26,Electronics,South,Large,8,4,0,0,101,12.63,16.0,1053.96
+2022-08-27,Home & Garden,East,Medium,8,5,1,0,87,8.05,6.5,704.23
+2022-08-28,Groceries,South,Small,8,6,1,0,71,10.36,26.1,552.25
+2022-08-29,Clothing,South,Large,8,0,0,1,55,12.7,28.3,623.33
+2022-08-30,Electronics,Central,Large,8,1,0,0,92,8.67,6.5,796.44
+2022-08-31,Electronics,Central,Small,8,2,0,0,74,9.06,23.1,519.62
+2022-09-01,Clothing,East,Large,9,3,0,0,44,9.7,28.9,293.12
+2022-09-02,Clothing,East,Large,9,4,0,1,44,12.72,9.5,552.8
+2022-09-03,Sports,Central,Medium,9,5,1,1,51,9.83,29.0,422.97
+2022-09-04,Groceries,East,Small,9,6,1,0,60,11.47,15.2,573.17
+2022-09-05,Electronics,Central,Large,9,0,0,0,131,9.64,19.2,953.07
+2022-09-06,Electronics,Central,Large,9,1,0,0,81,12.78,7.3,894.36
+2022-09-07,Home & Garden,North,Medium,9,2,0,0,49,9.62,11.7,427.25
+2022-09-08,Clothing,South,Large,9,3,0,0,99,9.71,15.6,767.72
+2022-09-09,Groceries,East,Medium,9,4,0,0,69,9.76,16.3,602.48
+2022-09-10,Electronics,West,Medium,9,5,1,1,66,8.25,3.8,591.88
+2022-09-11,Clothing,South,Large,9,6,1,0,82,10.8,2.3,918.92
+2022-09-12,Home & Garden,South,Medium,9,0,0,1,43,11.01,15.8,525.05
+2022-09-13,Groceries,North,Medium,9,1,0,0,104,8.94,8.3,809.56
+2022-09-14,Electronics,East,Small,9,2,0,1,26,11.59,14.4,449.94
+2022-09-15,Groceries,North,Medium,9,3,0,0,93,9.42,27.1,665.75
+2022-09-16,Electronics,Central,Medium,9,4,0,1,62,9.86,22.9,666.13
+2022-09-17,Home & Garden,West,Medium,9,5,1,1,56,9.55,4.1,597.7
+2022-09-18,Groceries,West,Large,9,6,1,1,110,8.15,16.3,950.8
+2022-09-19,Groceries,Central,Medium,9,0,0,0,78,9.15,25.1,514.91
+2022-09-20,Home & Garden,North,Small,9,1,0,0,32,7.94,28.4,205.71
+2022-09-21,Sports,South,Small,9,2,0,0,27,9.26,5.6,224.92
+2022-09-22,Sports,North,Medium,9,3,0,0,18,8.22,28.8,111.66
+2022-09-23,Electronics,North,Small,9,4,0,1,42,11.35,14.6,501.91
+2022-09-24,Home & Garden,North,Small,9,5,1,1,44,8.92,2.1,509.35
+2022-09-25,Sports,South,Medium,9,6,1,1,22,9.99,13.2,340.34
+2022-09-26,Groceries,East,Medium,9,0,0,0,125,9.55,12.6,1022.63
+2022-09-27,Groceries,East,Small,9,1,0,0,45,10.79,14.5,420.77
+2022-09-28,Groceries,Central,Large,9,2,0,0,184,7.52,1.2,1521.91
+2022-09-29,Electronics,South,Small,9,3,0,0,75,9.42,13.4,566.5
+2022-09-30,Home & Garden,East,Large,9,4,0,0,90,8.88,7.9,698.95
+2022-10-01,Home & Garden,East,Small,10,5,1,0,32,10.7,29.9,237.85
+2022-10-02,Electronics,West,Small,10,6,1,0,33,12.76,9.6,363.82
+2022-10-03,Home & Garden,Central,Medium,10,0,0,0,35,10.85,24.1,320.11
+2022-10-04,Home & Garden,West,Medium,10,1,0,1,36,12.03,23.0,518.91
+2022-10-05,Groceries,Central,Large,10,2,0,0,124,11.53,2.1,1333.4
+2022-10-06,Electronics,West,Large,10,3,0,0,52,11.82,15.0,498.76
+2022-10-07,Sports,South,Large,10,4,0,1,44,10.44,6.8,565.28
+2022-10-08,Clothing,South,Medium,10,5,1,0,32,11.97,23.6,277.28
+2022-10-09,Electronics,East,Small,10,6,1,0,43,11.31,4.1,487.59
+2022-10-10,Clothing,North,Medium,10,0,0,0,36,9.83,6.0,357.8
+2022-10-11,Clothing,North,Medium,10,1,0,1,30,11.24,7.7,412.18
+2022-10-12,Electronics,West,Small,10,2,0,0,24,12.79,29.6,215.31
+2022-10-13,Electronics,South,Medium,10,3,0,1,83,9.32,12.6,807.01
+2022-10-14,Electronics,East,Small,10,4,0,0,35,10.66,4.5,378.7
+2022-10-15,Clothing,West,Large,10,5,1,1,28,10.08,24.8,258.51
+2022-10-16,Electronics,North,Medium,10,6,1,0,42,8.74,20.7,303.35
+2022-10-17,Sports,East,Small,10,0,0,0,15,10.93,14.7,147.05
+2022-10-18,Electronics,Central,Large,10,1,0,1,114,8.99,17.5,939.46
+2022-10-19,Electronics,South,Large,10,2,0,0,50,10.87,2.7,496.14
+2022-10-20,Electronics,Central,Medium,10,3,0,0,74,9.77,20.2,596.31
+2022-10-21,Clothing,Central,Medium,10,4,0,1,40,11.65,7.1,594.63
+2022-10-22,Home & Garden,Central,Medium,10,5,1,0,71,9.86,28.3,467.78
+2022-10-23,Home & Garden,South,Medium,10,6,1,0,48,11.25,14.2,431.55
+2022-10-24,Clothing,South,Medium,10,0,0,0,37,9.89,6.7,382.08
+2022-10-25,Home & Garden,Central,Small,10,1,0,1,20,10.62,20.1,270.81
+2022-10-26,Home & Garden,South,Large,10,2,0,0,74,11.58,10.2,717.25
+2022-10-27,Sports,South,Medium,10,3,0,1,28,8.12,21.0,290.11
+2022-10-28,Electronics,Central,Small,10,4,0,1,60,9.14,16.9,558.69
+2022-10-29,Electronics,South,Small,10,5,1,1,54,9.19,24.5,481.45
+2022-10-30,Clothing,West,Small,10,6,1,0,22,11.61,4.6,251.97
+2022-10-31,Home & Garden,East,Small,10,0,0,0,28,9.53,12.3,221.32
+2022-11-01,Sports,West,Medium,11,1,0,1,33,12.41,25.6,447.77
+2022-11-02,Electronics,Central,Small,11,2,0,0,38,9.77,5.3,372.19
+2022-11-03,Electronics,North,Large,11,3,0,1,61,10.9,10.1,635.59
+2022-11-04,Sports,North,Small,11,4,0,0,24,9.35,16.9,202.23
+2022-11-05,Groceries,South,Medium,11,5,1,1,49,10.52,27.3,588.12
+2022-11-06,Home & Garden,Central,Small,11,6,1,1,22,11.8,18.5,309.55
+2022-11-07,Clothing,North,Medium,11,0,0,1,34,10.61,25.0,385.68
+2022-11-08,Clothing,Central,Large,11,1,0,1,44,8.01,23.2,392.13
+2022-11-09,Clothing,South,Medium,11,2,0,1,24,10.26,20.1,273.36
+2022-11-10,Home & Garden,West,Large,11,3,0,0,45,9.94,7.8,466.46
+2022-11-11,Groceries,North,Medium,11,4,0,0,49,9.15,28.3,298.66
+2022-11-12,Electronics,Central,Large,11,5,1,1,93,11.4,6.8,1084.54
+2022-11-13,Groceries,East,Small,11,6,1,0,71,10.84,11.9,653.26
+2022-11-14,Electronics,West,Medium,11,0,0,1,63,8.23,29.4,505.94
+2022-11-15,Clothing,South,Small,11,1,0,0,25,9.4,15.7,205.52
+2022-11-16,Clothing,East,Large,11,2,0,1,72,12.44,16.9,796.07
+2022-11-17,Sports,South,Medium,11,3,0,0,37,10.74,2.2,369.03
+2022-11-18,Groceries,South,Small,11,4,0,1,44,12.19,26.7,495.74
+2022-11-19,Home & Garden,Central,Large,11,5,1,1,80,10.6,6.5,897.77
+2022-11-20,Clothing,South,Large,11,6,1,0,54,9.7,25.8,385.07
+2022-11-21,Sports,West,Small,11,0,0,0,14,8.81,24.1,94.93
+2022-11-22,Groceries,East,Medium,11,1,0,0,27,13.1,15.4,288.53
+2022-11-23,Clothing,East,Large,11,2,0,0,35,8.34,28.0,239.72
+2022-11-24,Electronics,Central,Small,11,3,0,1,38,10.92,21.6,491.05
+2022-11-25,Clothing,North,Large,11,4,0,0,27,10.14,28.9,205.85
+2022-11-26,Electronics,Central,Medium,11,5,1,0,73,10.17,12.1,608.13
+2022-11-27,Clothing,South,Small,11,6,1,1,31,9.85,5.2,372.74
+2022-11-28,Sports,East,Large,11,0,0,1,62,11.46,6.5,732.72
+2022-11-29,Electronics,Central,Small,11,1,0,1,29,10.61,21.4,380.52
+2022-11-30,Home & Garden,South,Small,11,2,0,0,36,8.04,7.8,280.3
+2022-12-01,Home & Garden,Central,Small,12,3,0,0,25,11.58,24.0,228.88
+2022-12-02,Clothing,East,Small,12,4,0,0,34,9.51,20.7,258.42
+2022-12-03,Electronics,South,Large,12,5,1,1,109,10.44,30.0,1009.67
+2022-12-04,Electronics,West,Small,12,6,1,0,40,11.16,27.3,363.75
+2022-12-05,Clothing,West,Small,12,0,0,0,35,9.7,4.3,305.4
+2022-12-06,Clothing,Central,Small,12,1,0,1,33,8.81,19.6,309.67
+2022-12-07,Clothing,North,Large,12,2,0,1,64,9.98,1.5,744.5
+2022-12-08,Home & Garden,Central,Medium,12,3,0,1,66,12.3,7.9,900.61
+2022-12-09,Sports,South,Small,12,4,0,1,33,10.64,15.0,430.41
+2022-12-10,Groceries,West,Small,12,5,1,1,50,10.57,16.6,606.1
+2022-12-11,Groceries,North,Large,12,6,1,0,158,8.63,26.3,1032.68
+2022-12-12,Groceries,North,Small,12,0,0,0,55,12.74,9.9,600.28
+2022-12-13,Electronics,Central,Medium,12,1,0,0,54,11.35,4.9,595.69
+2022-12-14,Home & Garden,West,Large,12,2,0,1,106,9.62,8.2,1049.86
+2022-12-15,Groceries,South,Medium,12,3,0,0,83,12.9,11.3,885.29
+2022-12-16,Home & Garden,East,Large,12,4,0,0,84,12.11,8.3,954.91
+2022-12-17,Groceries,North,Small,12,5,1,0,70,8.38,21.0,488.2
+2022-12-18,Clothing,North,Small,12,6,1,0,26,12.32,22.2,236.76
+2022-12-19,Groceries,North,Large,12,0,0,0,156,10.21,17.0,1236.82
+2022-12-20,Sports,East,Large,12,1,0,0,35,9.48,24.0,256.65
+2022-12-21,Sports,East,Small,12,2,0,0,41,8.77,0.7,350.87
+2022-12-22,Sports,Central,Small,12,3,0,0,23,8.21,24.9,153.03
+2022-12-23,Home & Garden,North,Large,12,4,0,1,96,10.85,0.3,1071.75
+2022-12-24,Clothing,North,Medium,12,5,1,0,52,9.61,2.6,452.67
+2022-12-25,Home & Garden,Central,Small,12,6,1,0,23,10.24,28.2,170.64
+2022-12-26,Home & Garden,West,Small,12,0,0,0,39,8.52,15.8,280.17
+2022-12-27,Groceries,North,Medium,12,1,0,0,91,8.14,21.5,620.67
+2022-12-28,Groceries,North,Large,12,2,0,1,150,9.79,15.5,1478.49
+2022-12-29,Home & Garden,Central,Medium,12,3,0,0,70,9.43,26.9,481.86
+2022-12-30,Sports,South,Small,12,4,0,0,28,9.17,14.2,232.58
+2022-12-31,Electronics,Central,Large,12,5,1,0,110,8.87,26.7,738.33
+2023-01-01,Clothing,North,Large,1,6,1,1,68,9.18,2.8,700.8
+2023-01-02,Electronics,Central,Large,1,0,0,0,120,10.57,0.3,1269.71
+2023-01-03,Clothing,West,Medium,1,1,0,0,41,11.08,6.2,468.09
+2023-01-04,Sports,North,Small,1,2,0,1,17,10.33,14.5,241.81
+2023-01-05,Groceries,North,Large,1,3,0,1,157,11.67,29.6,1276.82
+2023-01-06,Home & Garden,Central,Small,1,4,0,0,39,11.58,23.6,343.42
+2023-01-07,Groceries,West,Small,1,5,1,0,99,8.72,19.1,775.59
+2023-01-08,Home & Garden,Central,Large,1,6,1,0,83,9.34,5.4,812.45
+2023-01-09,Groceries,East,Medium,1,0,0,0,187,9.9,20.7,1372.84
+2023-01-10,Home & Garden,North,Large,1,1,0,0,77,10.43,25.5,646.14
+2023-01-11,Groceries,South,Medium,1,2,0,1,127,8.22,9.1,1176.67
+2023-01-12,Groceries,Central,Large,1,3,0,1,54,8.85,8.0,625.18
+2023-01-13,Sports,South,Medium,1,4,0,1,59,9.11,11.1,534.6
+2023-01-14,Home & Garden,South,Large,1,5,1,0,70,9.32,16.8,545.32
+2023-01-15,Clothing,West,Small,1,6,1,0,51,9.2,2.8,453.25
+2023-01-16,Electronics,East,Large,1,0,0,1,114,11.96,15.8,1223.98
+2023-01-17,Groceries,Central,Large,1,1,0,0,130,11.34,10.6,1300.66
+2023-01-18,Home & Garden,North,Large,1,2,0,1,102,11.91,11.8,1184.65
+2023-01-19,Clothing,Central,Medium,1,3,0,1,37,10.01,0.6,503.31
+2023-01-20,Sports,South,Small,1,4,0,1,6,9.77,15.5,190.25
+2023-01-21,Electronics,East,Large,1,5,1,0,129,9.6,15.3,1070.1
+2023-01-22,Sports,South,Small,1,6,1,1,34,9.05,14.0,427.43
+2023-01-23,Clothing,North,Medium,1,0,0,0,37,9.43,17.7,274.36
+2023-01-24,Sports,East,Large,1,1,0,1,63,10.22,5.2,751.45
+2023-01-25,Clothing,Central,Large,1,2,0,0,44,10.92,19.5,378.61
+2023-01-26,Groceries,West,Medium,1,3,0,0,94,10.9,10.4,970.3
+2023-01-27,Clothing,West,Large,1,4,0,1,48,8.66,22.2,414.87
+2023-01-28,Sports,Central,Small,1,5,1,0,23,10.69,21.2,204.11
+2023-01-29,Sports,West,Large,1,6,1,0,48,9.1,15.4,409.67
+2023-01-30,Sports,Central,Small,1,0,0,0,43,8.35,6.6,338.81
+2023-01-31,Clothing,West,Small,1,1,0,1,38,10.91,29.6,422.76
+2023-02-01,Clothing,South,Small,2,2,0,1,57,9.72,7.5,659.91
+2023-02-02,Sports,West,Small,2,3,0,1,40,11.76,6.4,613.11
+2023-02-03,Home & Garden,Central,Medium,2,4,0,0,83,9.13,22.8,595.87
+2023-02-04,Electronics,West,Medium,2,5,1,0,95,10.74,8.0,1046.02
+2023-02-05,Electronics,East,Medium,2,6,1,1,94,11.91,5.9,1239.39
+2023-02-06,Clothing,Central,Large,2,0,0,1,99,8.89,2.2,1052.55
+2023-02-07,Electronics,West,Medium,2,1,0,1,96,8.76,11.6,907.68
+2023-02-08,Clothing,South,Small,2,2,0,1,81,9.52,18.0,680.72
+2023-02-09,Groceries,South,Small,2,3,0,0,86,10.82,4.7,846.64
+2023-02-10,Groceries,South,Small,2,4,0,0,43,13.43,10.3,487.86
+2023-02-11,Sports,East,Medium,2,5,1,0,19,8.38,26.7,134.12
+2023-02-12,Groceries,South,Medium,2,6,1,1,185,7.84,13.8,1423.73
+2023-02-13,Sports,North,Large,2,0,0,1,78,8.64,20.8,667.29
+2023-02-14,Electronics,East,Large,2,1,0,0,115,12.83,8.1,1259.31
+2023-02-15,Electronics,Central,Large,2,2,0,1,103,10.94,14.5,1238.13
+2023-02-16,Groceries,East,Small,2,3,0,0,65,13.3,13.9,689.35
+2023-02-17,Electronics,East,Large,2,4,0,0,190,7.8,12.6,1418.91
+2023-02-18,Clothing,East,Large,2,5,1,1,65,11.83,23.2,682.99
+2023-02-19,Home & Garden,North,Large,2,6,1,1,204,8.14,14.0,1610.84
+2023-02-20,Electronics,West,Small,2,0,0,1,91,8.41,18.0,723.0
+2023-02-21,Sports,East,Medium,2,1,0,0,41,10.47,14.4,355.57
+2023-02-22,Sports,West,Large,2,2,0,1,56,9.62,13.4,605.07
+2023-02-23,Home & Garden,West,Large,2,3,0,0,49,10.5,3.6,518.87
+2023-02-24,Groceries,Central,Large,2,4,0,0,220,11.49,1.6,2485.69
+2023-02-25,Home & Garden,Central,Small,2,5,1,1,58,7.68,19.6,536.91
+2023-02-26,Electronics,North,Medium,2,6,1,1,116,8.73,17.3,950.06
+2023-02-27,Groceries,North,Large,2,0,0,1,151,10.71,7.7,1728.32
+2023-02-28,Groceries,Central,Medium,2,1,0,0,71,9.82,0.7,729.36
+2023-03-01,Home & Garden,South,Small,3,2,0,1,70,8.88,11.8,661.52
+2023-03-02,Electronics,West,Medium,3,3,0,1,90,12.68,0.6,1115.13
+2023-03-03,Sports,North,Small,3,4,0,0,42,10.83,6.0,452.1
+2023-03-04,Clothing,North,Small,3,5,1,0,19,11.78,21.8,188.17
+2023-03-05,Sports,West,Small,3,6,1,0,45,9.51,3.0,463.0
+2023-03-06,Electronics,West,Large,3,0,0,0,92,10.86,29.8,736.37
+2023-03-07,Clothing,North,Small,3,1,0,0,6,10.48,5.6,63.03
+2023-03-08,Electronics,South,Medium,3,2,0,0,84,10.14,2.3,893.94
+2023-03-09,Home & Garden,East,Large,3,3,0,0,148,9.84,14.1,1363.93
+2023-03-10,Electronics,East,Small,3,4,0,0,87,8.08,0.9,769.29
+2023-03-11,Electronics,West,Medium,3,5,1,0,100,9.37,23.0,778.98
+2023-03-12,Groceries,Central,Large,3,6,1,1,132,9.8,14.9,1244.99
+2023-03-13,Electronics,West,Medium,3,0,0,0,115,9.28,5.9,959.01
+2023-03-14,Sports,East,Small,3,1,0,1,33,9.68,15.5,439.24
+2023-03-15,Groceries,Central,Small,3,2,0,0,88,8.74,14.6,634.28
+2023-03-16,Electronics,South,Large,3,3,0,1,145,11.26,9.5,1734.63
+2023-03-17,Home & Garden,East,Small,3,4,0,0,56,12.03,11.7,577.54
+2023-03-18,Groceries,North,Large,3,5,1,0,262,8.5,18.6,1963.42
+2023-03-19,Home & Garden,East,Medium,3,6,1,1,86,12.15,16.8,885.09
+2023-03-20,Electronics,North,Medium,3,0,0,1,103,9.17,22.9,796.57
+2023-03-21,Sports,East,Small,3,1,0,0,35,11.64,16.2,370.35
+2023-03-22,Clothing,South,Medium,3,2,0,0,69,12.39,11.7,746.07
+2023-03-23,Clothing,West,Small,3,3,0,1,46,11.82,28.1,554.95
+2023-03-24,Home & Garden,East,Large,3,4,0,0,104,8.97,19.1,788.84
+2023-03-25,Clothing,East,Large,3,5,1,0,44,12.03,1.5,540.76
+2023-03-26,Clothing,South,Small,3,6,1,0,60,8.4,29.3,355.52
+2023-03-27,Electronics,North,Large,3,0,0,0,104,8.79,1.0,951.03
+2023-03-28,Home & Garden,North,Small,3,1,0,1,30,8.4,22.4,385.27
+2023-03-29,Clothing,Central,Medium,3,2,0,0,80,10.16,1.8,831.72
+2023-03-30,Home & Garden,Central,Large,3,3,0,1,93,10.81,23.2,845.21
+2023-03-31,Groceries,East,Medium,3,4,0,1,262,8.42,21.8,2008.0
+2023-04-01,Clothing,North,Large,4,5,1,1,72,12.3,23.4,738.26
+2023-04-02,Clothing,North,Large,4,6,1,1,101,10.99,20.0,1002.9
+2023-04-03,Groceries,South,Small,4,0,0,1,99,11.38,23.4,1016.0
+2023-04-04,Electronics,South,Medium,4,1,0,1,230,7.95,8.2,1875.21
+2023-04-05,Clothing,West,Large,4,2,0,1,87,10.25,3.8,974.77
+2023-04-06,Home & Garden,Central,Small,4,3,0,0,56,9.62,18.8,494.67
+2023-04-07,Home & Garden,Central,Large,4,4,0,0,108,8.71,20.6,814.81
+2023-04-08,Clothing,Central,Large,4,5,1,0,105,9.37,12.3,800.51
+2023-04-09,Clothing,East,Medium,4,6,1,1,87,9.6,26.0,745.63
+2023-04-10,Electronics,Central,Medium,4,0,0,0,103,10.35,21.9,822.25
+2023-04-11,Clothing,South,Large,4,1,0,0,115,8.08,14.8,859.12
+2023-04-12,Home & Garden,Central,Large,4,2,0,0,124,10.04,2.1,1179.6
+2023-04-13,Clothing,East,Large,4,3,0,0,89,10.63,0.4,893.35
+2023-04-14,Groceries,South,Large,4,4,0,0,415,8.74,6.1,3269.47
+2023-04-15,Clothing,West,Large,4,5,1,1,91,11.39,10.0,943.34
+2023-04-16,Sports,East,Medium,4,6,1,1,40,10.95,2.5,570.4
+2023-04-17,Home & Garden,South,Medium,4,0,0,0,81,10.48,19.0,652.42
+2023-04-18,Clothing,Central,Small,4,1,0,1,77,8.26,10.1,770.63
+2023-04-19,Sports,South,Medium,4,2,0,1,66,10.67,5.6,719.42
+2023-04-20,Home & Garden,East,Small,4,3,0,0,68,10.24,10.2,622.81
+2023-04-21,Electronics,Central,Large,4,4,0,1,182,7.88,15.7,1452.14
+2023-04-22,Electronics,East,Large,4,5,1,1,159,10.0,27.9,1185.63
+2023-04-23,Clothing,South,Large,4,6,1,0,130,11.89,0.6,1431.26
+2023-04-24,Groceries,Central,Small,4,0,0,0,104,11.3,10.0,1059.01
+2023-04-25,Electronics,East,Small,4,1,0,0,95,9.47,11.6,745.76
+2023-04-26,Electronics,West,Large,4,2,0,1,114,11.06,3.8,1457.36
+2023-04-27,Home & Garden,East,Medium,4,3,0,1,166,8.76,18.6,1263.53
+2023-04-28,Groceries,West,Large,4,4,0,0,194,9.24,17.7,1395.48
+2023-04-29,Home & Garden,South,Medium,4,5,1,1,83,10.71,21.4,787.57
+2023-04-30,Sports,West,Medium,4,6,1,1,28,11.6,7.5,515.54
+2023-05-01,Electronics,East,Large,5,0,0,0,165,8.17,11.2,1289.19
+2023-05-02,Sports,East,Large,5,1,0,0,112,8.83,14.3,853.51
+2023-05-03,Groceries,North,Large,5,2,0,1,108,9.33,14.1,1100.39
+2023-05-04,Electronics,North,Small,5,3,0,1,73,10.47,17.0,763.56
+2023-05-05,Sports,South,Large,5,4,0,1,70,10.6,3.0,841.01
+2023-05-06,Electronics,West,Medium,5,5,1,0,78,9.12,29.8,486.55
+2023-05-07,Electronics,South,Large,5,6,1,0,111,10.22,21.0,954.57
+2023-05-08,Groceries,East,Medium,5,0,0,0,122,11.16,27.6,1073.6
+2023-05-09,Clothing,West,Medium,5,1,0,1,50,8.39,12.8,583.73
+2023-05-10,Home & Garden,Central,Small,5,2,0,1,69,10.1,14.6,689.27
+2023-05-11,Home & Garden,West,Small,5,3,0,0,56,11.94,15.0,559.6
+2023-05-12,Clothing,South,Medium,5,4,0,0,75,9.12,2.3,640.89
+2023-05-13,Home & Garden,South,Medium,5,5,1,0,69,9.65,0.9,622.95
+2023-05-14,Electronics,East,Large,5,6,1,0,151,12.59,22.1,1380.06
+2023-05-15,Clothing,North,Medium,5,0,0,0,55,11.15,16.7,521.1
+2023-05-16,Electronics,North,Large,5,1,0,1,146,8.75,26.6,1037.78
+2023-05-17,Electronics,West,Medium,5,2,0,1,94,8.36,25.4,703.56
+2023-05-18,Clothing,West,Small,5,3,0,0,58,8.27,19.9,426.72
+2023-05-19,Electronics,Central,Medium,5,4,0,0,117,8.79,11.0,956.39
+2023-05-20,Groceries,South,Medium,5,5,1,0,137,10.25,17.8,1183.7
+2023-05-21,Electronics,North,Medium,5,6,1,1,105,8.78,23.1,829.42
+2023-05-22,Home & Garden,North,Medium,5,0,0,0,73,9.72,3.6,712.21
+2023-05-23,Groceries,North,Small,5,1,0,1,105,7.57,28.5,787.29
+2023-05-24,Groceries,East,Medium,5,2,0,0,144,10.82,29.8,1097.72
+2023-05-25,Sports,Central,Large,5,3,0,1,76,9.45,13.7,749.43
+2023-05-26,Sports,South,Small,5,4,0,1,40,10.3,26.4,451.54
+2023-05-27,Home & Garden,North,Large,5,5,1,0,122,9.5,3.1,1073.94
+2023-05-28,Clothing,West,Large,5,6,1,1,82,9.67,8.5,907.44
+2023-05-29,Home & Garden,Central,Medium,5,0,0,0,82,11.75,29.4,703.19
+2023-05-30,Electronics,East,Large,5,1,0,0,170,8.99,0.5,1546.17
+2023-05-31,Home & Garden,East,Small,5,2,0,1,17,10.39,13.2,259.7
+2023-06-01,Electronics,Central,Medium,6,3,0,0,113,8.69,6.5,885.68
+2023-06-02,Clothing,West,Small,6,4,0,0,37,8.74,28.6,256.19
+2023-06-03,Groceries,East,Large,6,5,1,0,162,9.72,26.6,1186.15
+2023-06-04,Electronics,South,Medium,6,6,1,1,81,9.76,1.7,857.53
+2023-06-05,Clothing,Central,Small,6,0,0,1,68,9.12,28.8,507.31
+2023-06-06,Clothing,East,Large,6,1,0,0,65,9.62,0.3,652.81
+2023-06-07,Home & Garden,South,Medium,6,2,0,1,83,9.92,24.8,783.79
+2023-06-08,Sports,West,Medium,6,3,0,1,48,11.88,16.1,551.96
+2023-06-09,Home & Garden,Central,Small,6,4,0,1,54,8.01,14.1,497.38
+2023-06-10,Electronics,East,Small,6,5,1,0,77,8.66,22.9,505.05
+2023-06-11,Clothing,Central,Small,6,6,1,0,29,11.37,0.1,323.37
+2023-06-12,Electronics,East,Large,6,0,0,0,150,9.61,1.0,1377.13
+2023-06-13,Clothing,North,Small,6,1,0,1,46,8.01,2.5,431.52
+2023-06-14,Home & Garden,East,Large,6,2,0,0,72,10.34,5.5,721.64
+2023-06-15,Electronics,South,Small,6,3,0,0,77,9.69,7.3,706.44
+2023-06-16,Sports,South,Large,6,4,0,1,77,10.4,7.8,769.0
+2023-06-17,Groceries,North,Medium,6,5,1,0,91,10.56,22.0,789.82
+2023-06-18,Sports,West,Small,6,6,1,1,56,7.98,9.7,552.58
+2023-06-19,Clothing,West,Small,6,0,0,0,36,10.71,22.1,336.37
+2023-06-20,Groceries,East,Medium,6,1,0,0,127,7.6,20.2,855.96
+2023-06-21,Sports,West,Small,6,2,0,0,31,10.1,5.0,302.4
+2023-06-22,Electronics,Central,Medium,6,3,0,0,109,10.6,20.9,978.72
+2023-06-23,Electronics,West,Small,6,4,0,1,79,10.28,28.7,681.73
+2023-06-24,Electronics,East,Small,6,5,1,1,57,9.59,22.9,502.99
+2023-06-25,Electronics,North,Medium,6,6,1,0,68,9.98,5.9,630.78
+2023-06-26,Groceries,North,Large,6,0,0,0,238,8.42,27.2,1568.32
+2023-06-27,Sports,South,Medium,6,1,0,0,34,13.3,2.0,422.37
+2023-06-28,Home & Garden,East,Small,6,2,0,0,69,8.87,27.6,448.06
+2023-06-29,Clothing,North,Large,6,3,0,0,92,9.38,9.2,808.56
+2023-06-30,Clothing,East,Small,6,4,0,1,52,8.33,11.0,467.25
+2023-07-01,Sports,East,Medium,7,5,1,0,27,8.09,27.6,173.64
+2023-07-02,Home & Garden,South,Large,7,6,1,1,91,11.04,7.0,989.28
+2023-07-03,Electronics,Central,Medium,7,0,0,0,102,9.76,1.1,927.05
+2023-07-04,Electronics,South,Large,7,1,0,0,159,9.9,1.3,1439.63
+2023-07-05,Sports,Central,Small,7,2,0,0,33,10.4,21.8,295.56
+2023-07-06,Clothing,East,Small,7,3,0,0,42,9.89,4.1,372.12
+2023-07-07,Groceries,South,Small,7,4,0,1,139,10.11,8.2,1485.15
+2023-07-08,Sports,South,Medium,7,5,1,1,53,9.6,22.6,577.47
+2023-07-09,Electronics,North,Medium,7,6,1,1,92,10.21,24.6,869.22
+2023-07-10,Home & Garden,North,Large,7,0,0,0,85,8.06,4.0,706.75
+2023-07-11,Groceries,North,Small,7,1,0,1,38,11.61,17.2,564.25
+2023-07-12,Groceries,Central,Medium,7,2,0,1,137,8.2,16.7,1197.39
+2023-07-13,Sports,North,Large,7,3,0,0,56,11.71,18.3,568.26
+2023-07-14,Electronics,West,Medium,7,4,0,1,108,8.33,12.8,1026.42
+2023-07-15,Electronics,Central,Medium,7,5,1,0,85,10.75,4.2,951.03
+2023-07-16,Sports,North,Medium,7,6,1,1,48,8.39,21.8,400.1
+2023-07-17,Clothing,South,Large,7,0,0,1,104,10.89,27.2,845.83
+2023-07-18,Sports,Central,Medium,7,1,0,0,51,9.26,11.2,435.83
+2023-07-19,Sports,South,Medium,7,2,0,0,21,9.98,18.7,197.58
+2023-07-20,Clothing,Central,Large,7,3,0,1,116,8.47,25.0,950.11
+2023-07-21,Sports,West,Small,7,4,0,1,41,10.02,22.1,353.42
+2023-07-22,Clothing,East,Large,7,5,1,0,72,9.33,17.3,564.19
+2023-07-23,Home & Garden,North,Small,7,6,1,1,53,8.66,25.5,472.4
+2023-07-24,Home & Garden,South,Medium,7,0,0,0,84,10.83,26.2,620.24
+2023-07-25,Electronics,East,Medium,7,1,0,1,96,9.25,1.0,987.67
+2023-07-26,Groceries,West,Large,7,2,0,1,159,9.48,12.6,1428.86
+2023-07-27,Home & Garden,South,Medium,7,3,0,0,55,11.24,15.4,575.56
+2023-07-28,Sports,South,Large,7,4,0,0,69,8.45,0.1,644.79
+2023-07-29,Electronics,East,Small,7,5,1,0,68,9.99,3.9,733.61
+2023-07-30,Electronics,West,Small,7,6,1,0,46,10.31,10.6,463.65
+2023-07-31,Home & Garden,West,Small,7,0,0,1,20,9.69,14.3,318.83
+2023-08-01,Clothing,Central,Medium,8,1,0,0,32,8.95,6.2,304.52
+2023-08-02,Clothing,North,Small,8,2,0,0,20,9.21,2.1,190.24
+2023-08-03,Sports,South,Medium,8,3,0,1,38,9.57,16.5,397.26
+2023-08-04,Clothing,West,Medium,8,4,0,0,30,9.93,3.0,328.74
+2023-08-05,Home & Garden,Central,Small,8,5,1,0,45,9.6,12.9,370.86
+2023-08-06,Sports,East,Medium,8,6,1,0,31,8.16,15.2,220.53
+2023-08-07,Sports,East,Small,8,0,0,0,24,11.15,4.4,280.8
+2023-08-08,Clothing,West,Medium,8,1,0,1,36,8.78,24.5,355.8
+2023-08-09,Electronics,East,Small,8,2,0,1,56,8.89,7.4,639.4
+2023-08-10,Clothing,West,Small,8,3,0,1,51,8.54,18.8,554.58
+2023-08-11,Groceries,East,Large,8,4,0,1,165,9.58,12.0,1404.56
+2023-08-12,Groceries,Central,Large,8,5,1,1,123,10.18,18.6,1168.16
+2023-08-13,Clothing,East,Medium,8,6,1,1,52,11.61,17.8,592.64
+2023-08-14,Clothing,South,Small,8,0,0,1,30,10.42,19.3,430.61
+2023-08-15,Clothing,West,Large,8,1,0,1,42,9.27,1.2,485.8
+2023-08-16,Clothing,West,Medium,8,2,0,0,18,12.08,24.3,167.94
+2023-08-17,Groceries,North,Large,8,3,0,0,137,9.95,16.5,1257.53
+2023-08-18,Electronics,East,Medium,8,4,0,0,97,8.08,1.7,862.04
+2023-08-19,Home & Garden,South,Small,8,5,1,0,38,11.52,12.6,406.84
+2023-08-20,Groceries,West,Small,8,6,1,1,48,10.77,27.1,585.59
+2023-08-21,Electronics,North,Small,8,0,0,1,41,11.04,5.8,467.64
+2023-08-22,Clothing,East,Medium,8,1,0,0,46,10.95,22.7,391.07
+2023-08-23,Sports,North,Large,8,2,0,1,54,9.85,19.8,610.58
+2023-08-24,Electronics,North,Large,8,3,0,0,123,9.73,6.7,1035.91
+2023-08-25,Electronics,Central,Medium,8,4,0,0,43,10.77,28.5,350.64
+2023-08-26,Electronics,North,Medium,8,5,1,0,55,10.42,27.3,470.98
+2023-08-27,Electronics,West,Small,8,6,1,0,57,10.04,18.2,504.25
+2023-08-28,Sports,West,Small,8,0,0,1,16,10.92,22.8,262.12
+2023-08-29,Electronics,South,Small,8,1,0,0,30,12.57,20.1,299.28
+2023-08-30,Home & Garden,North,Medium,8,2,0,0,21,12.82,10.7,233.52
+2023-08-31,Electronics,East,Large,8,3,0,0,121,10.67,22.3,972.2
+2023-09-01,Electronics,East,Medium,9,4,0,0,77,9.0,25.2,499.4
+2023-09-02,Sports,West,Small,9,5,1,1,14,9.54,3.3,345.64
+2023-09-03,Groceries,Central,Large,9,6,1,0,156,8.45,8.6,1300.8
+2023-09-04,Electronics,West,Small,9,0,0,1,37,8.89,7.1,401.42
+2023-09-05,Home & Garden,North,Small,9,1,0,1,47,8.25,16.3,503.14
+2023-09-06,Clothing,West,Small,9,2,0,1,19,12.06,2.0,378.29
+2023-09-07,Clothing,West,Large,9,3,0,0,33,8.6,1.6,283.96
+2023-09-08,Home & Garden,East,Large,9,4,0,0,77,10.26,7.5,701.66
+2023-09-09,Home & Garden,South,Large,9,5,1,0,77,12.43,0.6,924.82
+2023-09-10,Home & Garden,South,Large,9,6,1,1,88,11.09,25.8,740.82
+2023-09-11,Groceries,North,Large,9,0,0,1,51,11.21,10.8,553.39
+2023-09-12,Sports,South,Medium,9,1,0,1,34,8.87,26.3,321.27
+2023-09-13,Electronics,North,Large,9,2,0,0,93,10.76,26.3,753.56
+2023-09-14,Home & Garden,West,Medium,9,3,0,0,50,9.08,0.4,502.12
+2023-09-15,Groceries,North,Small,9,4,0,1,44,8.07,22.9,385.15
+2023-09-16,Electronics,West,Small,9,5,1,1,32,10.1,18.9,367.55
+2023-09-17,Home & Garden,East,Large,9,6,1,0,63,11.34,9.6,677.06
+2023-09-18,Electronics,East,Large,9,0,0,1,47,11.31,13.3,681.51
+2023-09-19,Clothing,East,Small,9,1,0,1,43,9.62,28.9,450.42
+2023-09-20,Groceries,Central,Medium,9,2,0,1,147,8.41,10.2,1305.72
+2023-09-21,Electronics,West,Medium,9,3,0,0,52,10.48,23.9,393.63
+2023-09-22,Home & Garden,West,Large,9,4,0,1,58,9.92,6.0,694.38
+2023-09-23,Sports,North,Small,9,5,1,0,23,10.15,9.5,222.24
+2023-09-24,Groceries,North,Medium,9,6,1,0,97,9.33,7.7,895.76
+2023-09-25,Sports,Central,Large,9,0,0,1,47,9.24,17.2,408.46
+2023-09-26,Sports,North,Small,9,1,0,0,15,10.23,2.3,154.78
+2023-09-27,Clothing,West,Medium,9,2,0,0,29,8.49,11.0,235.86
+2023-09-28,Electronics,West,Medium,9,3,0,0,40,8.84,18.3,324.24
+2023-09-29,Electronics,North,Small,9,4,0,0,41,9.13,15.4,334.65
+2023-09-30,Sports,North,Medium,9,5,1,0,26,9.29,13.9,199.47
+2023-10-01,Electronics,Central,Large,10,6,1,0,116,9.2,25.0,779.04
+2023-10-02,Clothing,East,Small,10,0,0,0,34,8.7,14.8,277.94
+2023-10-03,Electronics,North,Small,10,1,0,0,52,9.89,8.6,482.74
+2023-10-04,Clothing,Central,Large,10,2,0,0,52,9.68,6.5,471.93
+2023-10-05,Clothing,South,Small,10,3,0,1,34,10.84,14.7,504.38
+2023-10-06,Sports,West,Small,10,4,0,1,25,9.0,29.8,345.0
+2023-10-07,Groceries,East,Small,10,5,1,0,59,10.23,23.7,431.4
+2023-10-08,Electronics,East,Large,10,6,1,1,91,9.26,22.7,826.54
+2023-10-09,Electronics,Central,Large,10,0,0,0,100,8.98,15.5,800.07
+2023-10-10,Electronics,West,Medium,10,1,0,0,39,9.6,20.9,319.66
+2023-10-11,Electronics,North,Large,10,2,0,1,101,9.12,7.3,940.68
+2023-10-12,Sports,North,Large,10,3,0,1,57,9.46,29.2,604.24
+2023-10-13,Home & Garden,West,Large,10,4,0,0,29,11.13,11.7,287.67
+2023-10-14,Clothing,South,Medium,10,5,1,0,8,11.67,26.4,76.69
+2023-10-15,Home & Garden,West,Large,10,6,1,0,14,11.06,22.8,141.86
+2023-10-16,Clothing,North,Large,10,0,0,0,60,8.62,18.1,419.03
+2023-10-17,Sports,Central,Medium,10,1,0,0,25,9.2,19.3,210.44
+2023-10-18,Sports,North,Medium,10,2,0,1,42,9.24,2.0,459.99
+2023-10-19,Home & Garden,South,Medium,10,3,0,1,44,11.19,25.4,524.02
+2023-10-20,Home & Garden,Central,Small,10,4,0,0,22,9.6,6.4,218.57
+2023-10-21,Groceries,East,Small,10,5,1,0,93,8.62,3.3,816.13
+2023-10-22,Groceries,North,Large,10,6,1,0,124,10.26,9.3,1110.49
+2023-10-23,Sports,South,Medium,10,0,0,0,26,10.92,3.2,304.64
+2023-10-24,Electronics,East,Large,10,1,0,1,98,11.15,28.4,989.76
+2023-10-25,Groceries,West,Small,10,2,0,1,61,9.65,19.1,601.48
+2023-10-26,Home & Garden,East,Small,10,3,0,0,37,9.63,16.6,278.07
+2023-10-27,Electronics,East,Medium,10,4,0,1,57,11.27,0.0,821.46
+2023-10-28,Electronics,East,Small,10,5,1,1,68,8.9,27.0,570.04
+2023-10-29,Electronics,Central,Small,10,6,1,0,36,8.86,15.4,262.26
+2023-10-30,Groceries,West,Medium,10,0,0,1,74,8.35,27.9,651.58
+2023-10-31,Clothing,Central,Medium,10,1,0,0,15,11.84,19.7,139.12
+2023-11-01,Home & Garden,East,Medium,11,2,0,0,45,12.23,3.8,509.08
+2023-11-02,Electronics,Central,Small,11,3,0,0,46,9.24,20.8,352.87
+2023-11-03,Groceries,South,Large,11,4,0,0,115,11.36,12.8,1102.91
+2023-11-04,Home & Garden,Central,Small,11,5,1,1,40,10.66,13.0,541.95
+2023-11-05,Electronics,East,Small,11,6,1,1,48,9.19,19.9,534.71
+2023-11-06,Home & Garden,East,Medium,11,0,0,1,73,7.69,17.0,705.93
+2023-11-07,Groceries,West,Large,11,1,0,1,106,9.4,17.2,1000.05
+2023-11-08,Electronics,West,Large,11,2,0,1,80,12.01,22.6,782.16
+2023-11-09,Clothing,West,Medium,11,3,0,0,36,10.22,0.1,392.02
+2023-11-10,Clothing,North,Large,11,4,0,1,29,9.76,18.6,392.33
+2023-11-11,Groceries,North,Large,11,5,1,0,86,9.21,6.9,764.63
+2023-11-12,Clothing,Central,Medium,11,6,1,0,19,11.47,12.6,189.1
+2023-11-13,Clothing,Central,Medium,11,0,0,1,46,9.95,1.5,672.35
+2023-11-14,Groceries,West,Medium,11,1,0,0,71,11.48,6.2,820.79
+2023-11-15,Groceries,West,Small,11,2,0,0,64,10.39,5.7,633.75
+2023-11-16,Home & Garden,East,Medium,11,3,0,1,53,10.65,6.2,594.74
+2023-11-17,Clothing,North,Small,11,4,0,0,28,9.88,23.9,229.99
+2023-11-18,Groceries,South,Medium,11,5,1,1,88,9.94,22.4,818.78
+2023-11-19,Home & Garden,West,Small,11,6,1,1,46,10.18,25.4,448.51
+2023-11-20,Electronics,Central,Large,11,0,0,1,96,10.68,12.1,1139.11
+2023-11-21,Home & Garden,Central,Small,11,1,0,1,27,11.39,1.2,418.25
+2023-11-22,Clothing,North,Small,11,2,0,0,24,8.11,14.2,183.9
+2023-11-23,Groceries,Central,Medium,11,3,0,1,42,9.85,5.4,539.44
+2023-11-24,Electronics,West,Medium,11,4,0,0,69,9.8,9.1,659.39
+2023-11-25,Electronics,South,Medium,11,5,1,1,43,8.37,23.9,442.38
+2023-11-26,Sports,Central,Large,11,6,1,0,42,9.91,23.4,313.56
+2023-11-27,Sports,South,Large,11,0,0,0,46,11.4,9.2,522.65
+2023-11-28,Electronics,North,Small,11,1,0,0,21,10.22,5.3,228.55
+2023-11-29,Clothing,South,Medium,11,2,0,0,48,8.51,13.0,378.44
+2023-11-30,Clothing,North,Small,11,3,0,1,19,8.83,5.0,364.81
+2023-12-01,Sports,West,Small,12,4,0,0,18,10.48,7.0,173.53
+2023-12-02,Sports,Central,Medium,12,5,1,0,52,8.93,10.3,468.1
+2023-12-03,Electronics,Central,Small,12,6,1,1,31,12.41,26.0,338.79
+2023-12-04,Clothing,East,Small,12,0,0,0,50,11.2,29.0,382.22
+2023-12-05,Home & Garden,East,Small,12,1,0,1,45,10.37,29.7,452.78
+2023-12-06,Clothing,North,Small,12,2,0,1,45,8.81,9.2,547.22
+2023-12-07,Electronics,Central,Medium,12,3,0,0,64,10.46,24.9,559.98
+2023-12-08,Groceries,South,Large,12,4,0,0,101,11.16,16.4,910.55
+2023-12-09,Sports,East,Small,12,5,1,0,19,11.06,19.5,195.53
+2023-12-10,Sports,Central,Medium,12,6,1,0,27,10.69,23.3,212.77
+2023-12-11,Groceries,North,Large,12,0,0,0,120,10.03,13.3,1033.62
+2023-12-12,Clothing,West,Medium,12,1,0,0,24,10.0,0.7,235.47
+2023-12-13,Groceries,West,Small,12,2,0,0,62,9.67,22.2,469.59
+2023-12-14,Groceries,South,Small,12,3,0,0,69,8.59,10.0,597.98
+2023-12-15,Clothing,Central,Large,12,4,0,1,56,9.7,17.6,628.6
+2023-12-16,Clothing,East,Small,12,5,1,0,45,8.5,4.8,373.58
+2023-12-17,Home & Garden,West,Small,12,6,1,1,46,8.55,5.1,518.37
+2023-12-18,Electronics,Central,Medium,12,0,0,1,80,10.86,29.1,786.55
+2023-12-19,Home & Garden,West,Large,12,1,0,1,62,9.72,4.4,725.61
+2023-12-20,Home & Garden,South,Medium,12,2,0,0,28,9.05,8.5,229.17
+2023-12-21,Clothing,West,Medium,12,3,0,0,32,10.13,2.5,297.93
+2023-12-22,Clothing,West,Small,12,4,0,0,22,10.46,17.8,189.87
+2023-12-23,Electronics,West,Large,12,5,1,0,119,7.77,15.7,846.94
+2023-12-24,Electronics,East,Small,12,6,1,1,66,11.06,9.1,678.56
+2023-12-25,Clothing,East,Small,12,0,0,0,32,12.23,25.2,280.16
+2023-12-26,Groceries,East,Medium,12,1,0,0,99,9.21,15.3,851.15
+2023-12-27,Home & Garden,North,Large,12,2,0,0,62,11.21,24.5,584.34
+2023-12-28,Clothing,West,Medium,12,3,0,1,24,7.71,12.9,246.74
+2023-12-29,Clothing,East,Medium,12,4,0,1,52,9.15,24.6,507.8
+2023-12-30,Groceries,North,Large,12,5,1,0,157,11.01,1.9,1568.35
+2023-12-31,Groceries,North,Large,12,6,1,1,139,10.03,0.8,1593.86
+2024-01-01,Clothing,West,Medium,1,0,0,0,15,10.27,4.2,172.82
+2024-01-02,Home & Garden,North,Large,1,1,0,0,74,9.28,2.4,696.92
+2024-01-03,Sports,East,Large,1,2,0,1,68,10.32,18.8,731.91
+2024-01-04,Electronics,East,Medium,1,3,0,0,79,13.0,18.6,796.33
+2024-01-05,Home & Garden,North,Medium,1,4,0,1,44,10.64,20.0,492.4
+2024-01-06,Groceries,East,Small,1,5,1,0,78,11.77,21.8,751.38
+2024-01-07,Clothing,East,Small,1,6,1,0,38,7.93,3.7,322.48
+2024-01-08,Electronics,Central,Small,1,0,0,1,61,8.79,7.0,601.78
+2024-01-09,Sports,East,Large,1,1,0,0,62,9.78,10.4,583.41
+2024-01-10,Groceries,Central,Small,1,2,0,1,74,11.41,19.0,826.07
+2024-01-11,Electronics,South,Medium,1,3,0,0,70,8.47,11.7,548.04
+2024-01-12,Groceries,West,Small,1,4,0,1,108,7.87,24.2,853.11
+2024-01-13,Home & Garden,West,Small,1,5,1,1,31,11.72,8.2,417.42
+2024-01-14,Electronics,South,Medium,1,6,1,1,101,12.16,27.5,976.93
+2024-01-15,Clothing,East,Medium,1,0,0,1,53,11.01,0.8,705.26
+2024-01-16,Clothing,South,Large,1,1,0,1,50,9.96,21.4,503.15
+2024-01-17,Sports,Central,Medium,1,2,0,1,63,7.74,21.0,617.64
+2024-01-18,Sports,West,Medium,1,3,0,1,64,9.73,18.8,658.52
+2024-01-19,Groceries,West,Large,1,4,0,0,67,10.35,14.6,614.59
+2024-01-20,Clothing,West,Large,1,5,1,1,43,12.46,6.9,547.49
+2024-01-21,Sports,East,Medium,1,6,1,1,45,12.06,10.3,599.53
+2024-01-22,Clothing,West,Medium,1,0,0,0,55,7.62,28.1,338.1
+2024-01-23,Sports,Central,Medium,1,1,0,0,17,10.32,25.3,144.43
+2024-01-24,Sports,West,Large,1,2,0,1,43,9.09,7.9,434.96
+2024-01-25,Clothing,West,Small,1,3,0,1,36,11.84,23.3,379.72
+2024-01-26,Clothing,South,Large,1,4,0,0,65,10.31,19.7,513.65
+2024-01-27,Electronics,North,Medium,1,5,1,1,60,7.81,14.8,609.91
+2024-01-28,Home & Garden,North,Small,1,6,1,0,43,9.12,19.2,313.44
+2024-01-29,Groceries,North,Small,1,0,0,0,34,9.68,5.7,310.88
+2024-01-30,Electronics,Central,Small,1,1,0,1,35,12.24,26.8,451.95
+2024-01-31,Home & Garden,South,Large,1,2,0,0,94,8.61,14.3,679.29
+2024-02-01,Electronics,North,Small,2,3,0,0,59,11.35,12.1,573.96
+2024-02-02,Home & Garden,North,Small,2,4,0,1,51,10.07,13.8,525.14
+2024-02-03,Home & Garden,South,Medium,2,5,1,0,64,10.48,1.0,690.07
+2024-02-04,Home & Garden,West,Small,2,6,1,0,31,8.68,12.0,251.8
+2024-02-05,Electronics,Central,Medium,2,0,0,0,105,10.54,24.1,849.09
+2024-02-06,Home & Garden,East,Large,2,1,0,1,111,10.64,12.5,1185.11
+2024-02-07,Sports,South,Medium,2,2,0,0,106,7.49,8.9,809.81
+2024-02-08,Sports,West,Small,2,3,0,1,25,10.93,7.4,342.29
+2024-02-09,Clothing,East,Small,2,4,0,0,37,10.89,0.3,377.33
+2024-02-10,Electronics,East,Medium,2,5,1,1,143,8.88,21.9,1196.67
+2024-02-11,Clothing,East,Medium,2,6,1,0,51,10.97,11.9,463.12
+2024-02-12,Groceries,North,Large,2,0,0,0,179,9.4,29.4,1170.77
+2024-02-13,Clothing,North,Small,2,1,0,1,23,9.94,19.2,330.52
+2024-02-14,Electronics,West,Medium,2,2,0,1,56,8.8,25.1,500.07
+2024-02-15,Home & Garden,West,Large,2,3,0,1,107,9.54,23.8,862.5
+2024-02-16,Clothing,North,Medium,2,4,0,0,39,11.66,16.5,372.03
+2024-02-17,Electronics,North,Medium,2,5,1,0,85,10.2,9.3,765.19
+2024-02-18,Groceries,West,Large,2,6,1,0,132,10.81,17.8,1250.83
+2024-02-19,Groceries,Central,Medium,2,0,0,1,126,9.21,26.7,991.7
+2024-02-20,Clothing,West,Large,2,1,0,0,77,8.77,18.1,565.4
+2024-02-21,Electronics,East,Medium,2,2,0,1,147,9.86,2.6,1485.21
+2024-02-22,Groceries,North,Large,2,3,0,1,180,9.12,20.2,1404.21
+2024-02-23,Home & Garden,South,Small,2,4,0,1,112,8.63,2.8,982.01
+2024-02-24,Home & Garden,Central,Medium,2,5,1,0,79,8.77,7.4,645.57
+2024-02-25,Electronics,Central,Large,2,6,1,1,101,12.49,0.5,1285.08
+2024-02-26,Sports,Central,Medium,2,0,0,1,46,10.27,13.5,575.05
+2024-02-27,Groceries,Central,Medium,2,1,0,0,170,9.16,6.0,1384.94
+2024-02-28,Electronics,West,Large,2,2,0,0,93,11.04,21.3,897.01
+2024-02-29,Electronics,Central,Medium,2,3,0,0,96,9.58,7.7,829.43
+2024-03-01,Sports,West,Small,3,4,0,1,21,11.92,12.1,307.94
+2024-03-02,Groceries,East,Small,3,5,1,1,146,11.1,10.7,1508.61
+2024-03-03,Home & Garden,East,Medium,3,6,1,0,107,12.44,12.0,1092.46
+2024-03-04,Groceries,East,Large,3,0,0,0,298,8.95,15.8,2152.97
+2024-03-05,Groceries,West,Small,3,1,0,0,73,9.38,14.6,560.43
+2024-03-06,Clothing,South,Small,3,2,0,0,60,10.73,5.4,573.03
+2024-03-07,Electronics,West,Medium,3,3,0,1,138,8.61,11.6,1164.51
+2024-03-08,Groceries,West,Large,3,4,0,1,240,8.57,3.2,2169.36
+2024-03-09,Groceries,West,Small,3,5,1,1,89,8.81,13.8,774.23
+2024-03-10,Groceries,Central,Large,3,6,1,1,206,10.16,9.9,2155.69
+2024-03-11,Sports,North,Large,3,0,0,0,78,9.64,0.1,739.87
+2024-03-12,Sports,Central,Medium,3,1,0,1,47,9.84,21.7,465.15
+2024-03-13,Clothing,North,Small,3,2,0,0,26,11.3,24.7,247.19
+2024-03-14,Groceries,East,Large,3,3,0,1,216,10.55,24.3,1835.45
+2024-03-15,Groceries,South,Medium,3,4,0,0,204,9.06,22.6,1425.19
+2024-03-16,Electronics,Central,Small,3,5,1,1,71,9.32,13.7,622.26
+2024-03-17,Clothing,East,Medium,3,6,1,1,56,10.53,17.6,592.55
+2024-03-18,Electronics,West,Small,3,0,0,0,114,8.91,0.2,998.5
+2024-03-19,Electronics,North,Large,3,1,0,1,88,9.17,14.4,779.22
+2024-03-20,Groceries,South,Large,3,2,0,1,264,10.05,17.6,2199.65
+2024-03-21,Sports,South,Medium,3,3,0,1,58,8.87,12.7,554.64
+2024-03-22,Sports,West,Medium,3,4,0,1,58,10.58,18.9,531.59
+2024-03-23,Groceries,Central,Medium,3,5,1,0,218,9.05,3.4,1894.4
+2024-03-24,Home & Garden,South,Small,3,6,1,1,113,8.42,11.6,980.51
+2024-03-25,Clothing,Central,Medium,3,0,0,0,42,13.11,28.0,374.39
+2024-03-26,Home & Garden,East,Small,3,1,0,0,44,9.87,5.3,425.43
+2024-03-27,Sports,Central,Large,3,2,0,0,103,10.08,4.9,919.68
+2024-03-28,Home & Garden,South,Medium,3,3,0,1,61,10.46,6.6,777.59
+2024-03-29,Home & Garden,Central,Medium,3,4,0,0,99,9.11,6.6,849.0
+2024-03-30,Groceries,West,Large,3,5,1,0,228,10.74,23.4,1920.97
+2024-03-31,Sports,South,Small,3,6,1,1,42,12.37,23.3,581.21
+2024-04-01,Groceries,Central,Medium,4,0,0,0,246,9.03,17.5,1694.04
+2024-04-02,Sports,Central,Medium,4,1,0,1,49,10.73,8.7,656.11
+2024-04-03,Sports,West,Medium,4,2,0,0,62,8.23,8.2,519.06
+2024-04-04,Electronics,Central,Medium,4,3,0,0,88,10.56,17.8,755.11
+2024-04-05,Electronics,East,Small,4,4,0,0,96,9.93,26.0,660.46
+2024-04-06,Clothing,East,Medium,4,5,1,0,68,8.03,25.9,421.51
+2024-04-07,Electronics,West,Large,4,6,1,1,212,8.95,9.0,1855.44
+2024-04-08,Clothing,North,Large,4,0,0,0,107,9.99,14.4,929.06
+2024-04-09,Electronics,South,Medium,4,1,0,1,97,10.73,16.1,1100.92
+2024-04-10,Sports,East,Small,4,2,0,1,45,9.4,11.7,610.2
+2024-04-11,Clothing,West,Small,4,3,0,1,59,9.37,27.6,498.15
+2024-04-12,Clothing,Central,Medium,4,4,0,0,63,10.09,21.2,500.38
+2024-04-13,Groceries,South,Large,4,5,1,0,303,10.37,15.6,2910.08
+2024-04-14,Electronics,West,Large,4,6,1,1,80,10.16,4.6,971.72
+2024-04-15,Clothing,North,Large,4,0,0,0,81,10.06,20.5,661.85
+2024-04-16,Clothing,Central,Small,4,1,0,1,51,12.44,17.5,585.62
+2024-04-17,Home & Garden,East,Medium,4,2,0,1,95,8.84,8.8,844.21
+2024-04-18,Home & Garden,South,Small,4,3,0,1,44,10.31,13.9,473.75
+2024-04-19,Groceries,Central,Small,4,4,0,1,167,10.2,18.9,1448.42
+2024-04-20,Clothing,West,Small,4,5,1,0,52,9.01,23.5,393.01
+2024-04-21,Home & Garden,East,Small,4,6,1,0,52,10.22,29.5,412.6
+2024-04-22,Home & Garden,South,Small,4,0,0,0,57,11.06,19.7,485.79
+2024-04-23,Clothing,West,Medium,4,1,0,1,30,9.79,12.1,334.39
+2024-04-24,Sports,East,Large,4,2,0,0,60,7.63,19.8,410.8
+2024-04-25,Clothing,West,Small,4,3,0,1,38,11.34,11.7,510.59
+2024-04-26,Sports,South,Small,4,4,0,0,43,8.38,3.6,378.8
+2024-04-27,Home & Garden,Central,Large,4,5,1,1,139,8.71,0.9,1334.85
+2024-04-28,Electronics,Central,Large,4,6,1,0,133,11.33,5.8,1520.45
+2024-04-29,Home & Garden,West,Small,4,0,0,0,73,9.62,24.6,500.52
+2024-04-30,Home & Garden,South,Medium,4,1,0,1,78,9.69,19.3,779.48
+2024-05-01,Clothing,East,Small,5,2,0,0,45,10.52,12.6,420.29
+2024-05-02,Sports,South,Small,5,3,0,1,61,10.74,30.0,533.28
+2024-05-03,Groceries,West,Medium,5,4,0,1,170,10.44,7.0,1714.8
+2024-05-04,Groceries,Central,Small,5,5,1,1,60,9.61,6.7,715.28
+2024-05-05,Clothing,West,Large,5,6,1,1,128,9.22,7.9,1122.21
+2024-05-06,Electronics,East,Medium,5,0,0,0,102,12.17,22.0,895.48
+2024-05-07,Groceries,North,Small,5,1,0,1,151,7.98,8.3,1372.23
+2024-05-08,Groceries,West,Medium,5,2,0,1,119,12.73,0.5,1643.75
+2024-05-09,Electronics,Central,Medium,5,3,0,1,135,9.31,17.3,1154.48
+2024-05-10,Clothing,West,Small,5,4,0,1,55,10.41,15.3,568.5
+2024-05-11,Clothing,North,Small,5,5,1,0,31,8.84,10.4,252.1
+2024-05-12,Electronics,East,Large,5,6,1,1,232,9.19,27.7,1572.58
+2024-05-13,Home & Garden,South,Large,5,0,0,1,131,7.92,8.7,1105.39
+2024-05-14,Electronics,South,Medium,5,1,0,1,142,11.77,19.4,1542.06
+2024-05-15,Electronics,South,Large,5,2,0,0,134,10.5,28.4,1049.62
+2024-05-16,Sports,East,Small,5,3,0,1,36,11.16,13.6,463.13
+2024-05-17,Groceries,South,Large,5,4,0,1,148,11.25,25.0,1303.42
+2024-05-18,Home & Garden,West,Large,5,5,1,0,124,11.99,2.1,1489.42
+2024-05-19,Clothing,East,Medium,5,6,1,0,40,9.18,8.7,346.6
+2024-05-20,Sports,North,Medium,5,0,0,0,50,9.51,11.9,423.68
+2024-05-21,Sports,East,Small,5,1,0,0,24,9.28,13.9,190.05
+2024-05-22,Sports,West,Large,5,2,0,0,94,9.9,21.5,797.38
+2024-05-23,Sports,East,Small,5,3,0,1,64,8.4,17.9,517.66
+2024-05-24,Groceries,West,Small,5,4,0,1,84,9.55,16.5,750.01
+2024-05-25,Home & Garden,North,Large,5,5,1,0,80,12.27,10.7,895.69
+2024-05-26,Sports,North,Large,5,6,1,0,89,11.31,3.5,969.61
+2024-05-27,Electronics,West,Small,5,0,0,1,81,8.28,7.0,865.52
+2024-05-28,Home & Garden,Central,Large,5,1,0,1,129,11.88,12.5,1314.2
+2024-05-29,Home & Garden,West,Medium,5,2,0,0,91,9.89,8.0,886.35
+2024-05-30,Groceries,East,Small,5,3,0,1,92,9.23,20.6,826.13
+2024-05-31,Clothing,West,Small,5,4,0,1,45,9.53,16.0,442.96
+2024-06-01,Electronics,East,Small,6,5,1,0,51,12.76,1.8,619.06
+2024-06-02,Sports,North,Medium,6,6,1,1,28,9.35,19.0,327.73
+2024-06-03,Home & Garden,West,Medium,6,0,0,1,79,10.0,22.2,765.74
+2024-06-04,Home & Garden,South,Small,6,1,0,0,66,9.04,7.8,616.72
+2024-06-05,Clothing,Central,Small,6,2,0,0,14,9.37,4.8,121.96
+2024-06-06,Clothing,South,Large,6,3,0,1,113,10.71,6.0,1150.7
+2024-06-07,Home & Garden,West,Small,6,4,0,1,51,8.48,18.8,550.68
+2024-06-08,Electronics,East,Large,6,5,1,0,188,7.49,22.9,1209.27
+2024-06-09,Groceries,West,Small,6,6,1,1,117,9.67,6.2,1219.57
+2024-06-10,Groceries,North,Small,6,0,0,0,59,11.24,5.0,592.92
+2024-06-11,Sports,Central,Small,6,1,0,0,39,9.83,18.1,318.26
+2024-06-12,Sports,West,Small,6,2,0,1,44,8.4,4.2,535.11
+2024-06-13,Electronics,West,Small,6,3,0,0,45,9.89,18.7,401.58
+2024-06-14,Sports,East,Large,6,4,0,1,71,9.5,23.5,658.52
+2024-06-15,Clothing,North,Large,6,5,1,1,52,8.83,6.7,675.16
+2024-06-16,Clothing,North,Small,6,6,1,1,31,9.95,19.7,395.36
+2024-06-17,Clothing,West,Medium,6,0,0,1,27,9.06,29.8,242.42
+2024-06-18,Home & Garden,South,Small,6,1,0,1,17,11.74,19.6,331.24
+2024-06-19,Groceries,South,Small,6,2,0,1,85,10.98,11.9,1008.43
+2024-06-20,Groceries,North,Medium,6,3,0,1,212,9.8,3.6,2057.96
+2024-06-21,Sports,North,Large,6,4,0,0,54,7.97,4.9,453.07
+2024-06-22,Clothing,South,Medium,6,5,1,1,106,8.39,14.9,994.12
+2024-06-23,Sports,West,Small,6,6,1,1,31,8.76,22.6,293.01
+2024-06-24,Clothing,West,Small,6,0,0,0,21,9.57,1.0,223.73
+2024-06-25,Groceries,North,Small,6,1,0,1,49,11.0,26.3,471.59
+2024-06-26,Groceries,West,Medium,6,2,0,0,140,12.08,12.7,1431.52
+2024-06-27,Home & Garden,North,Large,6,3,0,1,75,12.63,14.1,895.45
+2024-06-28,Groceries,South,Medium,6,4,0,1,202,9.3,22.4,1648.7
+2024-06-29,Electronics,East,Large,6,5,1,0,124,10.09,5.9,1118.83
+2024-06-30,Electronics,East,Small,6,6,1,1,50,11.37,3.1,680.41
+2024-07-01,Sports,South,Medium,7,0,0,1,50,9.72,25.4,402.01
+2024-07-02,Clothing,East,Small,7,1,0,0,24,11.2,7.5,244.76
+2024-07-03,Sports,East,Medium,7,2,0,0,63,8.84,12.9,470.53
+2024-07-04,Clothing,North,Medium,7,3,0,0,61,8.77,9.0,475.66
+2024-07-05,Electronics,East,Small,7,4,0,0,39,9.18,25.4,253.73
+2024-07-06,Sports,East,Medium,7,5,1,1,51,10.55,26.0,517.27
+2024-07-07,Sports,Central,Medium,7,6,1,1,44,8.17,14.4,445.02
+2024-07-08,Electronics,West,Medium,7,0,0,1,84,9.52,21.4,774.8
+2024-07-09,Clothing,West,Small,7,1,0,0,39,10.5,4.3,373.65
+2024-07-10,Clothing,West,Large,7,2,0,1,25,12.98,23.4,378.28
+2024-07-11,Sports,Central,Large,7,3,0,0,38,9.95,13.2,360.75
+2024-07-12,Sports,West,Large,7,4,0,1,32,8.07,19.0,351.41
+2024-07-13,Groceries,South,Large,7,5,1,0,205,8.56,20.5,1451.57
+2024-07-14,Groceries,East,Medium,7,6,1,0,147,10.5,21.5,1258.29
+2024-07-15,Electronics,South,Large,7,0,0,1,150,7.93,8.4,1327.44
+2024-07-16,Groceries,East,Medium,7,1,0,1,135,9.78,22.6,1184.05
+2024-07-17,Home & Garden,South,Medium,7,2,0,1,54,8.23,0.7,599.47
+2024-07-18,Electronics,East,Small,7,3,0,1,75,11.31,0.6,972.0
+2024-07-19,Electronics,South,Small,7,4,0,0,59,10.92,13.8,535.83
+2024-07-20,Sports,East,Large,7,5,1,0,75,10.26,28.9,614.42
+2024-07-21,Electronics,Central,Medium,7,6,1,1,88,10.32,20.0,788.78
+2024-07-22,Home & Garden,East,Small,7,0,0,0,27,11.74,7.8,304.22
+2024-07-23,Sports,West,Small,7,1,0,0,34,8.34,28.6,225.81
+2024-07-24,Groceries,East,Small,7,2,0,0,64,11.74,4.3,760.89
+2024-07-25,Electronics,East,Large,7,3,0,0,117,9.53,0.2,1102.71
+2024-07-26,Sports,South,Small,7,4,0,1,16,10.67,15.6,252.19
+2024-07-27,Electronics,South,Small,7,5,1,0,79,10.23,25.3,580.55
+2024-07-28,Sports,North,Large,7,6,1,0,72,8.66,19.6,508.61
+2024-07-29,Clothing,West,Medium,7,0,0,1,40,11.79,15.3,570.39
+2024-07-30,Clothing,Central,Medium,7,1,0,1,51,9.37,11.6,492.08
+2024-07-31,Sports,East,Medium,7,2,0,0,42,9.37,1.4,371.51
+2024-08-01,Clothing,West,Small,8,3,0,0,13,8.63,12.8,103.59
+2024-08-02,Groceries,East,Medium,8,4,0,1,99,9.58,13.9,1051.04
+2024-08-03,Groceries,North,Medium,8,5,1,0,81,11.55,5.7,880.76
+2024-08-04,Home & Garden,South,Medium,8,6,1,0,63,7.69,9.3,491.77
+2024-08-05,Electronics,Central,Medium,8,0,0,0,66,11.42,5.1,672.11
+2024-08-06,Groceries,West,Small,8,1,0,1,66,11.32,10.8,735.07
+2024-08-07,Electronics,South,Large,8,2,0,1,121,11.53,24.9,1185.62
+2024-08-08,Electronics,Central,Small,8,3,0,0,44,9.19,7.1,367.98
+2024-08-09,Electronics,South,Small,8,4,0,0,97,8.55,14.3,740.66
+2024-08-10,Sports,West,Small,8,5,1,1,30,9.22,3.7,308.5
+2024-08-11,Sports,North,Large,8,6,1,1,23,10.18,20.0,315.41
+2024-08-12,Sports,East,Medium,8,0,0,1,40,9.63,16.7,402.71
+2024-08-13,Home & Garden,North,Large,8,1,0,1,30,11.8,14.7,401.32
+2024-08-14,Electronics,West,Large,8,2,0,1,109,9.23,21.7,936.58
+2024-08-15,Groceries,South,Medium,8,3,0,0,142,10.09,4.0,1357.96
+2024-08-16,Sports,Central,Medium,8,4,0,0,28,10.36,24.5,233.94
+2024-08-17,Groceries,East,Small,8,5,1,0,69,10.14,22.7,554.32
+2024-08-18,Groceries,Central,Large,8,6,1,0,91,12.12,6.3,960.24
+2024-08-19,Sports,West,Small,8,0,0,1,22,12.96,1.1,469.29
+2024-08-20,Groceries,North,Small,8,1,0,1,50,11.03,6.9,604.09
+2024-08-21,Electronics,South,Large,8,2,0,0,101,12.22,16.0,1054.63
+2024-08-22,Home & Garden,West,Small,8,3,0,1,27,7.54,13.6,297.48
+2024-08-23,Sports,Central,Small,8,4,0,1,15,11.01,23.3,189.68
+2024-08-24,Sports,East,Medium,8,5,1,1,26,9.89,4.7,368.21
+2024-08-25,Groceries,Central,Medium,8,6,1,1,103,10.85,10.5,1057.74
+2024-08-26,Clothing,West,Small,8,0,0,0,36,8.74,14.1,271.51
+2024-08-27,Groceries,Central,Small,8,1,0,1,72,8.5,22.6,587.39
+2024-08-28,Sports,West,Medium,8,2,0,0,41,8.6,8.6,347.34
+2024-08-29,Sports,South,Medium,8,3,0,1,33,11.1,17.1,460.94
+2024-08-30,Clothing,Central,Medium,8,4,0,0,52,10.63,1.5,518.23
+2024-08-31,Groceries,South,Large,8,5,1,0,111,12.68,3.8,1290.63
+2024-09-01,Groceries,West,Small,9,6,1,1,29,9.79,22.4,402.22
+2024-09-02,Electronics,West,Large,9,0,0,1,93,9.27,14.6,831.41
+2024-09-03,Electronics,North,Small,9,1,0,0,51,9.53,25.8,389.93
+2024-09-04,Home & Garden,South,Medium,9,2,0,1,65,9.11,19.3,521.32
+2024-09-05,Groceries,South,Medium,9,3,0,1,112,8.42,21.5,940.45
+2024-09-06,Sports,East,Small,9,4,0,0,17,8.75,26.2,122.42
+2024-09-07,Home & Garden,West,Large,9,5,1,1,46,11.49,15.0,591.56
+2024-09-08,Groceries,South,Medium,9,6,1,1,154,8.51,6.3,1358.09
+2024-09-09,Home & Garden,East,Small,9,0,0,1,41,8.13,13.6,404.03
+2024-09-10,Clothing,South,Medium,9,1,0,0,29,11.66,4.7,308.99
+2024-09-11,Sports,West,Medium,9,2,0,0,24,13.17,15.5,259.46
+2024-09-12,Groceries,Central,Medium,9,3,0,0,55,11.77,18.8,544.61
+2024-09-13,Groceries,East,Large,9,4,0,1,111,10.12,15.6,1120.74
+2024-09-14,Electronics,West,Small,9,5,1,0,21,10.21,18.2,192.07
+2024-09-15,Groceries,West,Medium,9,6,1,1,71,10.09,16.9,707.6
+2024-09-16,Groceries,West,Large,9,0,0,1,113,11.55,9.3,1204.3
+2024-09-17,Electronics,South,Large,9,1,0,0,34,12.5,7.2,386.01
+2024-09-18,Clothing,North,Medium,9,2,0,1,24,8.83,21.3,332.07
+2024-09-19,Groceries,North,Medium,9,3,0,0,63,10.35,26.4,522.76
+2024-09-20,Clothing,South,Small,9,4,0,1,31,8.71,25.6,335.99
+2024-09-21,Clothing,South,Large,9,5,1,1,74,8.47,19.1,618.28
+2024-09-22,Home & Garden,East,Medium,9,6,1,1,40,10.44,8.8,499.89
+2024-09-23,Clothing,West,Medium,9,0,0,0,54,9.63,4.8,493.23
+2024-09-24,Groceries,North,Large,9,1,0,1,147,11.51,10.3,1592.51
+2024-09-25,Electronics,East,Medium,9,2,0,0,78,8.29,9.8,634.38
+2024-09-26,Electronics,North,Small,9,3,0,0,45,10.83,2.5,443.39
+2024-09-27,Groceries,North,Small,9,4,0,0,49,10.76,17.1,465.81
+2024-09-28,Groceries,North,Small,9,5,1,1,36,11.7,6.7,475.42
+2024-09-29,Groceries,Central,Large,9,6,1,1,85,12.4,17.2,963.42
+2024-09-30,Clothing,West,Small,9,0,0,0,24,12.09,2.3,288.55
+2024-10-01,Clothing,West,Small,10,1,0,1,22,8.23,22.2,292.93
+2024-10-02,Home & Garden,West,Medium,10,2,0,1,21,9.06,12.0,365.7
+2024-10-03,Clothing,North,Small,10,3,0,0,23,8.25,22.6,152.99
+2024-10-04,Sports,Central,Medium,10,4,0,0,34,10.24,8.8,313.39
+2024-10-05,Clothing,West,Small,10,5,1,0,29,9.73,27.8,209.19
+2024-10-06,Electronics,West,Small,10,6,1,0,39,10.95,28.9,315.71
+2024-10-07,Groceries,North,Medium,10,0,0,0,83,12.44,8.4,876.77
+2024-10-08,Electronics,West,Small,10,1,0,1,40,8.58,2.7,511.62
+2024-10-09,Home & Garden,East,Small,10,2,0,1,35,7.91,14.9,375.81
+2024-10-10,Home & Garden,West,Medium,10,3,0,1,40,11.54,17.9,550.13
+2024-10-11,Home & Garden,Central,Small,10,4,0,0,20,9.14,6.3,194.56
+2024-10-12,Electronics,East,Small,10,5,1,0,61,8.14,12.4,466.63
+2024-10-13,Home & Garden,South,Medium,10,6,1,1,86,8.99,17.4,709.7
+2024-10-14,Groceries,East,Medium,10,0,0,0,89,12.44,1.6,1027.93
+2024-10-15,Sports,South,Large,10,1,0,0,51,11.42,0.5,574.82
+2024-10-16,Home & Garden,Central,Small,10,2,0,1,29,10.54,2.9,357.17
+2024-10-17,Clothing,South,Large,10,3,0,0,59,9.15,11.3,463.89
+2024-10-18,Clothing,West,Small,10,4,0,0,21,9.66,17.6,159.57
+2024-10-19,Electronics,West,Medium,10,5,1,0,39,10.73,18.8,375.06
+2024-10-20,Electronics,Central,Small,10,6,1,0,30,11.12,21.7,268.59
+2024-10-21,Sports,West,Medium,10,0,0,1,40,8.48,22.5,445.13
+2024-10-22,Groceries,East,Medium,10,1,0,1,79,9.3,8.7,816.35
+2024-10-23,Electronics,South,Small,10,2,0,0,38,12.24,20.1,365.01
+2024-10-24,Groceries,East,Medium,10,3,0,1,89,9.83,16.9,958.5
+2024-10-25,Groceries,South,Small,10,4,0,1,73,9.72,28.5,721.98
+2024-10-26,Sports,South,Large,10,5,1,1,25,12.91,27.2,420.82
+2024-10-27,Sports,Central,Medium,10,6,1,1,37,8.07,18.5,425.65
+2024-10-28,Electronics,Central,Small,10,0,0,1,62,8.28,17.0,513.37
+2024-10-29,Clothing,South,Medium,10,1,0,0,37,9.02,28.0,230.81
+2024-10-30,Home & Garden,West,Small,10,2,0,0,47,9.86,24.3,343.51
+2024-10-31,Groceries,West,Medium,10,3,0,1,122,8.96,18.6,1080.34
+2024-11-01,Electronics,Central,Medium,11,4,0,1,84,9.24,11.2,800.01
+2024-11-02,Electronics,South,Small,11,5,1,1,65,8.06,21.9,586.55
+2024-11-03,Clothing,Central,Small,11,6,1,0,15,11.64,18.5,152.31
+2024-11-04,Sports,West,Small,11,0,0,1,24,8.14,7.2,326.41
+2024-11-05,Sports,North,Medium,11,1,0,0,16,11.41,5.5,180.27
+2024-11-06,Sports,Central,Large,11,2,0,0,35,10.98,29.0,256.38
+2024-11-07,Sports,Central,Medium,11,3,0,1,25,11.35,28.6,344.4
+2024-11-08,Home & Garden,Central,Medium,11,4,0,0,32,11.04,0.6,345.98
+2024-11-09,Electronics,South,Medium,11,5,1,0,51,8.55,1.6,437.51
+2024-11-10,Home & Garden,North,Small,11,6,1,1,36,10.64,12.8,474.43
+2024-11-11,Sports,East,Small,11,0,0,1,25,11.84,16.2,414.45
+2024-11-12,Electronics,South,Small,11,1,0,1,62,10.47,21.0,626.6
+2024-11-13,Groceries,East,Large,11,2,0,0,117,11.05,27.9,855.6
+2024-11-14,Electronics,South,Large,11,3,0,0,111,10.99,10.4,1015.28
+2024-11-15,Home & Garden,North,Medium,11,4,0,1,13,9.52,28.3,149.91
+2024-11-16,Clothing,Central,Small,11,5,1,1,27,9.42,20.3,370.65
+2024-11-17,Clothing,East,Large,11,6,1,0,48,12.19,20.2,482.99
+2024-11-18,Sports,North,Small,11,0,0,0,21,10.75,13.1,215.52
+2024-11-19,Electronics,Central,Medium,11,1,0,1,61,9.0,18.0,584.93
+2024-11-20,Groceries,East,Small,11,2,0,0,69,10.64,11.7,610.78
+2024-11-21,Sports,South,Small,11,3,0,0,16,11.42,5.4,170.77
+2024-11-22,Sports,West,Large,11,4,0,1,37,8.08,8.3,361.72
+2024-11-23,Sports,East,Small,11,5,1,1,19,8.42,25.7,240.26
+2024-11-24,Home & Garden,East,Medium,11,6,1,0,49,11.74,27.4,445.14
+2024-11-25,Home & Garden,East,Large,11,0,0,0,60,11.05,28.3,466.71
+2024-11-26,Groceries,Central,Medium,11,1,0,1,86,11.85,28.7,772.8
+2024-11-27,Sports,Central,Small,11,2,0,0,16,8.19,11.2,134.24
+2024-11-28,Sports,North,Large,11,3,0,0,26,10.8,21.6,247.28
+2024-11-29,Clothing,West,Small,11,4,0,0,17,9.93,3.8,157.11
+2024-11-30,Groceries,Central,Small,11,5,1,1,55,10.05,29.5,447.67
+2024-12-01,Sports,South,Large,12,6,1,1,68,9.91,26.7,629.35
+2024-12-02,Clothing,Central,Medium,12,0,0,0,39,9.64,24.2,316.35
+2024-12-03,Sports,West,Large,12,1,0,0,44,10.91,13.5,420.6
+2024-12-04,Groceries,Central,Large,12,2,0,1,213,8.61,6.9,1957.42
+2024-12-05,Sports,West,Small,12,3,0,1,17,11.83,20.8,214.88
+2024-12-06,Sports,Central,Small,12,4,0,1,43,8.21,11.7,462.01
+2024-12-07,Clothing,West,Small,12,5,1,1,27,9.54,19.8,348.58
+2024-12-08,Groceries,South,Large,12,6,1,0,117,10.59,22.1,929.19
+2024-12-09,Home & Garden,South,Small,12,0,0,1,73,8.61,11.9,683.19
+2024-12-10,Groceries,East,Small,12,1,0,1,65,9.83,9.9,711.8
+2024-12-11,Groceries,Central,Medium,12,2,0,0,95,11.9,17.5,857.19
+2024-12-12,Sports,North,Medium,12,3,0,0,35,10.77,18.6,319.22
+2024-12-13,Clothing,East,Medium,12,4,0,1,48,9.93,10.8,552.46
+2024-12-14,Home & Garden,South,Medium,12,5,1,0,49,9.96,1.9,493.2
+2024-12-15,Home & Garden,East,Small,12,6,1,0,59,8.79,8.0,474.29
+2024-12-16,Sports,North,Large,12,0,0,1,16,9.35,0.9,281.69
+2024-12-17,Groceries,West,Large,12,1,0,1,102,11.01,11.6,1223.34
+2024-12-18,Sports,West,Medium,12,2,0,0,41,9.6,2.8,399.07
+2024-12-19,Electronics,North,Small,12,3,0,0,39,10.52,18.3,336.42
+2024-12-20,Sports,West,Small,12,4,0,0,13,12.3,5.4,155.48
+2024-12-21,Home & Garden,Central,Medium,12,5,1,0,28,8.99,4.4,261.79
+2024-12-22,Home & Garden,North,Small,12,6,1,1,61,8.96,20.0,583.04
+2024-12-23,Clothing,South,Small,12,0,0,0,35,10.42,20.6,276.45
+2024-12-24,Clothing,East,Medium,12,1,0,1,31,9.21,16.6,420.59
+2024-12-25,Clothing,East,Large,12,2,0,1,40,12.81,1.4,599.19
+2024-12-26,Sports,North,Small,12,3,0,1,23,9.91,11.7,278.06
+2024-12-27,Home & Garden,East,Medium,12,4,0,1,56,10.33,19.2,491.82
+2024-12-28,Electronics,East,Medium,12,5,1,1,68,8.11,3.0,634.29
+2024-12-29,Home & Garden,Central,Medium,12,6,1,0,88,8.02,0.1,769.64
+2024-12-30,Groceries,Central,Medium,12,0,0,1,79,10.93,21.8,861.77
+2024-12-31,Sports,South,Large,12,1,0,1,59,12.08,9.1,741.77
+2025-01-01,Home & Garden,North,Large,1,2,0,0,121,7.98,10.8,927.89
+2025-01-02,Home & Garden,Central,Large,1,3,0,1,118,8.32,15.9,1080.08
+2025-01-03,Home & Garden,North,Small,1,4,0,1,36,11.8,6.4,433.66
+2025-01-04,Groceries,West,Medium,1,5,1,1,104,11.23,21.6,1038.11
+2025-01-05,Clothing,East,Small,1,6,1,0,52,9.2,15.1,401.9
+2025-01-06,Electronics,South,Medium,1,0,0,1,35,11.54,2.3,457.25
+2025-01-07,Groceries,Central,Small,1,1,0,1,81,8.86,8.5,816.9
+2025-01-08,Home & Garden,South,Small,1,2,0,0,66,9.82,11.8,545.59
+2025-01-09,Groceries,North,Small,1,3,0,1,55,11.16,19.0,653.0
+2025-01-10,Clothing,Central,Large,1,4,0,1,76,11.68,1.0,970.69
+2025-01-11,Sports,East,Large,1,5,1,1,95,8.2,11.8,784.35
+2025-01-12,Sports,South,Small,1,6,1,1,34,8.93,13.6,425.4
+2025-01-13,Electronics,South,Medium,1,0,0,1,86,7.73,29.6,661.75
+2025-01-14,Home & Garden,East,Large,1,1,0,1,57,10.76,21.7,629.78
+2025-01-15,Groceries,South,Small,1,2,0,0,95,9.54,16.1,838.88
+2025-01-16,Electronics,North,Small,1,3,0,1,27,12.06,28.1,313.42
+2025-01-17,Electronics,North,Large,1,4,0,1,112,12.91,10.2,1255.8
+2025-01-18,Home & Garden,Central,Medium,1,5,1,0,75,10.98,25.9,598.37
+2025-01-19,Groceries,South,Small,1,6,1,0,94,9.18,17.3,732.8
+2025-01-20,Groceries,West,Large,1,0,0,0,153,10.67,18.0,1290.02
+2025-01-21,Home & Garden,West,Large,1,1,0,0,102,12.86,19.6,1023.62
+2025-01-22,Electronics,East,Medium,1,2,0,1,86,12.75,26.1,937.64
+2025-01-23,Sports,East,Medium,1,3,0,1,57,10.93,3.0,756.63
+2025-01-24,Sports,West,Large,1,4,0,0,35,9.76,2.3,376.72
+2025-01-25,Sports,East,Medium,1,5,1,1,58,9.15,15.9,553.89
+2025-01-26,Home & Garden,South,Small,1,6,1,1,38,11.75,29.1,481.02
+2025-01-27,Sports,North,Large,1,0,0,1,56,10.57,1.7,791.36
+2025-01-28,Sports,South,Medium,1,1,0,1,63,9.16,12.1,657.74
+2025-01-29,Electronics,West,Large,1,2,0,1,147,8.14,23.1,1132.94
+2025-01-30,Sports,West,Medium,1,3,0,0,59,8.6,9.6,447.88
+2025-01-31,Sports,East,Medium,1,4,0,0,67,9.51,13.8,550.48
+2025-02-01,Sports,North,Small,2,5,1,1,27,11.22,10.2,394.3
+2025-02-02,Sports,South,Medium,2,6,1,1,69,8.65,7.5,658.16
+2025-02-03,Sports,South,Large,2,0,0,1,57,10.92,22.9,583.72
+2025-02-04,Sports,North,Small,2,1,0,0,26,12.89,16.0,276.23
+2025-02-05,Home & Garden,Central,Medium,2,2,0,1,108,8.94,16.0,997.19
+2025-02-06,Sports,West,Large,2,3,0,0,78,8.19,16.7,582.23
+2025-02-07,Sports,South,Medium,2,4,0,0,46,8.53,16.0,354.54
+2025-02-08,Clothing,West,Large,2,5,1,1,60,12.96,24.6,680.9
+2025-02-09,Clothing,North,Large,2,6,1,1,124,9.52,3.4,1248.41
+2025-02-10,Sports,South,Small,2,0,0,1,46,9.47,16.8,446.31
+2025-02-11,Clothing,West,Large,2,1,0,0,77,11.79,3.4,809.96
+2025-02-12,Electronics,Central,Small,2,2,0,1,88,8.51,27.1,716.47
+2025-02-13,Clothing,East,Small,2,3,0,1,62,12.08,2.9,829.96
+2025-02-14,Groceries,North,Large,2,4,0,0,201,10.1,11.0,1774.78
+2025-02-15,Sports,East,Large,2,5,1,1,73,9.89,2.1,880.82
+2025-02-16,Sports,North,Medium,2,6,1,1,53,9.73,1.2,681.5
+2025-02-17,Clothing,West,Small,2,0,0,0,72,7.88,9.5,552.11
+2025-02-18,Home & Garden,North,Large,2,1,0,1,126,8.9,24.1,950.2
+2025-02-19,Clothing,South,Medium,2,2,0,0,72,9.33,19.9,541.56
+2025-02-20,Clothing,West,Small,2,3,0,0,21,9.31,5.5,176.23
+2025-02-21,Clothing,Central,Large,2,4,0,1,82,10.61,3.3,1005.86
+2025-02-22,Sports,North,Large,2,5,1,1,54,10.39,3.8,645.66
+2025-02-23,Sports,East,Medium,2,6,1,1,47,9.56,5.9,584.9
+2025-02-24,Groceries,West,Large,2,0,0,0,161,10.95,20.1,1405.72
+2025-02-25,Groceries,West,Medium,2,1,0,1,160,11.71,4.0,1981.7
+2025-02-26,Sports,East,Small,2,2,0,1,40,9.31,29.7,455.81
+2025-02-27,Groceries,West,Medium,2,3,0,0,145,8.05,10.3,1128.36
+2025-02-28,Groceries,Central,Medium,2,4,0,1,118,11.34,3.1,1392.21
+2025-03-01,Home & Garden,Central,Large,3,5,1,0,66,8.41,18.6,454.58
+2025-03-02,Groceries,East,Medium,3,6,1,0,159,9.25,29.0,1057.03
+2025-03-03,Electronics,North,Large,3,0,0,0,181,9.98,4.7,1638.0
+2025-03-04,Clothing,North,Small,3,1,0,1,44,8.9,27.0,395.78
+2025-03-05,Sports,North,Small,3,2,0,0,39,9.67,4.0,337.55
+2025-03-06,Sports,Central,Large,3,3,0,0,68,10.32,18.9,617.71
+2025-03-07,Sports,Central,Small,3,4,0,1,29,9.36,23.8,371.24
+2025-03-08,Clothing,South,Medium,3,5,1,1,100,9.17,25.3,772.82
+2025-03-09,Electronics,North,Medium,3,6,1,1,63,11.08,19.2,821.99
+2025-03-10,Sports,North,Medium,3,0,0,1,55,8.11,3.7,627.13
+2025-03-11,Home & Garden,East,Medium,3,1,0,0,68,9.6,5.9,596.0
+2025-03-12,Groceries,East,Small,3,2,0,0,109,9.97,9.0,1072.83
+2025-03-13,Clothing,Central,Small,3,3,0,1,32,7.63,12.5,390.66
+2025-03-14,Clothing,Central,Large,3,4,0,1,59,8.35,12.3,585.22
+2025-03-15,Groceries,East,Small,3,5,1,1,123,8.0,21.3,919.24
+2025-03-16,Groceries,East,Medium,3,6,1,1,166,8.23,4.7,1504.41
+2025-03-17,Electronics,Central,Small,3,0,0,0,89,10.89,11.5,840.26
+2025-03-18,Home & Garden,East,Medium,3,1,0,1,97,9.17,5.1,966.28
+2025-03-19,Clothing,Central,Small,3,2,0,1,26,11.31,16.8,424.45
+2025-03-20,Home & Garden,East,Medium,3,3,0,1,97,10.18,29.2,893.68
+2025-03-21,Groceries,Central,Large,3,4,0,0,244,10.32,26.9,1875.77
+2025-03-22,Electronics,East,Large,3,5,1,0,143,13.08,19.3,1405.8
+2025-03-23,Clothing,South,Medium,3,6,1,0,49,13.41,9.6,553.71
+2025-03-24,Clothing,Central,Medium,3,0,0,0,66,9.27,15.4,530.37
+2025-03-25,Electronics,Central,Medium,3,1,0,0,97,9.13,6.0,779.11
+2025-03-26,Clothing,South,Small,3,2,0,0,50,9.26,8.1,403.68
+2025-03-27,Sports,West,Large,3,3,0,1,59,10.66,15.2,741.47
+2025-03-28,Electronics,North,Small,3,4,0,0,61,11.31,2.0,637.02
+2025-03-29,Groceries,South,Medium,3,5,1,0,139,10.43,18.4,1154.08
+2025-03-30,Sports,Central,Medium,3,6,1,1,17,12.03,1.4,328.44
+2025-03-31,Electronics,West,Large,3,0,0,0,161,7.8,10.5,1221.73
+2025-04-01,Sports,West,Large,4,1,0,0,54,9.68,18.5,398.05
+2025-04-02,Groceries,North,Medium,4,2,0,1,204,8.83,8.3,1745.24
+2025-04-03,Home & Garden,South,Small,4,3,0,0,40,9.6,26.7,301.35
+2025-04-04,Clothing,North,Large,4,4,0,1,126,8.52,2.9,1317.07
+2025-04-05,Home & Garden,South,Medium,4,5,1,0,80,10.99,23.4,706.59
+2025-04-06,Electronics,North,Large,4,6,1,1,121,9.58,1.8,1334.63
+2025-04-07,Electronics,East,Small,4,0,0,0,81,9.84,8.3,709.98
+2025-04-08,Groceries,Central,Large,4,1,0,1,212,12.14,20.9,2081.91
+2025-04-09,Clothing,Central,Large,4,2,0,0,80,10.74,28.9,607.37
+2025-04-10,Home & Garden,North,Small,4,3,0,1,39,10.17,27.8,485.58
+2025-04-11,Groceries,East,Large,4,4,0,1,325,8.26,6.4,2883.4
+2025-04-12,Electronics,East,Large,4,5,1,1,168,10.82,7.7,1972.23
+2025-04-13,Groceries,West,Medium,4,6,1,1,139,9.59,16.2,1311.6
+2025-04-14,Clothing,West,Small,4,0,0,1,38,11.41,17.9,400.0
+2025-04-15,Groceries,East,Medium,4,1,0,0,149,9.26,4.4,1470.88
+2025-04-16,Groceries,East,Medium,4,2,0,0,171,10.34,11.0,1485.7
+2025-04-17,Home & Garden,East,Medium,4,3,0,1,102,9.47,11.3,970.67
+2025-04-18,Groceries,North,Small,4,4,0,1,119,9.18,6.1,1136.47
+2025-04-19,Home & Garden,North,Large,4,5,1,1,45,11.3,1.0,662.99
+2025-04-20,Sports,North,Medium,4,6,1,0,66,10.39,2.0,730.0
+2025-04-21,Clothing,West,Medium,4,0,0,0,59,9.38,29.7,365.04
+2025-04-22,Clothing,North,Small,4,1,0,1,44,9.23,26.7,407.94
+2025-04-23,Home & Garden,North,Large,4,2,0,0,112,11.17,28.1,834.63
+2025-04-24,Home & Garden,East,Medium,4,3,0,0,146,9.16,21.3,1046.13
+2025-04-25,Groceries,North,Small,4,4,0,1,95,11.23,26.1,974.74
+2025-04-26,Home & Garden,Central,Large,4,5,1,1,117,8.24,16.2,961.58
+2025-04-27,Electronics,East,Small,4,6,1,1,139,8.7,14.7,1243.54
+2025-04-28,Electronics,East,Small,4,0,0,1,116,9.03,25.6,966.66
+2025-04-29,Sports,South,Large,4,1,0,0,76,12.15,2.0,881.82
+2025-04-30,Clothing,West,Small,4,2,0,1,44,8.83,7.5,574.54
+2025-05-01,Home & Garden,West,Medium,5,3,0,1,10,11.62,6.0,256.45
+2025-05-02,Groceries,East,Large,5,4,0,0,267,10.96,11.6,2603.97
+2025-05-03,Groceries,North,Small,5,5,1,0,63,11.07,24.6,539.29
+2025-05-04,Groceries,Central,Large,5,6,1,1,116,11.33,7.8,1347.14
+2025-05-05,Home & Garden,Central,Small,5,0,0,1,68,11.1,18.7,803.3
+2025-05-06,Home & Garden,Central,Large,5,1,0,1,56,7.69,23.0,476.5
+2025-05-07,Electronics,West,Small,5,2,0,1,103,7.7,23.8,819.69
+2025-05-08,Sports,Central,Large,5,3,0,0,80,11.2,23.8,676.77
+2025-05-09,Sports,South,Medium,5,4,0,0,72,12.4,23.0,640.2
+2025-05-10,Groceries,West,Medium,5,5,1,0,237,9.25,8.2,1856.42
+2025-05-11,Electronics,South,Small,5,6,1,0,60,10.22,0.3,679.06
+2025-05-12,Electronics,South,Large,5,0,0,0,164,11.39,0.1,1767.34
+2025-05-13,Sports,South,Small,5,1,0,0,43,8.08,2.7,363.35
+2025-05-14,Groceries,East,Small,5,2,0,0,131,8.1,22.9,887.71
+2025-05-15,Electronics,South,Small,5,3,0,0,96,10.03,9.3,878.3
+2025-05-16,Home & Garden,East,Medium,5,4,0,0,114,9.53,16.7,861.19
+2025-05-17,Groceries,East,Small,5,5,1,0,94,13.23,0.5,1153.66
+2025-05-18,Home & Garden,South,Small,5,6,1,1,64,8.71,8.1,650.6
+2025-05-19,Home & Garden,North,Medium,5,0,0,1,44,12.29,21.9,618.01
+2025-05-20,Clothing,East,Large,5,1,0,0,94,11.07,19.7,860.47
+2025-05-21,Groceries,West,Medium,5,2,0,0,159,11.27,6.7,1665.94
+2025-05-22,Clothing,East,Medium,5,3,0,1,42,9.28,29.4,477.77
+2025-05-23,Electronics,East,Medium,5,4,0,1,90,10.41,9.3,1091.78
+2025-05-24,Electronics,East,Small,5,5,1,0,99,10.67,23.6,746.29
+2025-05-25,Sports,East,Large,5,6,1,0,73,9.07,15.6,531.3
+2025-05-26,Groceries,West,Medium,5,0,0,0,165,8.73,11.0,1327.45
+2025-05-27,Sports,Central,Large,5,1,0,0,79,8.24,23.7,524.38
+2025-05-28,Electronics,West,Large,5,2,0,0,146,9.44,25.9,1059.69
+2025-05-29,Sports,East,Small,5,3,0,1,51,10.35,7.9,643.62
+2025-05-30,Home & Garden,West,Medium,5,4,0,1,72,9.9,22.6,669.49
+2025-05-31,Home & Garden,Central,Small,5,5,1,0,81,9.18,26.5,540.23
+2025-06-01,Clothing,East,Medium,6,6,1,0,46,8.01,27.7,287.84
+2025-06-02,Electronics,South,Medium,6,0,0,1,79,9.2,3.9,931.5
+2025-06-03,Clothing,West,Medium,6,1,0,1,30,8.64,2.8,374.13
+2025-06-04,Home & Garden,East,Large,6,2,0,1,76,9.35,4.7,847.53
+2025-06-05,Groceries,Central,Large,6,3,0,0,207,10.36,21.1,1672.2
+2025-06-06,Home & Garden,Central,Large,6,4,0,1,104,11.18,20.0,949.55
+2025-06-07,Groceries,North,Small,6,5,1,1,124,8.29,6.3,1214.11
+2025-06-08,Sports,East,Small,6,6,1,1,45,8.71,11.6,514.05
+2025-06-09,Groceries,North,Small,6,0,0,1,90,8.62,16.2,771.41
+2025-06-10,Sports,Central,Medium,6,1,0,0,28,8.29,1.8,234.18
+2025-06-11,Clothing,South,Medium,6,2,0,0,60,9.42,11.2,503.89
+2025-06-12,Sports,Central,Large,6,3,0,1,65,8.58,16.3,563.98
+2025-06-13,Electronics,Central,Large,6,4,0,1,105,9.14,27.6,839.33
+2025-06-14,Electronics,South,Medium,6,5,1,1,100,10.7,22.1,1083.39
+2025-06-15,Home & Garden,South,Medium,6,6,1,0,60,10.51,15.9,559.28
+2025-06-16,Sports,East,Medium,6,0,0,0,25,12.54,12.3,273.5
+2025-06-17,Sports,Central,Medium,6,1,0,0,47,10.08,22.1,400.11
+2025-06-18,Sports,East,Small,6,2,0,1,41,9.36,13.1,461.28
+2025-06-19,Home & Garden,Central,Small,6,3,0,1,67,8.84,7.3,673.28
+2025-06-20,Groceries,North,Small,6,4,0,1,59,12.07,18.5,662.7
+2025-06-21,Home & Garden,Central,Large,6,5,1,1,145,9.42,2.8,1327.91
+2025-06-22,Clothing,South,Medium,6,6,1,1,72,10.71,11.3,833.39
+2025-06-23,Groceries,North,Large,6,0,0,1,175,11.4,20.4,1703.72
+2025-06-24,Clothing,North,Medium,6,1,0,1,65,9.46,9.9,754.51
+2025-06-25,Home & Garden,Central,Large,6,2,0,0,115,12.39,20.0,1086.88
+2025-06-26,Home & Garden,East,Medium,6,3,0,0,42,10.5,7.1,456.95
+2025-06-27,Electronics,North,Medium,6,4,0,0,64,12.1,15.3,661.05
+2025-06-28,Clothing,East,Medium,6,5,1,0,41,9.83,28.4,323.41
+2025-06-29,Home & Garden,East,Large,6,6,1,1,103,10.95,8.5,1158.0
+2025-06-30,Clothing,East,Large,6,0,0,0,68,9.66,0.7,611.95
+2025-07-01,Electronics,South,Small,7,1,0,0,99,10.31,4.4,908.42
+2025-07-02,Clothing,North,Medium,7,2,0,1,25,10.99,12.8,440.98
+2025-07-03,Clothing,West,Medium,7,3,0,1,81,8.19,5.8,886.22
+2025-07-04,Home & Garden,South,Medium,7,4,0,1,72,9.3,4.7,831.83
+2025-07-05,Groceries,East,Large,7,5,1,1,169,10.23,10.7,1763.07
+2025-07-06,Home & Garden,South,Small,7,6,1,0,5,11.08,24.6,50.0
+2025-07-07,Home & Garden,East,Medium,7,0,0,0,65,11.57,4.6,757.68
+2025-07-08,Home & Garden,East,Medium,7,1,0,1,58,9.82,26.2,483.64
+2025-07-09,Sports,North,Large,7,2,0,1,52,9.17,25.2,494.23
+2025-07-10,Groceries,South,Small,7,3,0,0,99,11.51,24.5,929.94
+2025-07-11,Groceries,West,Medium,7,4,0,0,115,9.58,14.9,1043.42
+2025-07-12,Groceries,Central,Small,7,5,1,1,82,11.37,20.5,908.04
+2025-07-13,Electronics,West,Small,7,6,1,0,45,8.75,10.2,383.18
+2025-07-14,Clothing,East,Medium,7,0,0,1,57,8.18,20.8,448.06
+2025-07-15,Groceries,East,Medium,7,1,0,0,113,9.74,0.3,1127.36
+2025-07-16,Sports,West,Large,7,2,0,0,53,9.46,28.8,383.52
+2025-07-17,Clothing,North,Medium,7,3,0,1,47,8.45,17.8,432.35
+2025-07-18,Clothing,South,Medium,7,4,0,1,43,11.81,29.1,425.29
+2025-07-19,Clothing,North,Small,7,5,1,1,23,13.17,15.8,321.14
+2025-07-20,Clothing,West,Medium,7,6,1,1,42,11.49,6.4,584.3
+2025-07-21,Sports,East,Small,7,0,0,1,30,9.4,16.6,409.81
+2025-07-22,Sports,Central,Medium,7,1,0,0,38,12.33,16.4,377.88
+2025-07-23,Clothing,Central,Large,7,2,0,0,64,9.38,7.9,522.27
+2025-07-24,Sports,East,Large,7,3,0,1,47,9.3,24.7,467.09
+2025-07-25,Electronics,East,Small,7,4,0,1,50,8.36,16.0,560.58
+2025-07-26,Electronics,South,Small,7,5,1,1,67,11.72,16.9,737.93
+2025-07-27,Sports,East,Large,7,6,1,1,50,12.37,21.5,554.57
+2025-07-28,Sports,South,Large,7,0,0,0,66,12.08,28.9,538.69
+2025-07-29,Home & Garden,East,Large,7,1,0,1,119,12.45,6.6,1548.99
+2025-07-30,Clothing,East,Large,7,2,0,1,93,8.71,6.3,856.8
+2025-07-31,Home & Garden,Central,Medium,7,3,0,0,87,8.67,5.5,745.7
+2025-08-01,Groceries,West,Medium,8,4,0,1,109,7.97,2.1,1024.39
+2025-08-02,Sports,West,Small,8,5,1,1,25,10.33,29.0,305.74
+2025-08-03,Home & Garden,West,Large,8,6,1,1,78,8.28,19.6,668.13
+2025-08-04,Sports,West,Medium,8,0,0,1,19,10.85,12.0,370.33
+2025-08-05,Electronics,North,Medium,8,1,0,1,73,9.17,9.0,655.04
+2025-08-06,Home & Garden,West,Medium,8,2,0,0,50,11.46,16.8,506.74
+2025-08-07,Clothing,East,Medium,8,3,0,1,42,11.04,21.9,550.57
+2025-08-08,Electronics,South,Small,8,4,0,0,59,11.72,4.4,644.74
+2025-08-09,Clothing,South,Medium,8,5,1,0,46,8.49,25.4,314.7
+2025-08-10,Clothing,North,Large,8,6,1,0,53,8.06,18.5,393.31
+2025-08-11,Clothing,North,Large,8,0,0,0,55,11.45,9.4,607.62
+2025-08-12,Electronics,West,Large,8,1,0,0,104,8.01,1.5,857.08
+2025-08-13,Sports,Central,Large,8,2,0,1,49,9.25,15.9,488.74
+2025-08-14,Clothing,East,Large,8,3,0,0,50,10.77,27.7,372.29
+2025-08-15,Home & Garden,Central,Small,8,4,0,1,34,10.55,19.7,442.12
+2025-08-16,Groceries,East,Medium,8,5,1,1,75,10.74,5.9,897.13
+2025-08-17,Clothing,North,Large,8,6,1,0,82,9.18,24.0,574.57
+2025-08-18,Sports,West,Large,8,0,0,1,30,8.95,16.0,375.34
+2025-08-19,Home & Garden,West,Medium,8,1,0,0,56,10.45,3.8,553.11
+2025-08-20,Clothing,West,Medium,8,2,0,0,30,10.81,0.4,353.61
+2025-08-21,Groceries,North,Medium,8,3,0,1,91,10.79,1.8,1012.53
+2025-08-22,Electronics,North,Small,8,4,0,0,55,12.0,12.5,592.35
+2025-08-23,Groceries,South,Large,8,5,1,1,155,9.68,29.0,1222.08
+2025-08-24,Sports,West,Medium,8,6,1,0,15,10.38,23.8,123.65
+2025-08-25,Clothing,South,Medium,8,0,0,1,58,10.58,27.6,476.39
+2025-08-26,Home & Garden,West,Medium,8,1,0,0,65,8.57,23.2,479.06
+2025-08-27,Clothing,West,Medium,8,2,0,1,57,11.71,3.8,740.02
+2025-08-28,Home & Garden,South,Small,8,3,0,1,43,11.52,1.8,615.83
+2025-08-29,Electronics,South,Large,8,4,0,0,166,10.04,0.5,1625.68
+2025-08-30,Home & Garden,North,Large,8,5,1,1,59,9.6,7.3,740.45
+2025-08-31,Electronics,South,Small,8,6,1,0,62,9.8,3.4,625.36
+2025-09-01,Clothing,North,Large,9,0,0,0,38,8.51,2.9,337.87
+2025-09-02,Electronics,South,Small,9,1,0,0,44,11.09,8.8,468.09
+2025-09-03,Groceries,North,Large,9,2,0,1,88,10.93,6.3,1039.82
+2025-09-04,Sports,South,Large,9,3,0,0,42,8.5,28.8,271.06
+2025-09-05,Groceries,North,Large,9,4,0,0,117,10.6,21.7,980.83
+2025-09-06,Groceries,South,Small,9,5,1,0,71,8.92,15.8,524.58
+2025-09-07,Home & Garden,East,Large,9,6,1,0,70,9.61,8.2,612.51
+2025-09-08,Sports,West,Medium,9,0,0,0,31,8.93,17.4,258.82
+2025-09-09,Sports,North,Large,9,1,0,1,32,10.54,0.5,460.25
+2025-09-10,Home & Garden,East,Medium,9,2,0,1,48,8.29,4.0,487.81
+2025-09-11,Home & Garden,Central,Large,9,3,0,0,54,10.73,13.9,509.86
+2025-09-12,Home & Garden,South,Medium,9,4,0,1,76,8.96,26.7,642.43
+2025-09-13,Home & Garden,North,Medium,9,5,1,1,44,9.5,0.5,544.8
+2025-09-14,Groceries,West,Small,9,6,1,0,47,10.38,13.6,437.98
+2025-09-15,Groceries,North,Large,9,0,0,0,160,9.02,3.5,1502.23
+2025-09-16,Home & Garden,Central,Small,9,1,0,0,31,12.73,16.7,312.27
+2025-09-17,Clothing,South,Large,9,2,0,1,39,8.88,20.6,379.16
+2025-09-18,Home & Garden,North,Medium,9,3,0,0,33,12.33,2.3,374.51
+2025-09-19,Groceries,West,Small,9,4,0,0,34,11.48,28.7,302.62
+2025-09-20,Groceries,East,Large,9,5,1,0,113,12.75,21.1,1119.75
+2025-09-21,Electronics,East,Large,9,6,1,0,141,9.06,24.9,938.04
+2025-09-22,Electronics,North,Large,9,0,0,1,55,10.64,2.4,739.3
+2025-09-23,Clothing,South,Large,9,1,0,0,39,12.28,0.9,482.33
+2025-09-24,Electronics,East,Large,9,2,0,1,73,8.54,29.0,644.42
+2025-09-25,Groceries,Central,Medium,9,3,0,1,87,8.07,4.0,793.63
+2025-09-26,Home & Garden,Central,Medium,9,4,0,1,35,11.87,3.6,574.26
+2025-09-27,Home & Garden,South,Large,9,5,1,1,89,8.83,8.1,905.41
+2025-09-28,Home & Garden,West,Large,9,6,1,1,66,11.78,22.2,682.96
+2025-09-29,Electronics,North,Large,9,0,0,0,95,7.97,10.5,723.41
+2025-09-30,Home & Garden,South,Small,9,1,0,1,35,9.54,13.8,487.11
+2025-10-01,Clothing,South,Large,10,2,0,1,39,8.95,24.0,334.11
+2025-10-02,Sports,East,Large,10,3,0,0,17,8.33,15.3,136.25
+2025-10-03,Groceries,West,Medium,10,4,0,1,92,11.92,27.5,843.95
+2025-10-04,Home & Garden,North,Large,10,5,1,1,76,8.83,23.9,675.79
+2025-10-05,Clothing,South,Large,10,6,1,1,48,10.59,10.0,580.88
+2025-10-06,Home & Garden,South,Large,10,0,0,1,59,11.0,21.8,610.72
+2025-10-07,Clothing,East,Small,10,1,0,1,37,9.48,10.2,394.46
+2025-10-08,Clothing,East,Medium,10,2,0,1,35,10.94,21.8,433.76
+2025-10-09,Home & Garden,Central,Large,10,3,0,1,59,8.23,18.7,598.89
+2025-10-10,Groceries,West,Large,10,4,0,0,117,10.42,26.0,888.43
+2025-10-11,Home & Garden,South,Small,10,5,1,0,18,7.99,6.3,149.25
+2025-10-12,Clothing,North,Large,10,6,1,0,23,12.76,25.7,214.73
+2025-10-13,Sports,Central,Medium,10,0,0,1,32,10.15,28.4,399.22
+2025-10-14,Clothing,West,Medium,10,1,0,1,37,11.63,2.0,528.56
+2025-10-15,Electronics,North,Large,10,2,0,1,97,9.34,0.9,1088.91
+2025-10-16,Electronics,Central,Large,10,3,0,1,56,11.73,9.5,725.37
+2025-10-17,Sports,South,Medium,10,4,0,1,36,11.13,1.9,536.69
+2025-10-18,Clothing,South,Large,10,5,1,1,59,10.62,7.6,710.38
+2025-10-19,Clothing,West,Large,10,6,1,0,46,12.63,12.3,508.84
+2025-10-20,Electronics,East,Medium,10,0,0,0,64,9.35,19.6,540.19
+2025-10-21,Electronics,West,Medium,10,1,0,1,59,8.12,12.0,527.92
+2025-10-22,Sports,South,Medium,10,2,0,0,43,9.37,26.2,292.63
+2025-10-23,Electronics,North,Medium,10,3,0,1,89,9.31,14.7,827.83
+2025-10-24,Home & Garden,Central,Large,10,4,0,1,69,9.28,18.0,561.25
+2025-10-25,Sports,South,Medium,10,5,1,1,28,11.31,6.1,431.27
+2025-10-26,Home & Garden,South,Small,10,6,1,1,21,10.05,16.9,391.39
+2025-10-27,Groceries,East,Small,10,0,0,0,71,9.63,8.4,673.94
+2025-10-28,Sports,South,Large,10,1,0,0,44,9.24,29.0,299.43
+2025-10-29,Electronics,West,Medium,10,2,0,1,59,9.67,24.4,577.51
+2025-10-30,Home & Garden,Central,Large,10,3,0,0,39,12.46,26.8,349.53
+2025-10-31,Clothing,West,Large,10,4,0,1,81,8.71,11.5,682.14
+2025-11-01,Sports,North,Large,11,5,1,1,36,8.9,18.8,380.43
+2025-11-02,Home & Garden,West,Medium,11,6,1,0,35,11.02,24.4,305.97
+2025-11-03,Home & Garden,West,Medium,11,0,0,0,31,12.05,27.7,267.16
+2025-11-04,Clothing,South,Small,11,1,0,1,22,9.71,18.5,342.13
+2025-11-05,Home & Garden,East,Large,11,2,0,1,80,8.4,4.5,752.54
+2025-11-06,Groceries,North,Large,11,3,0,1,135,10.06,13.8,1217.09
+2025-11-07,Sports,West,Medium,11,4,0,1,44,9.89,21.7,372.64
+2025-11-08,Electronics,Central,Medium,11,5,1,0,68,8.9,13.6,551.8
+2025-11-09,Electronics,South,Large,11,6,1,1,74,12.71,28.0,749.22
+2025-11-10,Electronics,Central,Medium,11,0,0,1,35,11.02,19.3,484.79
+2025-11-11,Groceries,North,Small,11,1,0,0,48,12.47,0.6,556.27
+2025-11-12,Groceries,South,Medium,11,2,0,0,144,10.2,18.8,1246.53
+2025-11-13,Sports,Central,Small,11,3,0,0,25,9.6,21.9,181.02
+2025-11-14,Electronics,Central,Medium,11,4,0,0,88,9.63,14.3,789.86
+2025-11-15,Electronics,Central,Large,11,5,1,0,56,10.24,2.8,553.63
+2025-11-16,Home & Garden,East,Small,11,6,1,0,33,10.75,21.3,309.12
+2025-11-17,Clothing,North,Medium,11,0,0,0,38,10.1,16.6,354.61
+2025-11-18,Sports,West,Small,11,1,0,0,17,12.77,11.9,184.22
+2025-11-19,Sports,West,Small,11,2,0,1,21,10.07,28.6,237.14
+2025-11-20,Sports,South,Medium,11,3,0,0,38,8.77,12.3,301.17
+2025-11-21,Sports,West,Large,11,4,0,1,22,12.88,21.0,364.77
+2025-11-22,Clothing,South,Medium,11,5,1,1,55,11.74,3.9,768.6
+2025-11-23,Home & Garden,East,Small,11,6,1,0,33,8.46,9.4,282.93
+2025-11-24,Electronics,East,Medium,11,0,0,1,83,9.58,6.4,816.97
+2025-11-25,Clothing,Central,Large,11,1,0,1,83,9.94,8.1,942.96
+2025-11-26,Groceries,East,Medium,11,2,0,0,81,10.17,1.1,813.58
+2025-11-27,Sports,East,Small,11,3,0,1,16,7.72,15.9,266.71
+2025-11-28,Clothing,East,Small,11,4,0,0,24,10.9,18.5,222.18
+2025-11-29,Home & Garden,North,Medium,11,5,1,0,48,9.99,28.7,377.93
+2025-11-30,Clothing,West,Medium,11,6,1,1,38,9.62,21.4,466.6
+2025-12-01,Groceries,North,Small,12,0,0,0,57,9.47,14.3,482.91
+2025-12-02,Home & Garden,South,Large,12,1,0,1,66,11.63,16.1,716.73
+2025-12-03,Groceries,South,Large,12,2,0,0,107,12.47,27.0,928.78
+2025-12-04,Clothing,West,Medium,12,3,0,0,23,7.69,9.0,185.64
+2025-12-05,Electronics,North,Large,12,4,0,1,89,9.52,5.6,852.26
+2025-12-06,Home & Garden,Central,Medium,12,5,1,1,64,10.52,29.1,626.31
+2025-12-07,Home & Garden,East,Medium,12,6,1,1,60,8.28,8.7,528.32
+2025-12-08,Groceries,East,Small,12,0,0,1,76,12.39,13.3,848.83
+2025-12-09,Sports,North,Large,12,1,0,0,47,11.25,5.8,534.98
+2025-12-10,Home & Garden,West,Small,12,2,0,0,33,10.48,25.9,274.33
+2025-12-11,Electronics,South,Small,12,3,0,1,60,11.41,22.7,693.36
+2025-12-12,Electronics,West,Small,12,4,0,0,55,10.06,0.5,573.59
+2025-12-13,Groceries,North,Medium,12,5,1,0,69,10.33,29.8,489.03
+2025-12-14,Clothing,North,Small,12,6,1,1,37,10.1,26.1,436.74
+2025-12-15,Clothing,East,Medium,12,0,0,0,54,10.66,8.3,504.28
+2025-12-16,Groceries,North,Small,12,1,0,0,42,10.31,24.1,316.13
+2025-12-17,Sports,South,Small,12,2,0,1,31,10.03,4.7,478.15
+2025-12-18,Clothing,North,Large,12,3,0,1,82,8.27,28.9,589.54
+2025-12-19,Groceries,North,Small,12,4,0,1,53,9.41,22.5,548.61
+2025-12-20,Home & Garden,East,Large,12,5,1,1,55,11.49,19.6,706.77
+2025-12-21,Groceries,South,Small,12,6,1,0,96,7.77,8.0,761.65
+2025-12-22,Electronics,Central,Medium,12,0,0,0,54,13.16,10.5,603.28
+2025-12-23,Electronics,East,Medium,12,1,0,0,59,11.57,18.9,590.36
+2025-12-24,Clothing,East,Large,12,2,0,0,49,11.61,10.9,539.62
+2025-12-25,Clothing,North,Large,12,3,0,1,35,7.83,7.5,473.9
+2025-12-26,Electronics,North,Large,12,4,0,1,78,10.42,18.9,772.17
+2025-12-27,Electronics,West,Large,12,5,1,0,121,8.89,8.2,976.88
+2025-12-28,Groceries,West,Small,12,6,1,0,77,12.07,4.1,895.07
+2025-12-29,Groceries,West,Medium,12,0,0,1,75,9.62,0.5,977.04
+2025-12-30,Groceries,East,Medium,12,1,0,1,91,11.38,27.0,859.91
+2025-12-31,Groceries,West,Large,12,2,0,1,97,10.49,20.1,997.23
+2026-01-01,Home & Garden,North,Large,1,3,0,0,54,9.79,5.0,541.45
+2026-01-02,Home & Garden,North,Large,1,4,0,0,101,8.84,3.7,952.3
+2026-01-03,Home & Garden,North,Small,1,5,1,1,45,9.16,3.4,577.39
+2026-01-04,Sports,South,Small,1,6,1,0,51,8.29,27.2,331.81
+2026-01-05,Groceries,Central,Large,1,0,0,1,127,10.47,11.8,1436.47
+2026-01-06,Home & Garden,West,Medium,1,1,0,1,63,9.43,6.8,596.13
+2026-01-07,Electronics,West,Large,1,2,0,0,122,8.72,23.1,903.5
+2026-01-08,Home & Garden,Central,Small,1,3,0,0,42,8.55,23.5,284.38
+2026-01-09,Home & Garden,North,Small,1,4,0,0,29,10.35,18.4,232.3
+2026-01-10,Sports,Central,Large,1,5,1,0,69,8.44,21.0,468.21
+2026-01-11,Clothing,Central,Small,1,6,1,0,33,8.86,21.0,230.25
+2026-01-12,Groceries,North,Small,1,0,0,0,50,8.97,22.1,372.58
+2026-01-13,Sports,North,Small,1,1,0,0,23,10.2,4.9,250.97
+2026-01-14,Clothing,North,Medium,1,2,0,1,46,8.94,0.4,588.56
+2026-01-15,Sports,North,Small,1,3,0,0,45,8.58,5.3,360.29
+2026-01-16,Home & Garden,North,Large,1,4,0,1,130,11.62,20.6,1296.84
+2026-01-17,Electronics,Central,Small,1,5,1,0,61,10.53,20.0,579.34
+2026-01-18,Groceries,Central,Medium,1,6,1,0,122,11.43,23.3,1051.31
+2026-01-19,Groceries,North,Large,1,0,0,0,112,9.95,20.3,920.09
+2026-01-20,Home & Garden,South,Large,1,1,0,0,107,7.72,22.1,706.24
+2026-01-21,Groceries,West,Large,1,2,0,0,99,10.73,9.7,927.15
+2026-01-22,Clothing,East,Large,1,3,0,1,51,11.43,21.4,583.88
+2026-01-23,Groceries,Central,Small,1,4,0,0,75,11.65,4.6,842.78
+2026-01-24,Electronics,North,Small,1,5,1,0,42,12.57,23.2,389.15
+2026-01-25,Sports,West,Large,1,6,1,0,53,11.18,5.5,588.04
+2026-01-26,Sports,West,Small,1,0,0,0,36,9.65,10.5,294.74
+2026-01-27,Clothing,South,Large,1,1,0,0,79,10.35,24.5,641.93
+2026-01-28,Electronics,North,Large,1,2,0,0,76,9.62,12.4,597.82
+2026-01-29,Clothing,South,Medium,1,3,0,0,68,11.51,18.6,675.65
+2026-01-30,Clothing,South,Medium,1,4,0,0,44,11.16,27.5,361.99
+2026-01-31,Groceries,Central,Medium,1,5,1,1,116,11.13,4.8,1373.72
+2026-02-01,Sports,North,Small,2,6,1,0,21,10.52,13.4,203.69
+2026-02-02,Groceries,South,Small,2,0,0,0,142,9.84,27.5,955.25
+2026-02-03,Groceries,West,Small,2,1,0,1,71,8.86,16.3,647.64
+2026-02-04,Electronics,South,Large,2,2,0,0,132,10.71,8.7,1294.86
+2026-02-05,Sports,South,Large,2,3,0,0,70,8.65,16.7,510.68
+2026-02-06,Sports,West,Large,2,4,0,1,93,8.9,16.1,820.02
+2026-02-07,Groceries,West,Medium,2,5,1,1,95,11.48,17.1,964.21
+2026-02-08,Electronics,North,Small,2,6,1,0,74,11.6,25.1,649.42
+2026-02-09,Groceries,North,Large,2,0,0,1,183,11.59,6.6,2180.43
+2026-02-10,Home & Garden,Central,Medium,2,1,0,0,109,10.36,17.7,871.82
+2026-02-11,Groceries,Central,Medium,2,2,0,1,132,10.66,21.3,1134.08
+2026-02-12,Clothing,Central,Medium,2,3,0,0,86,7.77,24.9,555.6
+2026-02-13,Clothing,West,Large,2,4,0,1,59,10.86,27.0,675.86
+2026-02-14,Clothing,West,Medium,2,5,1,0,71,9.27,7.5,604.88
+2026-02-15,Sports,East,Large,2,6,1,0,58,9.72,5.7,569.23
+2026-02-16,Electronics,North,Large,2,0,0,1,41,13.26,6.8,585.14
+2026-02-17,Sports,Central,Medium,2,1,0,1,40,11.5,19.5,549.13
+2026-02-18,Sports,North,Large,2,2,0,1,55,11.65,9.5,725.92
+2026-02-19,Electronics,West,Medium,2,3,0,0,66,10.57,27.2,493.57
+2026-02-20,Sports,Central,Small,2,4,0,0,31,10.45,24.7,246.14
+2026-02-21,Clothing,West,Small,2,5,1,0,20,11.45,14.1,190.77
+2026-02-22,Electronics,East,Small,2,6,1,1,54,9.09,7.5,620.64
+2026-02-23,Groceries,North,Small,2,0,0,1,118,11.74,15.3,1358.23
+2026-02-24,Sports,East,Medium,2,1,0,0,54,10.98,14.5,471.09
+2026-02-25,Electronics,West,Large,2,2,0,1,182,8.26,5.7,1640.91
+2026-02-26,Electronics,Central,Medium,2,3,0,0,75,9.26,28.4,480.66
+2026-02-27,Electronics,East,Small,2,4,0,1,72,12.17,20.2,817.39
+2026-02-28,Clothing,Central,Small,2,5,1,0,51,11.1,24.0,479.85
+2026-03-01,Clothing,Central,Small,3,6,1,1,49,8.55,15.3,534.18
+2026-03-02,Home & Garden,East,Medium,3,0,0,1,153,8.88,11.4,1392.49
+2026-03-03,Clothing,East,Large,3,1,0,1,41,10.06,10.5,467.47
+2026-03-04,Electronics,South,Large,3,2,0,0,230,8.86,13.3,1953.95
+2026-03-05,Home & Garden,North,Medium,3,3,0,1,91,12.05,18.6,981.35
+2026-03-06,Groceries,West,Large,3,4,0,0,235,9.15,8.1,2168.12
+2026-03-07,Clothing,East,Small,3,5,1,0,31,11.66,27.0,256.06
+2026-03-08,Home & Garden,East,Medium,3,6,1,0,87,11.44,10.3,860.11
+2026-03-09,Clothing,North,Medium,3,0,0,0,52,11.92,25.9,449.27
+2026-03-10,Electronics,East,Small,3,1,0,1,89,7.76,18.4,790.92
+2026-03-11,Groceries,West,Small,3,2,0,0,110,7.95,28.1,700.03
+2026-03-12,Home & Garden,Central,Large,3,3,0,1,97,10.71,14.0,1044.6
+2026-03-13,Electronics,West,Medium,3,4,0,0,126,9.86,12.0,1195.44
+2026-03-14,Groceries,East,Large,3,5,1,0,162,10.33,7.8,1570.66
+2026-03-15,Sports,West,Medium,3,6,1,0,46,8.53,24.0,330.02
+2026-03-16,Clothing,Central,Medium,3,0,0,1,34,8.71,22.7,379.01
+2026-03-17,Clothing,North,Large,3,1,0,0,128,8.18,5.5,1025.08
+2026-03-18,Groceries,Central,Medium,3,2,0,1,125,11.58,22.0,1269.02
+2026-03-19,Clothing,West,Medium,3,3,0,0,45,10.15,3.5,445.5
+2026-03-20,Electronics,South,Small,3,4,0,0,76,10.03,8.6,742.67
+2026-03-21,Groceries,East,Medium,3,5,1,1,213,10.22,2.6,2232.66
+2026-03-22,Clothing,East,Small,3,6,1,0,38,10.3,3.1,367.44
+2026-03-23,Home & Garden,North,Medium,3,0,0,0,98,9.41,26.1,641.06
+2026-03-24,Sports,South,Large,3,1,0,1,80,10.72,22.6,762.14
+2026-03-25,Clothing,North,Medium,3,2,0,1,57,12.26,6.6,770.7
+2026-03-26,Home & Garden,East,Large,3,3,0,0,103,12.54,5.7,1135.21
+2026-03-27,Electronics,South,Small,3,4,0,1,90,9.5,3.1,964.01
+2026-03-28,Clothing,North,Small,3,5,1,1,23,11.87,19.5,297.96
+2026-03-29,Clothing,North,Large,3,6,1,0,43,10.03,14.6,398.03
+2026-03-30,Home & Garden,North,Medium,3,0,0,1,65,9.6,27.1,541.72
+2026-03-31,Sports,South,Medium,3,1,0,0,38,11.71,24.9,342.53
+2026-04-01,Electronics,East,Small,4,2,0,1,98,8.41,27.3,827.17
+2026-04-02,Sports,North,Small,4,3,0,0,38,10.68,2.3,424.07
+2026-04-03,Home & Garden,East,Large,4,4,0,0,159,10.64,23.3,1231.98
+2026-04-04,Sports,East,Medium,4,5,1,0,37,11.14,4.4,393.63
+2026-04-05,Home & Garden,Central,Medium,4,6,1,0,106,8.21,23.9,682.43
+2026-04-06,Electronics,Central,Small,4,0,0,1,56,10.77,14.9,586.56
+2026-04-07,Sports,East,Large,4,1,0,0,81,9.32,6.6,754.6
+2026-04-08,Clothing,Central,Small,4,2,0,0,61,10.33,20.6,499.95
+2026-04-09,Home & Garden,Central,Medium,4,3,0,0,88,10.27,11.7,859.05
+2026-04-10,Groceries,East,Small,4,4,0,0,108,8.36,11.3,859.04
+2026-04-11,Home & Garden,North,Large,4,5,1,1,118,8.97,2.8,1194.17
+2026-04-12,Home & Garden,East,Medium,4,6,1,1,105,10.87,6.3,1206.51
+2026-04-13,Groceries,East,Medium,4,0,0,1,74,11.62,12.0,852.91
+2026-04-14,Clothing,South,Small,4,1,0,1,60,8.63,7.7,675.14
+2026-04-15,Groceries,East,Small,4,2,0,1,135,10.56,21.2,1338.05
+2026-04-16,Groceries,North,Large,4,3,0,1,246,9.52,17.1,2015.52
+2026-04-17,Groceries,North,Small,4,4,0,1,60,11.05,8.6,772.76
+2026-04-18,Home & Garden,East,Small,4,5,1,1,40,9.55,2.7,440.71
+2026-04-19,Groceries,South,Small,4,6,1,0,99,9.47,16.2,853.31
+2026-04-20,Home & Garden,South,Small,4,0,0,0,70,9.61,11.0,553.86
+2026-04-21,Clothing,North,Large,4,1,0,0,32,11.78,7.2,368.45
+2026-04-22,Electronics,North,Medium,4,2,0,0,105,8.02,26.0,679.75
+2026-04-23,Groceries,West,Medium,4,3,0,1,143,9.02,17.9,1184.91
+2026-04-24,Home & Garden,East,Large,4,4,0,0,164,7.83,20.1,1131.72
+2026-04-25,Sports,East,Medium,4,5,1,1,37,12.89,28.3,446.3
+2026-04-26,Home & Garden,West,Large,4,6,1,1,85,10.96,23.4,860.12
+2026-04-27,Clothing,North,Large,4,0,0,1,64,11.1,16.0,728.42
+2026-04-28,Clothing,North,Small,4,1,0,1,27,8.59,13.6,338.62
+2026-04-29,Electronics,South,Large,4,2,0,0,169,10.61,12.6,1557.28
+2026-04-30,Groceries,West,Small,4,3,0,0,141,9.55,11.7,1238.91
+2026-05-01,Electronics,North,Small,5,4,0,1,88,9.07,21.6,775.52
+2026-05-02,Clothing,West,Large,5,5,1,0,136,8.29,14.7,971.06
+2026-05-03,Home & Garden,East,Large,5,6,1,1,184,10.48,9.9,1912.91
+2026-05-04,Groceries,North,Small,5,0,0,1,64,10.51,23.1,738.31
+2026-05-05,Sports,West,Large,5,1,0,1,65,8.51,18.8,675.64
+2026-05-06,Electronics,South,Small,5,2,0,1,91,12.37,24.1,966.76
+2026-05-07,Groceries,East,Small,5,3,0,0,77,8.0,8.2,627.62
+2026-05-08,Clothing,West,Medium,5,4,0,0,51,9.89,10.4,447.31
+2026-05-09,Clothing,West,Small,5,5,1,1,44,9.72,5.2,513.7
+2026-05-10,Clothing,South,Medium,5,6,1,1,85,10.12,18.4,831.21
+2026-05-11,Clothing,West,Large,5,0,0,1,48,8.51,27.2,385.81
+2026-05-12,Electronics,South,Large,5,1,0,1,138,12.03,5.2,1591.66
+2026-05-13,Home & Garden,South,Small,5,2,0,1,65,9.25,18.4,654.62
+2026-05-14,Clothing,North,Medium,5,3,0,0,73,9.53,28.4,486.45
+2026-05-15,Home & Garden,Central,Small,5,4,0,1,95,9.35,5.5,953.5
+2026-05-16,Home & Garden,East,Medium,5,5,1,1,46,10.4,5.5,561.35
+2026-05-17,Clothing,West,Large,5,6,1,1,120,8.81,8.6,1124.35
+2026-05-18,Groceries,East,Medium,5,0,0,0,187,9.52,5.1,1763.7
+2026-05-19,Groceries,South,Medium,5,1,0,1,229,9.14,5.1,2028.91
+2026-05-20,Sports,Central,Medium,5,2,0,1,95,9.03,20.0,786.73
+2026-05-21,Sports,South,Small,5,3,0,0,47,10.4,12.7,402.25
+2026-05-22,Electronics,North,Large,5,4,0,0,100,12.48,1.5,1152.3
+2026-05-23,Home & Garden,East,Small,5,5,1,0,72,9.97,0.3,660.09
+2026-05-24,Clothing,North,Large,5,6,1,0,118,9.94,7.8,1139.47
+2026-05-25,Home & Garden,South,Small,5,0,0,1,102,8.08,5.3,948.91
+2026-05-26,Groceries,East,Small,5,1,0,1,144,8.59,9.6,1365.54
+2026-05-27,Clothing,Central,Medium,5,2,0,1,105,10.26,17.3,992.21
+2026-05-28,Electronics,East,Medium,5,3,0,1,121,10.13,27.4,1022.54
+2026-05-29,Home & Garden,South,Medium,5,4,0,1,65,10.58,0.0,856.11
+2026-05-30,Electronics,North,Large,5,5,1,0,225,8.98,19.8,1510.32
+2026-05-31,Clothing,West,Large,5,6,1,1,117,11.57,25.6,1112.33
+2026-06-01,Clothing,South,Medium,6,0,0,0,35,12.44,6.7,402.7
+2026-06-02,Electronics,East,Large,6,1,0,0,104,12.22,0.1,1218.48
+2026-06-03,Sports,North,Large,6,2,0,1,83,12.05,1.8,1101.8
+2026-06-04,Sports,East,Medium,6,3,0,0,72,11.14,2.6,774.42
+2026-06-05,Sports,North,Large,6,4,0,0,43,8.54,1.8,407.85
+2026-06-06,Groceries,West,Large,6,5,1,0,149,9.21,22.8,1068.27
+2026-06-07,Clothing,North,Small,6,6,1,1,44,11.11,16.3,572.37
+2026-06-08,Electronics,East,Small,6,0,0,0,39,10.09,10.8,375.35
+2026-06-09,Clothing,Central,Large,6,1,0,1,110,9.8,29.6,913.61
+2026-06-10,Home & Garden,West,Large,6,2,0,0,96,9.98,19.3,802.7
+2026-06-11,Sports,East,Medium,6,3,0,1,37,9.08,29.3,336.43
+2026-06-12,Home & Garden,Central,Medium,6,4,0,1,82,9.5,12.6,811.16
+2026-06-13,Electronics,Central,Large,6,5,1,0,198,8.1,2.5,1633.45
+2026-06-14,Clothing,North,Small,6,6,1,0,28,10.19,10.0,252.24
+2026-06-15,Home & Garden,East,Medium,6,0,0,0,115,8.06,29.2,710.68
+2026-06-16,Clothing,Central,Large,6,1,0,1,47,13.14,2.9,637.47
+2026-06-17,Sports,North,Medium,6,2,0,0,32,7.96,8.6,256.27
+2026-06-18,Electronics,South,Small,6,3,0,1,73,8.4,21.5,646.82
+2026-06-19,Clothing,South,Medium,6,4,0,1,26,10.16,24.5,312.1
+2026-06-20,Groceries,South,Large,6,5,1,1,172,12.07,19.5,1671.54
+2026-06-21,Groceries,West,Medium,6,6,1,1,73,11.5,9.3,938.52
+2026-06-22,Groceries,South,Large,6,0,0,0,301,8.06,25.4,1886.57
+2026-06-23,Groceries,South,Large,6,1,0,1,241,8.04,18.2,1825.14
+2026-06-24,Home & Garden,South,Large,6,2,0,0,98,10.94,13.5,1021.42
+2026-06-25,Clothing,Central,Small,6,3,0,1,22,10.53,23.0,297.22
+2026-06-26,Sports,Central,Medium,6,4,0,0,75,8.13,14.6,566.65
+2026-06-27,Groceries,North,Small,6,5,1,1,93,12.39,22.4,1070.5
+2026-06-28,Groceries,North,Medium,6,6,1,0,80,10.04,0.8,773.71
+2026-06-29,Groceries,West,Large,6,0,0,0,250,10.21,10.5,2174.44
+2026-06-30,Home & Garden,West,Small,6,1,0,0,35,11.29,25.0,321.31
+2026-07-01,Home & Garden,South,Medium,7,2,0,0,47,10.17,18.5,431.53
+2026-07-02,Sports,South,Medium,7,3,0,0,62,10.69,26.1,476.89
+2026-07-03,Electronics,West,Small,7,4,0,0,72,8.18,29.0,454.83
+2026-07-04,Electronics,South,Small,7,5,1,0,52,10.64,12.7,460.84
+2026-07-05,Electronics,Central,Large,7,6,1,1,90,10.38,6.9,1014.97
+2026-07-06,Electronics,North,Small,7,0,0,0,55,8.92,2.0,478.8
+2026-07-07,Groceries,Central,Large,7,1,0,0,242,9.73,10.4,2006.88
+2026-07-08,Groceries,East,Medium,7,2,0,0,160,10.06,10.0,1372.45
+2026-07-09,Clothing,South,Large,7,3,0,0,80,9.05,7.6,702.39
+2026-07-10,Sports,West,Medium,7,4,0,1,40,11.84,27.9,505.62
+2026-07-11,Home & Garden,South,Medium,7,5,1,1,67,8.74,14.7,652.16
+2026-07-12,Sports,North,Small,7,6,1,1,33,9.66,5.7,477.47
+2026-07-13,Electronics,West,Small,7,0,0,0,41,11.21,16.1,405.66
+2026-07-14,Sports,East,Small,7,1,0,0,39,10.37,7.0,392.28
+2026-07-15,Home & Garden,South,Large,7,2,0,0,149,9.11,17.9,1082.05
+2026-07-16,Home & Garden,West,Medium,7,3,0,1,49,10.11,27.6,505.86
+2026-07-17,Sports,West,Medium,7,4,0,0,35,10.89,6.6,374.21
+2026-07-18,Clothing,North,Large,7,5,1,0,42,12.7,9.3,466.53
+2026-07-19,Clothing,West,Large,7,6,1,1,66,10.34,0.8,810.5
+2026-07-20,Sports,North,Large,7,0,0,0,35,11.13,16.3,322.64
+2026-07-21,Home & Garden,North,Large,7,1,0,0,84,11.08,4.6,829.19
+2026-07-22,Groceries,East,Small,7,2,0,0,110,7.69,21.5,739.13
+2026-07-23,Sports,South,Small,7,3,0,1,20,8.45,23.2,248.91
+2026-07-24,Clothing,West,Small,7,4,0,1,19,10.07,15.9,366.2
+2026-07-25,Groceries,East,Small,7,5,1,0,58,10.16,2.7,620.88
+2026-07-26,Sports,Central,Small,7,6,1,0,26,9.23,22.1,199.64
+2026-07-27,Clothing,Central,Medium,7,0,0,0,71,9.62,13.2,566.16
+2026-07-28,Clothing,North,Large,7,1,0,0,80,9.0,18.9,629.06
+2026-07-29,Electronics,South,Medium,7,2,0,1,65,10.88,25.1,559.99
+2026-07-30,Clothing,North,Medium,7,3,0,1,57,9.61,22.7,585.91
+2026-07-31,Electronics,North,Medium,7,4,0,0,115,9.36,25.8,838.52
+2026-08-01,Electronics,East,Medium,8,5,1,1,71,11.48,21.4,773.98
+2026-08-02,Clothing,West,Large,8,6,1,1,53,11.79,5.8,762.33
+2026-08-03,Home & Garden,West,Medium,8,0,0,1,52,9.74,17.1,575.65
+2026-08-04,Groceries,West,Large,8,1,0,0,138,12.69,21.9,1297.19
+2026-08-05,Clothing,South,Small,8,2,0,0,27,12.45,5.0,321.88
+2026-08-06,Sports,South,Small,8,3,0,0,15,8.81,14.1,113.94
+2026-08-07,Electronics,South,Large,8,4,0,0,89,9.38,6.5,843.78
+2026-08-08,Electronics,South,Large,8,5,1,1,150,8.55,15.8,1297.87
+2026-08-09,Home & Garden,South,Small,8,6,1,0,48,8.32,28.9,296.03
+2026-08-10,Home & Garden,Central,Medium,8,0,0,0,15,10.96,15.1,139.29
+2026-08-11,Electronics,Central,Large,8,1,0,0,75,11.69,8.4,754.96
+2026-08-12,Groceries,South,Medium,8,2,0,0,79,12.88,17.1,814.25
+2026-08-13,Clothing,Central,Small,8,3,0,0,50,10.06,0.4,477.12
+2026-08-14,Electronics,West,Medium,8,4,0,0,59,10.34,3.8,545.93
+2026-08-15,Sports,East,Small,8,5,1,1,31,10.26,10.9,455.63
+2026-08-16,Home & Garden,South,Large,8,6,1,0,117,8.7,11.8,938.33
+2026-08-17,Groceries,South,Large,8,0,0,1,107,12.6,27.3,1002.68
+2026-08-18,Home & Garden,West,Medium,8,1,0,1,49,11.61,9.9,588.11
+2026-08-19,Electronics,North,Large,8,2,0,0,79,11.81,1.9,903.65
+2026-08-20,Sports,West,Small,8,3,0,0,-1,-inf,3.5,50.0
+2026-08-21,Groceries,Central,Medium,8,4,0,1,133,8.9,8.9,1204.61
+2026-08-22,Sports,South,Large,8,5,1,0,59,8.35,0.1,547.9
+2026-08-23,Clothing,South,Medium,8,6,1,1,49,9.61,12.7,441.66
+2026-08-24,Groceries,West,Large,8,0,0,1,115,11.95,3.7,1370.35
+2026-08-25,Groceries,South,Medium,8,1,0,1,119,10.55,7.5,1332.83
+2026-08-26,Electronics,East,Large,8,2,0,0,60,12.29,2.8,715.98
+2026-08-27,Home & Garden,West,Large,8,3,0,1,76,9.03,26.6,618.13
+2026-08-28,Groceries,North,Large,8,4,0,0,100,10.09,10.0,1012.04
+2026-08-29,Electronics,South,Small,8,5,1,1,37,8.52,29.7,369.15
+2026-08-30,Sports,East,Small,8,6,1,0,19,12.96,18.3,199.77
+2026-08-31,Electronics,South,Small,8,0,0,1,54,8.81,8.5,504.81
+2026-09-01,Groceries,East,Large,9,1,0,0,121,9.25,22.6,805.99
+2026-09-02,Sports,East,Small,9,2,0,0,18,9.29,20.6,148.41
+2026-09-03,Clothing,North,Small,9,3,0,0,25,9.78,0.2,260.3
+2026-09-04,Sports,South,Small,9,4,0,0,0,-6.24,29.7,50.0
+2026-09-05,Electronics,Central,Small,9,5,1,0,51,9.19,0.0,494.39
+2026-09-06,Home & Garden,Central,Medium,9,6,1,0,64,9.49,5.4,580.16
+2026-09-07,Home & Garden,Central,Large,9,0,0,1,95,10.29,14.3,923.69
+2026-09-08,Sports,East,Medium,9,1,0,1,24,10.75,29.0,296.77
+2026-09-09,Clothing,South,Small,9,2,0,1,29,8.38,4.9,452.02
+2026-09-10,Sports,Central,Small,9,3,0,1,18,9.35,25.0,235.94
+2026-09-11,Clothing,South,Small,9,4,0,1,31,11.51,20.3,420.99
+2026-09-12,Sports,North,Small,9,5,1,1,32,9.58,28.8,271.35
+2026-09-13,Electronics,East,Small,9,6,1,1,47,9.09,2.6,598.44
+2026-09-14,Clothing,West,Large,9,0,0,0,50,9.76,2.9,446.54
+2026-09-15,Clothing,South,Medium,9,1,0,1,44,7.99,25.5,425.3
+2026-09-16,Home & Garden,North,Small,9,2,0,0,19,9.45,21.7,145.15
+2026-09-17,Groceries,North,Large,9,3,0,0,134,8.94,23.4,915.06
+2026-09-18,Home & Garden,East,Medium,9,4,0,0,39,11.53,27.5,353.23
+2026-09-19,Clothing,East,Large,9,5,1,0,22,9.38,1.7,192.96
+2026-09-20,Clothing,East,Large,9,6,1,1,35,8.44,0.4,435.07
+2026-09-21,Electronics,South,Large,9,0,0,1,120,8.81,20.2,975.17
+2026-09-22,Electronics,West,Large,9,1,0,0,102,9.19,10.5,880.88
+2026-09-23,Sports,East,Small,9,2,0,0,29,12.1,20.9,294.14
+2026-09-24,Groceries,North,Large,9,3,0,1,69,10.53,16.4,705.61
+2026-09-25,Electronics,Central,Medium,9,4,0,1,49,8.85,27.2,406.32
+2026-09-26,Electronics,West,Small,9,5,1,0,29,10.94,17.5,251.46
+2026-09-27,Home & Garden,Central,Large,9,6,1,0,32,9.52,21.0,228.13
+2026-09-28,Clothing,West,Medium,9,0,0,0,43,9.98,12.2,426.32
+2026-09-29,Electronics,South,Medium,9,1,0,1,85,9.43,21.9,765.35
+2026-09-30,Home & Garden,West,Small,9,2,0,1,33,9.82,7.1,362.12
+2026-10-01,Sports,Central,Large,10,3,0,1,35,10.1,18.2,393.43
+2026-10-02,Groceries,West,Small,10,4,0,0,46,11.93,15.3,464.21
+2026-10-03,Electronics,West,Medium,10,5,1,1,32,9.39,15.1,446.0
+2026-10-04,Sports,West,Large,10,6,1,1,43,11.41,24.6,503.16
+2026-10-05,Sports,Central,Large,10,0,0,1,22,10.99,12.2,357.43
+2026-10-06,Groceries,Central,Medium,10,1,0,1,88,11.93,22.0,848.52
+2026-10-07,Clothing,North,Medium,10,2,0,0,41,10.61,16.7,364.48
+2026-10-08,Sports,South,Small,10,3,0,0,12,9.5,19.3,99.78
+2026-10-09,Groceries,East,Medium,10,4,0,1,86,11.08,5.5,993.7
+2026-10-10,Electronics,South,Large,10,5,1,1,89,12.87,19.6,1005.18
+2026-10-11,Sports,North,Large,10,6,1,1,51,10.36,11.6,586.42
+2026-10-12,Groceries,North,Small,10,0,0,1,54,9.15,11.7,626.14
+2026-10-13,Home & Garden,North,Large,10,1,0,1,42,9.14,2.9,489.27
+2026-10-14,Clothing,North,Medium,10,2,0,1,29,11.72,24.2,389.1
+2026-10-15,Home & Garden,East,Small,10,3,0,0,48,10.8,11.2,445.54
+2026-10-16,Sports,South,Small,10,4,0,1,19,9.96,0.2,354.95
+2026-10-17,Sports,Central,Large,10,5,1,1,29,12.23,14.9,402.45
+2026-10-18,Groceries,West,Medium,10,6,1,1,69,10.75,5.3,923.95
+2026-10-19,Groceries,Central,Large,10,0,0,0,131,10.28,16.7,1095.49
+2026-10-20,Electronics,East,Small,10,1,0,1,45,11.06,27.8,543.61
+2026-10-21,Sports,East,Small,10,2,0,1,21,11.52,24.6,355.24
+2026-10-22,Groceries,East,Medium,10,3,0,0,86,9.41,20.8,693.75
+2026-10-23,Groceries,East,Small,10,4,0,0,57,10.85,22.0,456.39
+2026-10-24,Sports,East,Medium,10,5,1,1,47,8.34,1.0,480.04
+2026-10-25,Home & Garden,Central,Large,10,6,1,0,45,12.32,29.0,386.66
+2026-10-26,Home & Garden,North,Small,10,0,0,0,20,10.49,28.1,175.11
+2026-10-27,Electronics,North,Small,10,1,0,0,39,10.05,20.5,312.92
+2026-10-28,Clothing,South,Medium,10,2,0,1,34,9.16,5.0,406.77
+2026-10-29,Electronics,North,Small,10,3,0,0,41,10.94,23.0,361.04
+2026-10-30,Clothing,East,Small,10,4,0,0,24,9.68,11.7,209.99
+2026-10-31,Home & Garden,North,Medium,10,5,1,1,29,11.1,6.1,492.98
+2026-11-01,Groceries,Central,Large,11,6,1,0,121,11.37,2.7,1245.25
+2026-11-02,Clothing,North,Large,11,0,0,1,46,9.6,28.3,469.85
+2026-11-03,Sports,West,Large,11,1,0,1,33,9.83,11.9,337.58
+2026-11-04,Electronics,North,Small,11,2,0,0,28,9.11,21.3,221.44
+2026-11-05,Home & Garden,South,Medium,11,3,0,0,38,9.72,25.7,296.0
+2026-11-06,Clothing,East,Large,11,4,0,0,31,8.94,10.4,270.75
+2026-11-07,Sports,East,Medium,11,5,1,0,25,12.55,24.4,224.98
+2026-11-08,Groceries,Central,Large,11,6,1,1,151,9.39,29.0,1253.16
+2026-11-09,Groceries,Central,Large,11,0,0,1,153,9.38,17.6,1215.63
+2026-11-10,Groceries,East,Large,11,1,0,1,84,10.46,20.2,819.07
+2026-11-11,Groceries,South,Medium,11,2,0,1,97,7.91,1.7,973.98
+2026-11-12,Clothing,Central,Small,11,3,0,1,30,8.52,20.1,377.83
+2026-11-13,Home & Garden,West,Large,11,4,0,1,58,9.96,28.1,626.77
+2026-11-14,Sports,South,Large,11,5,1,0,59,11.25,15.8,597.57
+2026-11-15,Home & Garden,South,Medium,11,6,1,0,51,8.21,10.0,405.56
+2026-11-16,Clothing,East,Large,11,0,0,1,64,8.54,28.2,485.64
+2026-11-17,Electronics,North,Medium,11,1,0,1,58,10.52,12.2,687.77
+2026-11-18,Groceries,West,Large,11,2,0,1,116,9.6,18.4,1081.93
+2026-11-19,Sports,South,Small,11,3,0,1,17,8.96,12.9,269.21
+2026-11-20,Sports,North,Small,11,4,0,0,4,8.45,20.7,50.0
+2026-11-21,Groceries,East,Medium,11,5,1,0,92,8.24,1.4,795.53
+2026-11-22,Clothing,West,Small,11,6,1,1,34,10.05,14.1,364.72
+2026-11-23,Groceries,Central,Small,11,0,0,0,44,10.93,23.5,400.73
+2026-11-24,Groceries,South,Small,11,1,0,0,59,9.68,18.2,507.43
+2026-11-25,Electronics,East,Large,11,2,0,0,60,8.64,4.3,558.7
+2026-11-26,Sports,North,Large,11,3,0,0,32,8.88,2.2,297.36
+2026-11-27,Home & Garden,South,Medium,11,4,0,0,87,9.7,24.8,596.76
+2026-11-28,Home & Garden,South,Large,11,5,1,0,46,12.93,4.4,545.18
+2026-11-29,Electronics,Central,Small,11,6,1,1,35,11.77,21.6,476.86
+2026-11-30,Electronics,East,Small,11,0,0,0,21,9.0,13.9,170.14
+2026-12-01,Home & Garden,North,Large,12,1,0,0,42,11.66,7.1,441.37
+2026-12-02,Electronics,South,Large,12,2,0,1,102,12.31,10.5,1256.09
+2026-12-03,Groceries,South,Small,12,3,0,1,61,11.27,10.8,849.82
+2026-12-04,Clothing,North,Medium,12,4,0,1,44,8.45,0.3,491.04
+2026-12-05,Sports,West,Medium,12,5,1,0,21,8.58,15.6,176.82
+2026-12-06,Home & Garden,West,Medium,12,6,1,1,30,8.95,22.3,325.35
+2026-12-07,Clothing,West,Small,12,0,0,0,25,9.1,26.3,192.17
+2026-12-08,Home & Garden,Central,Medium,12,1,0,1,37,10.54,16.8,505.71
+2026-12-09,Home & Garden,Central,Large,12,2,0,0,70,11.71,7.3,718.51
+2026-12-10,Sports,South,Medium,12,3,0,0,57,8.86,28.7,371.38
+2026-12-11,Groceries,Central,Large,12,4,0,1,138,9.67,17.8,1354.32
+2026-12-12,Clothing,West,Large,12,5,1,1,46,10.57,3.4,559.01
+2026-12-13,Electronics,South,Small,12,6,1,1,60,9.84,28.5,573.67
+2026-12-14,Home & Garden,Central,Small,12,0,0,1,44,10.71,10.6,513.58
+2026-12-15,Clothing,East,Medium,12,1,0,0,52,12.2,4.5,579.55
+2026-12-16,Electronics,East,Medium,12,2,0,0,74,9.83,17.4,580.67
+2026-12-17,Sports,South,Large,12,3,0,1,45,11.06,5.1,687.99
+2026-12-18,Clothing,North,Large,12,4,0,1,46,8.77,13.9,421.81
+2026-12-19,Electronics,Central,Small,12,5,1,0,38,8.87,7.7,311.46
+2026-12-20,Groceries,South,Large,12,6,1,1,150,9.25,24.9,1316.57
+2026-12-21,Electronics,South,Medium,12,0,0,0,94,12.21,6.0,1010.2
+2026-12-22,Sports,Central,Medium,12,1,0,1,40,11.51,29.7,392.63
+2026-12-23,Sports,North,Small,12,2,0,1,27,8.65,0.3,399.59
+2026-12-24,Electronics,East,Medium,12,3,0,1,63,11.0,23.6,675.79
+2026-12-25,Sports,North,Medium,12,4,0,0,25,11.48,23.5,212.58
+2026-12-26,Groceries,West,Medium,12,5,1,0,71,10.62,10.5,671.97
+2026-12-27,Home & Garden,South,Medium,12,6,1,0,42,12.12,19.2,403.1
+2026-12-28,Electronics,North,Small,12,0,0,1,30,11.16,4.2,510.2
+2026-12-29,Sports,South,Medium,12,1,0,0,53,10.42,28.1,379.53
+2026-12-30,Electronics,North,Medium,12,2,0,1,87,10.39,6.6,927.1
+2026-12-31,Home & Garden,West,Medium,12,3,0,0,56,9.01,25.7,393.28
+2027-01-01,Electronics,North,Medium,1,4,0,1,64,11.28,16.2,851.91
+2027-01-02,Electronics,North,Small,1,5,1,0,59,11.45,14.9,544.85
+2027-01-03,Groceries,North,Medium,1,6,1,0,127,9.61,15.4,1056.72
+2027-01-04,Sports,West,Large,1,0,0,1,59,12.58,14.6,714.93
+2027-01-05,Clothing,East,Medium,1,1,0,1,46,10.54,6.6,505.72
+2027-01-06,Home & Garden,West,Medium,1,2,0,0,83,10.99,17.4,750.09
+2027-01-07,Home & Garden,Central,Small,1,3,0,1,41,8.93,27.0,331.61
+2027-01-08,Electronics,West,Medium,1,4,0,0,126,8.95,6.7,1009.36
+2027-01-09,Groceries,North,Small,1,5,1,1,44,10.69,3.7,526.84
+2027-01-10,Clothing,North,Small,1,6,1,0,18,11.23,10.7,179.7
+2027-01-11,Home & Garden,North,Small,1,0,0,1,25,11.85,20.5,308.24
+2027-01-12,Sports,East,Large,1,1,0,0,65,9.38,6.6,541.9
+2027-01-13,Electronics,East,Small,1,2,0,0,47,10.8,21.9,430.32
+2027-01-14,Electronics,South,Small,1,3,0,0,69,8.35,19.5,509.03
+2027-01-15,Electronics,North,Small,1,4,0,1,62,9.7,19.6,678.14
+2027-01-16,Electronics,South,Large,1,5,1,1,119,12.25,27.6,1111.63
+2027-01-17,Clothing,Central,Small,1,6,1,0,19,9.04,5.9,182.32
+2027-01-18,Clothing,East,Large,1,0,0,0,71,11.6,26.0,641.63
+2027-01-19,Electronics,East,Large,1,1,0,0,116,9.37,18.8,838.95
+2027-01-20,Groceries,East,Medium,1,2,0,0,128,12.81,1.8,1548.52
+2027-01-21,Electronics,East,Medium,1,3,0,1,110,9.17,18.3,960.92
+2027-01-22,Groceries,West,Large,1,4,0,1,111,11.12,13.3,1273.47
+2027-01-23,Clothing,West,Large,1,5,1,0,68,10.04,28.6,501.36
+2027-01-24,Groceries,Central,Large,1,6,1,1,87,10.44,28.7,682.24
+2027-01-25,Clothing,Central,Medium,1,0,0,0,23,10.42,9.4,220.25
+2027-01-26,Electronics,South,Large,1,1,0,0,113,12.43,15.0,1132.88
+2027-01-27,Sports,South,Medium,1,2,0,1,40,9.91,2.5,599.63
+2027-01-28,Sports,Central,Small,1,3,0,1,28,8.19,5.2,315.93
+2027-01-29,Groceries,East,Medium,1,4,0,1,131,9.97,0.3,1407.86
+2027-01-30,Sports,West,Small,1,5,1,1,19,13.2,13.8,347.75
+2027-01-31,Electronics,South,Medium,1,6,1,1,76,9.38,14.6,720.72
+2027-02-01,Groceries,Central,Small,2,0,0,0,84,8.84,16.5,619.44
+2027-02-02,Sports,West,Small,2,1,0,1,39,9.98,14.2,435.43
+2027-02-03,Clothing,East,Large,2,2,0,1,120,9.2,9.2,1108.29
+2027-02-04,Sports,Central,Small,2,3,0,0,23,11.71,14.7,223.14
+2027-02-05,Home & Garden,West,Medium,2,4,0,1,67,12.39,5.3,930.53
+2027-02-06,Clothing,East,Medium,2,5,1,0,58,8.16,9.9,441.59
+2027-02-07,Sports,North,Large,2,6,1,1,50,10.56,18.6,557.77
+2027-02-08,Groceries,East,Large,2,0,0,0,234,11.11,3.8,2522.9
+2027-02-09,Groceries,South,Large,2,1,0,0,196,9.56,23.4,1495.73
+2027-02-10,Sports,South,Small,2,2,0,1,22,10.35,21.5,325.15
+2027-02-11,Home & Garden,West,Large,2,3,0,1,103,8.6,2.5,994.65
+2027-02-12,Groceries,South,Medium,2,4,0,1,122,10.12,8.8,1263.25
+2027-02-13,Home & Garden,East,Large,2,5,1,1,95,8.17,18.9,896.41
+2027-02-14,Electronics,South,Small,2,6,1,1,93,9.85,19.0,922.79
+2027-02-15,Clothing,North,Large,2,0,0,0,57,9.77,22.5,484.05
+2027-02-16,Home & Garden,North,Large,2,1,0,1,71,8.99,4.5,793.64
+2027-02-17,Electronics,South,Small,2,2,0,1,84,10.45,12.5,845.33
+2027-02-18,Electronics,East,Small,2,3,0,0,42,9.21,14.3,330.93
+2027-02-19,Electronics,North,Small,2,4,0,1,69,11.83,22.4,703.74
+2027-02-20,Clothing,North,Small,2,5,1,1,25,10.31,12.1,343.11
+2027-02-21,Groceries,North,Small,2,6,1,0,43,11.95,2.0,485.03
+2027-02-22,Groceries,East,Large,2,0,0,0,188,9.51,6.0,1848.3
+2027-02-23,Groceries,North,Medium,2,1,0,1,150,8.58,11.2,1282.93
+2027-02-24,Electronics,West,Small,2,2,0,1,89,10.9,16.4,912.41
+2027-02-25,Sports,East,Medium,2,3,0,0,50,8.6,4.8,433.05
+2027-02-26,Clothing,Central,Large,2,4,0,1,130,8.11,11.4,1068.83
+2027-02-27,Electronics,East,Medium,2,5,1,0,127,10.46,0.9,1324.22
+2027-02-28,Home & Garden,West,Medium,2,6,1,0,58,9.49,23.7,440.71
+2027-03-01,Clothing,North,Large,3,0,0,1,152,8.65,26.5,1086.7
+2027-03-02,Home & Garden,North,Small,3,1,0,1,46,8.87,13.7,523.09
+2027-03-03,Clothing,Central,Small,3,2,0,0,49,10.42,27.3,359.05
+2027-03-04,Clothing,East,Small,3,3,0,1,12,9.84,8.4,226.97
+2027-03-05,Groceries,North,Medium,3,4,0,1,96,9.21,27.7,842.84
+2027-03-06,Groceries,North,Large,3,5,1,1,166,9.33,9.6,1546.17
+2027-03-07,Electronics,South,Medium,3,6,1,0,159,9.4,28.9,989.62
+2027-03-08,Electronics,West,Medium,3,0,0,0,86,11.44,21.3,838.46
+2027-03-09,Sports,Central,Small,3,1,0,0,35,8.92,10.1,268.67
+2027-03-10,Electronics,West,Medium,3,2,0,1,74,12.82,24.0,811.0
+2027-03-11,Home & Garden,South,Small,3,3,0,0,55,9.72,7.3,489.34
+2027-03-12,Clothing,West,Large,3,4,0,1,60,11.71,19.2,685.98
+2027-03-13,Clothing,North,Small,3,5,1,1,58,9.01,2.2,592.37
+2027-03-14,Groceries,East,Large,3,6,1,0,124,10.13,6.5,1237.39
+2027-03-15,Sports,North,Small,3,0,0,1,21,10.05,14.9,357.95
+2027-03-16,Clothing,East,Large,3,1,0,0,43,11.1,3.9,499.12
+2027-03-17,Sports,West,Medium,3,2,0,0,38,10.24,14.0,361.98
+2027-03-18,Clothing,Central,Medium,3,3,0,0,39,11.86,7.4,442.66
+2027-03-19,Electronics,East,Medium,3,4,0,1,45,11.84,6.8,624.74
+2027-03-20,Clothing,East,Small,3,5,1,0,37,9.49,21.3,273.45
+2027-03-21,Clothing,West,Small,3,6,1,1,61,8.71,6.5,696.41
+2027-03-22,Sports,West,Large,3,0,0,1,95,8.77,13.9,903.26
+2027-03-23,Sports,South,Medium,3,1,0,1,56,10.95,0.3,793.48
+2027-03-24,Groceries,East,Medium,3,2,0,0,133,10.06,10.0,1133.19
+2027-03-25,Sports,West,Large,3,3,0,0,107,9.36,25.1,758.0
+2027-03-26,Home & Garden,Central,Medium,3,4,0,1,66,10.59,20.8,654.34
+2027-03-27,Groceries,South,Medium,3,5,1,0,144,10.04,29.6,1104.43
+2027-03-28,Groceries,North,Medium,3,6,1,0,105,10.94,17.8,1002.96
+2027-03-29,Clothing,West,Large,3,0,0,0,43,7.45,1.8,356.66
+2027-03-30,Home & Garden,North,Large,3,1,0,1,190,8.83,25.0,1326.18
+2027-03-31,Clothing,Central,Medium,3,2,0,0,86,8.31,24.9,583.09
+2027-04-01,Sports,North,Large,4,3,0,0,25,10.36,0.7,244.74
+2027-04-02,Groceries,East,Medium,4,4,0,1,169,12.69,0.1,2043.06
+2027-04-03,Clothing,Central,Small,4,5,1,1,32,11.02,7.9,470.93
+2027-04-04,Home & Garden,North,Medium,4,6,1,1,47,9.66,25.2,487.39
+2027-04-05,Groceries,West,Medium,4,0,0,0,88,10.53,15.6,726.38
+2027-04-06,Groceries,North,Medium,4,1,0,0,169,9.95,25.9,1235.22
+2027-04-07,Electronics,Central,Large,4,2,0,1,140,10.72,3.6,1703.11
+2027-04-08,Electronics,West,Large,4,3,0,0,225,9.3,18.7,1643.11
+2027-04-09,Sports,Central,Large,4,4,0,0,111,9.38,14.6,984.95
+2027-04-10,Clothing,North,Small,4,5,1,1,36,9.13,11.2,532.16
+2027-04-11,Groceries,East,Medium,4,6,1,0,142,8.52,26.6,877.23
+2027-04-12,Groceries,North,Large,4,0,0,0,286,8.4,4.2,2382.38
+2027-04-13,Sports,West,Small,4,1,0,1,39,11.4,3.6,514.31
+2027-04-14,Electronics,West,Large,4,2,0,1,127,10.38,5.9,1363.0
+2027-04-15,Electronics,Central,Small,4,3,0,1,78,9.28,26.6,655.12
+2027-04-16,Home & Garden,South,Large,4,4,0,1,151,11.51,6.5,1793.47
+2027-04-17,Groceries,South,Medium,4,5,1,1,169,8.92,26.0,1234.14
+2027-04-18,Home & Garden,East,Medium,4,6,1,0,99,10.24,25.3,823.91
+2027-04-19,Clothing,Central,Small,4,0,0,1,44,9.63,5.8,450.35
+2027-04-20,Electronics,North,Medium,4,1,0,1,63,11.83,14.9,719.69
+2027-04-21,Groceries,West,Large,4,2,0,0,180,9.09,26.5,1309.2
+2027-04-22,Sports,West,Large,4,3,0,1,109,8.82,7.6,1005.58
+2027-04-23,Clothing,North,Small,4,4,0,1,64,9.24,12.8,601.33
+2027-04-24,Clothing,East,Medium,4,5,1,1,65,9.07,11.6,584.88
+2027-04-25,Groceries,West,Small,4,6,1,1,82,9.25,28.9,608.19
+2027-04-26,Clothing,North,Medium,4,0,0,1,49,9.88,26.5,460.17
+2027-04-27,Clothing,South,Medium,4,1,0,0,94,9.58,29.1,587.22
+2027-04-28,Clothing,East,Medium,4,2,0,1,35,13.11,5.0,570.38
+2027-04-29,Sports,West,Large,4,3,0,1,89,9.69,29.0,705.47
+2027-04-30,Sports,South,Small,4,4,0,0,48,9.29,17.0,376.95
+2027-05-01,Electronics,West,Small,5,5,1,0,59,12.42,17.3,584.93
+2027-05-02,Sports,South,Medium,5,6,1,1,37,11.64,14.0,466.44
+2027-05-03,Sports,East,Large,5,0,0,0,77,9.11,4.4,750.5
+2027-05-04,Home & Garden,Central,Small,5,1,0,0,37,8.3,13.1,284.49
+2027-05-05,Sports,South,Medium,5,2,0,0,37,10.74,23.9,318.13
+2027-05-06,Sports,Central,Large,5,3,0,0,92,8.87,22.6,651.56
+2027-05-07,Clothing,West,Medium,5,4,0,0,47,9.43,25.6,372.25
+2027-05-08,Groceries,West,Medium,5,5,1,1,100,10.34,24.9,881.84
+2027-05-09,Electronics,South,Small,5,6,1,1,79,10.64,1.5,980.3
+2027-05-10,Electronics,South,Large,5,0,0,1,178,8.85,25.5,1345.54
+2027-05-11,Groceries,Central,Medium,5,1,0,0,131,10.75,2.6,1276.24
+2027-05-12,Electronics,West,Large,5,2,0,0,120,10.86,25.7,1042.83
+2027-05-13,Sports,North,Small,5,3,0,0,43,9.75,1.6,409.97
+2027-05-14,Sports,East,Small,5,4,0,0,26,9.63,27.7,176.2
+2027-05-15,Clothing,East,Medium,5,5,1,0,41,8.5,25.5,275.81
+2027-05-16,Clothing,North,Large,5,6,1,0,67,9.6,8.5,610.4
+2027-05-17,Sports,Central,Medium,5,0,0,1,49,12.4,25.7,624.94
+2027-05-18,Home & Garden,West,Large,5,1,0,1,83,9.94,21.0,754.3
+2027-05-19,Sports,East,Small,5,2,0,1,37,12.98,14.7,584.22
+2027-05-20,Groceries,West,Small,5,3,0,0,95,9.45,18.2,794.68
+2027-05-21,Groceries,Central,Medium,5,4,0,0,161,11.67,0.6,1756.73
+2027-05-22,Home & Garden,North,Large,5,5,1,0,102,9.26,21.4,826.89
+2027-05-23,Home & Garden,East,Small,5,6,1,0,53,11.79,12.0,547.0
+2027-05-24,Groceries,Central,Small,5,0,0,0,80,10.42,8.5,746.12
+2027-05-25,Home & Garden,West,Small,5,1,0,0,48,11.29,4.9,510.64
+2027-05-26,Electronics,South,Small,5,2,0,1,101,7.89,9.7,880.19
+2027-05-27,Clothing,South,Medium,5,3,0,0,109,8.57,2.6,903.39
+2027-05-28,Electronics,South,Large,5,4,0,1,169,11.02,16.8,1712.54
+2027-05-29,Home & Garden,East,Small,5,5,1,1,59,9.92,23.9,591.34
+2027-05-30,Clothing,South,Small,5,6,1,1,38,9.81,8.6,529.96
+2027-05-31,Home & Garden,East,Large,5,0,0,0,117,9.95,22.7,900.52
+2027-06-01,Groceries,Central,Small,6,1,0,1,87,12.98,14.0,1021.57
+2027-06-02,Sports,South,Medium,6,2,0,0,56,11.41,17.4,527.92
+2027-06-03,Clothing,East,Small,6,3,0,1,29,9.64,25.5,338.07
+2027-06-04,Sports,Central,Large,6,4,0,1,63,8.28,11.0,598.38
+2027-06-05,Clothing,East,Medium,6,5,1,0,40,11.58,2.0,434.36
+2027-06-06,Sports,South,Medium,6,6,1,1,54,9.01,12.8,618.84
+2027-06-07,Groceries,West,Large,6,0,0,1,190,11.07,8.3,2054.16
+2027-06-08,Home & Garden,South,Medium,6,1,0,1,128,9.81,4.8,1330.07
+2027-06-09,Groceries,North,Medium,6,2,0,0,101,9.68,22.1,721.1
+2027-06-10,Sports,East,Small,6,3,0,0,22,10.48,16.6,205.03
+2027-06-11,Electronics,East,Large,6,4,0,0,163,7.75,16.8,1159.59
+2027-06-12,Clothing,North,Medium,6,5,1,1,30,9.59,28.4,423.88
+2027-06-13,Clothing,Central,Medium,6,6,1,1,63,11.53,28.7,566.31
+2027-06-14,Home & Garden,West,Small,6,0,0,1,32,9.21,23.0,353.11
+2027-06-15,Groceries,North,Small,6,1,0,1,106,9.93,24.0,946.04
+2027-06-16,Clothing,South,Small,6,2,0,0,40,11.5,10.5,407.74
+2027-06-17,Home & Garden,East,Medium,6,3,0,1,94,10.31,18.1,902.78
+2027-06-18,Groceries,South,Small,6,4,0,0,93,11.03,8.8,1009.77
+2027-06-19,Home & Garden,West,Small,6,5,1,1,49,8.68,15.9,575.07
+2027-06-20,Clothing,North,Medium,6,6,1,0,64,8.37,24.7,440.96
+2027-06-21,Home & Garden,Central,Small,6,0,0,0,33,11.16,12.2,323.93
+2027-06-22,Clothing,North,Medium,6,1,0,1,112,8.82,23.9,773.94
+2027-06-23,Electronics,North,Large,6,2,0,0,92,9.96,26.6,717.51
+2027-06-24,Home & Garden,North,Small,6,3,0,1,40,9.93,6.3,458.0
+2027-06-25,Groceries,Central,Large,6,4,0,1,138,11.81,24.5,1192.05
+2027-06-26,Sports,North,Large,6,5,1,0,61,11.7,18.0,609.91
+2027-06-27,Electronics,North,Medium,6,6,1,1,100,9.1,21.2,772.38
+2027-06-28,Clothing,Central,Small,6,0,0,1,31,11.36,3.0,512.96
+2027-06-29,Groceries,East,Large,6,1,0,0,289,9.0,18.0,2093.02
+2027-06-30,Electronics,South,Medium,6,2,0,0,138,8.44,24.5,944.25
+2027-07-01,Home & Garden,East,Large,7,3,0,1,74,11.23,22.0,811.71
+2027-07-02,Sports,West,Medium,7,4,0,0,44,10.78,0.9,480.6
+2027-07-03,Clothing,Central,Small,7,5,1,1,42,10.61,29.6,425.97
+2027-07-04,Home & Garden,East,Small,7,6,1,1,85,8.64,21.6,707.2
+2027-07-05,Groceries,North,Small,7,0,0,1,45,11.41,23.6,607.65
+2027-07-06,Clothing,South,Large,7,1,0,1,49,10.26,28.8,453.43
+2027-07-07,Home & Garden,East,Medium,7,2,0,1,67,8.89,29.4,503.82
+2027-07-08,Groceries,Central,Medium,7,3,0,0,117,9.3,19.8,828.33
+2027-07-09,Clothing,Central,Medium,7,4,0,0,13,9.05,21.1,95.36
+2027-07-10,Electronics,South,Medium,7,5,1,1,84,8.64,15.6,811.27
+2027-07-11,Clothing,North,Small,7,6,1,1,41,8.21,5.8,405.27
+2027-07-12,Sports,East,Small,7,0,0,1,16,11.84,10.6,243.7
+2027-07-13,Home & Garden,West,Small,7,1,0,0,47,10.78,15.3,418.88
+2027-07-14,Electronics,South,Medium,7,2,0,1,122,9.46,14.6,1235.78
+2027-07-15,Home & Garden,South,Medium,7,3,0,0,65,9.9,0.6,714.2
+2027-07-16,Sports,East,Large,7,4,0,1,77,10.03,15.7,794.67
+2027-07-17,Home & Garden,North,Medium,7,5,1,1,50,10.06,9.1,519.04
+2027-07-18,Clothing,East,Medium,7,6,1,0,54,10.93,2.7,609.94
+2027-07-19,Sports,Central,Large,7,0,0,0,62,9.2,27.1,415.66
+2027-07-20,Clothing,Central,Small,7,1,0,0,20,9.56,21.1,155.65
+2027-07-21,Electronics,Central,Medium,7,2,0,1,87,9.75,15.4,892.59
+2027-07-22,Clothing,North,Large,7,3,0,1,73,7.63,17.4,627.19
+2027-07-23,Home & Garden,West,Large,7,4,0,1,50,8.8,7.9,510.51
+2027-07-24,Clothing,South,Small,7,5,1,1,31,9.37,3.4,452.36
+2027-07-25,Clothing,Central,Large,7,6,1,0,81,9.8,0.1,776.25
+2027-07-26,Sports,West,Small,7,0,0,0,31,10.72,27.8,248.34
+2027-07-27,Home & Garden,West,Medium,7,1,0,1,79,10.42,5.4,880.52
+2027-07-28,Electronics,West,Medium,7,2,0,1,90,9.36,6.7,924.59
+2027-07-29,Electronics,Central,Small,7,3,0,0,49,9.74,16.8,368.66
+2027-07-30,Electronics,East,Large,7,4,0,0,132,8.59,28.4,851.97
+2027-07-31,Sports,East,Medium,7,5,1,1,43,9.5,13.3,446.07
+2027-08-01,Electronics,Central,Medium,8,6,1,0,47,9.99,3.7,492.7
+2027-08-02,Electronics,South,Small,8,0,0,0,30,12.36,16.7,303.11
+2027-08-03,Clothing,East,Small,8,1,0,0,38,9.57,17.7,313.29
+2027-08-04,Clothing,Central,Medium,8,2,0,1,54,11.15,21.9,561.55
+2027-08-05,Home & Garden,South,Medium,8,3,0,1,56,8.24,9.0,637.03
+2027-08-06,Sports,North,Medium,8,4,0,1,23,11.07,6.7,338.55
+2027-08-07,Clothing,North,Medium,8,5,1,0,20,9.91,25.1,158.38
+2027-08-08,Home & Garden,North,Small,8,6,1,1,45,8.91,13.2,478.35
+2027-08-09,Sports,North,Medium,8,0,0,0,36,9.49,15.8,324.0
+2027-08-10,Home & Garden,South,Medium,8,1,0,0,62,8.81,26.8,426.06
+2027-08-11,Sports,East,Medium,8,2,0,1,32,8.67,23.6,403.04
+2027-08-12,Electronics,East,Small,8,3,0,1,46,8.18,3.4,521.09
+2027-08-13,Electronics,Central,Small,8,4,0,1,61,10.41,29.1,495.37
+2027-08-14,Clothing,Central,Medium,8,5,1,0,48,11.28,17.8,436.2
+2027-08-15,Groceries,West,Medium,8,6,1,1,60,11.87,16.4,714.0
+2027-08-16,Sports,East,Medium,8,0,0,0,19,10.2,12.8,172.97
+2027-08-17,Sports,West,Small,8,1,0,1,29,8.78,23.5,382.76
+2027-08-18,Clothing,Central,Medium,8,2,0,0,55,9.9,29.1,362.82
+2027-08-19,Groceries,South,Large,8,3,0,0,142,11.63,4.5,1520.58
+2027-08-20,Home & Garden,East,Medium,8,4,0,1,32,9.82,13.1,365.41
+2027-08-21,Groceries,North,Small,8,5,1,1,62,12.45,26.8,681.65
+2027-08-22,Clothing,South,Medium,8,6,1,0,18,10.14,16.6,164.34
+2027-08-23,Electronics,East,Large,8,0,0,0,132,8.37,28.0,840.39
+2027-08-24,Home & Garden,North,Medium,8,1,0,1,58,9.69,6.8,611.88
+2027-08-25,Home & Garden,East,Small,8,2,0,1,45,9.02,3.7,560.14
+2027-08-26,Sports,South,Medium,8,3,0,1,57,10.34,28.2,502.62
+2027-08-27,Groceries,Central,Medium,8,4,0,1,80,10.48,12.4,856.73
+2027-08-28,Sports,North,Large,8,5,1,1,39,9.17,21.9,373.98
+2027-08-29,Groceries,East,Small,8,6,1,1,73,9.99,28.7,668.21
+2027-08-30,Groceries,West,Medium,8,0,0,0,124,12.19,5.5,1336.43
+2027-08-31,Clothing,East,Large,8,1,0,0,67,7.66,22.6,448.3
+2027-09-01,Electronics,West,Large,9,2,0,1,83,11.87,7.7,1078.09
+2027-09-02,Electronics,Central,Small,9,3,0,1,41,10.45,16.7,412.84
+2027-09-03,Home & Garden,Central,Small,9,4,0,1,30,12.63,23.7,350.0
+2027-09-04,Electronics,East,Small,9,5,1,0,53,9.17,10.7,442.47
+2027-09-05,Groceries,Central,Large,9,6,1,0,102,11.4,16.1,967.81
+2027-09-06,Clothing,North,Large,9,0,0,1,10,10.09,14.4,207.23
+2027-09-07,Sports,North,Small,9,1,0,0,22,9.67,8.5,198.35
+2027-09-08,Clothing,North,Small,9,2,0,1,22,8.99,24.2,290.62
+2027-09-09,Clothing,East,Large,9,3,0,1,45,12.43,18.2,604.35
+2027-09-10,Home & Garden,East,Medium,9,4,0,1,57,8.02,20.3,462.53
+2027-09-11,Electronics,Central,Small,9,5,1,0,46,12.04,17.5,482.95
+2027-09-12,Clothing,South,Medium,9,6,1,0,47,10.76,10.9,502.56
+2027-09-13,Groceries,South,Large,9,0,0,1,191,11.07,26.7,1577.02
+2027-09-14,Home & Garden,North,Large,9,1,0,1,77,12.12,16.1,835.4
+2027-09-15,Groceries,West,Small,9,2,0,0,63,12.15,1.6,750.52
+2027-09-16,Electronics,South,Small,9,3,0,1,36,8.12,0.1,476.59
+2027-09-17,Electronics,West,Medium,9,4,0,1,60,10.69,6.1,628.53
+2027-09-18,Electronics,East,Small,9,5,1,1,39,10.1,29.6,408.65
+2027-09-19,Clothing,Central,Small,9,6,1,1,25,10.64,22.6,263.29
+2027-09-20,Electronics,East,Small,9,0,0,0,29,11.07,17.7,263.8
+2027-09-21,Home & Garden,West,Medium,9,1,0,0,77,8.77,12.2,581.02
+2027-09-22,Groceries,West,Medium,9,2,0,0,93,8.75,11.3,717.54
+2027-09-23,Clothing,East,Large,9,3,0,1,41,11.74,17.2,517.8
+2027-09-24,Clothing,South,Large,9,4,0,0,38,12.13,13.7,394.85
+2027-09-25,Home & Garden,North,Large,9,5,1,1,48,8.08,6.9,592.59
+2027-09-26,Home & Garden,South,Small,9,6,1,0,23,12.09,27.3,205.15
+2027-09-27,Home & Garden,South,Small,9,0,0,0,45,10.72,7.7,447.18
+2027-09-28,Clothing,West,Small,9,1,0,1,18,11.17,13.1,298.34
+2027-09-29,Clothing,West,Large,9,2,0,0,50,8.49,29.6,313.21
+2027-09-30,Home & Garden,East,Large,9,3,0,0,40,10.17,28.3,294.76
+2027-10-01,Electronics,East,Small,10,4,0,1,52,7.94,18.0,518.01
+2027-10-02,Electronics,North,Small,10,5,1,1,29,9.21,14.6,380.56
+2027-10-03,Groceries,Central,Large,10,6,1,0,100,8.01,15.2,715.23
+2027-10-04,Home & Garden,Central,Large,10,0,0,1,85,11.04,4.4,1065.36
+2027-10-05,Electronics,North,Large,10,1,0,1,45,11.09,30.0,433.66
+2027-10-06,Home & Garden,South,Small,10,2,0,0,32,12.65,22.4,309.39
+2027-10-07,Electronics,Central,Small,10,3,0,0,26,9.52,6.5,255.68
+2027-10-08,Sports,Central,Large,10,4,0,0,47,12.29,22.1,421.21
+2027-10-09,Groceries,South,Large,10,5,1,0,157,7.66,10.4,1195.55
+2027-10-10,Sports,East,Medium,10,6,1,1,35,9.33,4.2,435.19
+2027-10-11,Electronics,East,Large,10,0,0,1,98,9.77,25.9,809.25
+2027-10-12,Electronics,North,Large,10,1,0,1,70,11.16,21.3,699.65
+2027-10-13,Electronics,South,Medium,10,2,0,0,55,12.02,1.6,634.87
+2027-10-14,Electronics,West,Small,10,3,0,0,52,8.5,21.4,356.2
+2027-10-15,Clothing,South,Large,10,4,0,0,72,8.74,6.0,600.7
+2027-10-16,Clothing,East,Small,10,5,1,0,24,7.87,18.8,176.68
+2027-10-17,Home & Garden,Central,Medium,10,6,1,1,51,11.05,28.5,428.03
+2027-10-18,Clothing,Central,Large,10,0,0,1,36,9.45,19.6,463.9
+2027-10-19,Clothing,West,Large,10,1,0,0,40,12.75,17.3,410.94
+2027-10-20,Sports,South,Small,10,2,0,0,26,8.74,6.4,225.59
+2027-10-21,Clothing,South,Medium,10,3,0,0,51,9.06,24.1,365.63
+2027-10-22,Sports,Central,Small,10,4,0,1,19,11.2,20.3,320.63
+2027-10-23,Electronics,West,Large,10,5,1,0,45,9.52,6.0,445.33
+2027-10-24,Clothing,North,Medium,10,6,1,1,62,8.91,1.5,595.99
+2027-10-25,Home & Garden,South,Small,10,0,0,1,40,10.09,27.4,373.71
+2027-10-26,Sports,Central,Medium,10,1,0,1,26,8.75,22.5,365.44
+2027-10-27,Clothing,Central,Small,10,2,0,1,24,9.84,12.4,318.82
+2027-10-28,Clothing,West,Large,10,3,0,1,47,9.24,4.2,652.18
+2027-10-29,Clothing,East,Large,10,4,0,1,27,12.8,6.4,480.76
+2027-10-30,Groceries,South,Large,10,5,1,0,162,9.52,7.6,1473.51
+2027-10-31,Sports,South,Large,10,6,1,0,42,9.06,6.6,391.49
+2027-11-01,Sports,North,Medium,11,0,0,0,33,9.18,28.6,209.5
+2027-11-02,Sports,Central,Small,11,1,0,1,31,8.39,27.0,344.43
+2027-11-03,Clothing,Central,Medium,11,2,0,0,27,12.44,0.9,323.53
+2027-11-04,Electronics,North,Large,11,3,0,1,62,8.9,10.1,581.21
+2027-11-05,Home & Garden,West,Small,11,4,0,1,32,11.81,2.2,508.67
+2027-11-06,Groceries,East,Medium,11,5,1,1,86,10.58,29.1,686.01
+2027-11-07,Groceries,West,Small,11,6,1,1,82,9.22,7.0,839.74
+2027-11-08,Sports,Central,Large,11,0,0,0,38,13.31,21.9,370.94
+2027-11-09,Home & Garden,West,Small,11,1,0,0,36,9.93,22.9,290.72
+2027-11-10,Electronics,West,Large,11,2,0,1,117,8.07,7.2,1100.14
+2027-11-11,Sports,North,Small,11,3,0,0,27,7.96,0.7,227.53
+2027-11-12,Sports,North,Small,11,4,0,0,15,8.75,25.2,108.07
+2027-11-13,Sports,West,Large,11,5,1,0,45,8.62,6.4,362.3
+2027-11-14,Groceries,West,Large,11,6,1,1,93,8.32,7.8,915.7
+2027-11-15,Electronics,West,Large,11,0,0,0,64,10.78,29.9,541.73
+2027-11-16,Electronics,East,Large,11,1,0,1,68,11.03,2.7,842.16
+2027-11-17,Sports,North,Small,11,2,0,1,19,10.3,2.1,310.23
+2027-11-18,Sports,Central,Small,11,3,0,0,8,10.24,22.5,73.4
+2027-11-19,Clothing,South,Medium,11,4,0,1,75,8.62,16.3,698.43
+2027-11-20,Home & Garden,Central,Large,11,5,1,1,88,8.31,21.0,751.37
+2027-11-21,Electronics,Central,Small,11,6,1,1,53,9.82,26.3,554.41
+2027-11-22,Clothing,Central,Large,11,0,0,0,60,12.93,16.1,633.95
+2027-11-23,Sports,Central,Medium,11,1,0,0,26,8.05,5.0,227.6
+2027-11-24,Electronics,West,Small,11,2,0,0,50,9.01,12.5,432.52
+2027-11-25,Clothing,Central,Medium,11,3,0,1,42,11.87,1.8,603.05
+2027-11-26,Clothing,East,Medium,11,4,0,1,50,9.1,20.7,439.32
+2027-11-27,Electronics,South,Large,11,5,1,1,72,9.5,8.6,876.42
+2027-11-28,Groceries,West,Medium,11,6,1,1,96,9.29,9.7,962.33
+2027-11-29,Home & Garden,West,Medium,11,0,0,0,69,8.6,28.9,435.8
+2027-11-30,Electronics,West,Medium,11,1,0,0,38,9.28,15.2,320.26
+2027-12-01,Sports,North,Medium,12,2,0,0,40,8.11,29.4,241.97
+2027-12-02,Groceries,West,Small,12,3,0,0,56,11.72,23.2,476.79
+2027-12-03,Sports,East,Medium,12,4,0,1,63,9.7,15.4,560.13
+2027-12-04,Groceries,West,Small,12,5,1,0,37,9.94,12.9,350.77
+2027-12-05,Groceries,North,Medium,12,6,1,0,84,8.2,14.8,640.32
+2027-12-06,Clothing,South,Large,12,0,0,1,32,11.22,24.8,383.79
+2027-12-07,Clothing,North,Large,12,1,0,1,35,11.33,14.3,521.74
+2027-12-08,Sports,West,Large,12,2,0,1,47,9.14,12.2,610.34
+2027-12-09,Home & Garden,East,Small,12,3,0,0,58,8.81,0.3,512.78
+2027-12-10,Clothing,North,Medium,12,4,0,0,21,10.03,15.0,203.63
+2027-12-11,Electronics,South,Small,12,5,1,0,69,8.96,9.2,547.46
+2027-12-12,Home & Garden,North,Large,12,6,1,0,68,8.09,18.7,476.93
+2027-12-13,Electronics,North,Large,12,0,0,0,116,8.57,8.6,965.67
+2027-12-14,Home & Garden,Central,Medium,12,1,0,0,71,9.47,21.0,589.19
+2027-12-15,Home & Garden,North,Large,12,2,0,1,69,11.11,17.2,709.79
+2027-12-16,Clothing,East,Medium,12,3,0,1,25,11.4,23.8,429.21
+2027-12-17,Home & Garden,North,Medium,12,4,0,0,61,9.56,13.7,482.3
+2027-12-18,Sports,West,Small,12,5,1,0,18,9.65,28.0,122.19
+2027-12-19,Groceries,South,Large,12,6,1,1,167,11.17,17.2,1604.01
+2027-12-20,Groceries,Central,Small,12,0,0,1,105,7.91,23.7,759.69
+2027-12-21,Electronics,Central,Medium,12,1,0,1,77,12.6,3.4,1012.2
+2027-12-22,Home & Garden,West,Large,12,2,0,0,53,10.98,25.6,405.95
+2027-12-23,Home & Garden,North,Medium,12,3,0,0,40,10.53,0.3,470.74
+2027-12-24,Groceries,West,Large,12,4,0,0,129,11.56,25.1,1156.67
+2027-12-25,Clothing,East,Large,12,5,1,1,73,8.84,15.1,709.48
+2027-12-26,Home & Garden,West,Small,12,6,1,1,31,9.65,8.6,359.56
+2027-12-27,Clothing,South,Small,12,0,0,1,40,10.36,22.2,387.71
+2027-12-28,Sports,East,Large,12,1,0,0,41,9.31,26.0,300.43
+2027-12-29,Home & Garden,South,Small,12,2,0,1,23,10.3,10.2,409.64
+2027-12-30,Home & Garden,South,Large,12,3,0,1,127,8.52,28.0,913.21
+2027-12-31,Groceries,North,Small,12,4,0,1,100,8.58,3.2,938.48
+2028-01-01,Electronics,North,Medium,1,5,1,0,63,12.76,4.5,725.39
+2028-01-02,Groceries,Central,Large,1,6,1,0,114,11.73,20.8,1025.2
+2028-01-03,Clothing,East,Medium,1,0,0,1,71,8.22,2.7,690.44
+2028-01-04,Home & Garden,North,Medium,1,1,0,0,77,8.24,3.6,676.01
+2028-01-05,Electronics,South,Small,1,2,0,1,78,7.92,19.6,636.98
+2028-01-06,Groceries,Central,Small,1,3,0,1,87,9.9,15.2,942.24
+2028-01-07,Clothing,East,Small,1,4,0,0,41,9.93,6.4,364.27
+2028-01-08,Groceries,West,Large,1,5,1,1,141,8.3,21.3,1086.76
+2028-01-09,Clothing,Central,Medium,1,6,1,0,27,11.16,16.6,251.41
+2028-01-10,Clothing,North,Medium,1,0,0,0,51,11.14,9.8,517.63
+2028-01-11,Sports,East,Large,1,1,0,1,85,10.15,0.7,918.77
+2028-01-12,Home & Garden,East,Large,1,2,0,1,65,10.28,13.5,705.36
+2028-01-13,Groceries,South,Large,1,3,0,0,281,9.8,4.8,2707.96
+2028-01-14,Home & Garden,Central,Large,1,4,0,1,104,10.37,6.1,1192.88
+2028-01-15,Sports,Central,Medium,1,5,1,1,47,9.8,6.7,576.38
+2028-01-16,Electronics,West,Large,1,6,1,1,105,9.52,13.7,970.48
+2028-01-17,Home & Garden,North,Medium,1,0,0,0,33,12.03,16.7,315.24
+2028-01-18,Home & Garden,North,Small,1,1,0,1,48,9.29,15.0,467.76
+2028-01-19,Sports,Central,Medium,1,2,0,1,45,8.71,4.1,417.69
+2028-01-20,Electronics,South,Large,1,3,0,0,148,9.23,14.9,1192.88
+2028-01-21,Clothing,West,Small,1,4,0,0,18,10.57,10.2,198.42
+2028-01-22,Groceries,Central,Large,1,5,1,0,144,9.9,13.1,1189.33
+2028-01-23,Home & Garden,North,Large,1,6,1,0,71,11.74,8.8,801.65
+2028-01-24,Clothing,North,Small,1,0,0,0,40,8.5,22.3,287.08
+2028-01-25,Clothing,Central,Medium,1,1,0,0,37,10.35,23.9,293.98
+2028-01-26,Groceries,Central,Small,1,2,0,1,63,12.53,14.2,801.48
+2028-01-27,Electronics,West,Small,1,3,0,0,52,12.16,6.5,603.63
+2028-01-28,Sports,West,Large,1,4,0,1,60,11.63,14.5,630.48
+2028-01-29,Electronics,East,Large,1,5,1,1,189,8.63,27.3,1370.63
+2028-01-30,Clothing,North,Small,1,6,1,0,33,11.68,2.9,372.87
+2028-01-31,Groceries,Central,Medium,1,0,0,1,127,11.1,15.7,1229.03
+2028-02-01,Groceries,West,Medium,2,1,0,1,85,11.01,0.2,1129.31
+2028-02-02,Home & Garden,South,Large,2,2,0,0,111,11.82,10.9,1116.58
+2028-02-03,Clothing,East,Small,2,3,0,0,43,10.58,26.9,317.88
+2028-02-04,Home & Garden,East,Large,2,4,0,0,89,9.22,6.8,785.69
+2028-02-05,Electronics,East,Medium,2,5,1,0,90,10.41,26.2,683.08
+2028-02-06,Sports,South,Large,2,6,1,1,47,13.04,28.9,603.68
+2028-02-07,Groceries,East,Small,2,0,0,1,161,9.18,7.4,1612.84
+2028-02-08,Sports,Central,Small,2,1,0,0,32,11.3,20.1,309.79
+2028-02-09,Clothing,North,Large,2,2,0,0,62,12.28,17.7,610.28
+2028-02-10,Home & Garden,Central,Large,2,3,0,1,143,10.34,15.3,1474.39
+2028-02-11,Groceries,North,Small,2,4,0,1,104,8.04,17.2,849.08
+2028-02-12,Home & Garden,Central,Large,2,5,1,0,121,9.1,23.0,845.37
+2028-02-13,Home & Garden,North,Small,2,6,1,1,64,10.72,25.2,569.23
+2028-02-14,Groceries,East,Medium,2,0,0,1,96,11.51,18.5,1054.09
+2028-02-15,Electronics,West,Medium,2,1,0,0,131,9.85,3.7,1152.5
+2028-02-16,Sports,South,Small,2,2,0,1,40,10.82,29.4,484.87
+2028-02-17,Electronics,North,Medium,2,3,0,1,80,10.76,1.3,947.15
+2028-02-18,Clothing,West,Small,2,4,0,0,42,8.99,29.1,260.66
+2028-02-19,Sports,North,Medium,2,5,1,0,66,9.25,16.5,492.59
+2028-02-20,Clothing,Central,Large,2,6,1,1,91,10.59,4.1,1097.54
+2028-02-21,Sports,North,Small,2,0,0,1,29,8.45,11.4,367.4
+2028-02-22,Clothing,East,Small,2,1,0,1,35,9.26,25.3,405.33
+2028-02-23,Electronics,East,Medium,2,2,0,1,89,11.76,27.5,983.78
+2028-02-24,Electronics,Central,Small,2,3,0,0,106,10.33,13.4,928.07
+2028-02-25,Home & Garden,West,Small,2,4,0,1,55,11.59,26.8,640.55
+2028-02-26,Home & Garden,West,Medium,2,5,1,0,63,10.06,7.4,636.97
+2028-02-27,Groceries,Central,Small,2,6,1,1,92,11.33,19.6,1014.7
+2028-02-28,Sports,West,Small,2,0,0,0,43,9.8,17.3,360.89
+2028-02-29,Clothing,North,Medium,2,1,0,0,88,8.33,20.9,595.33
+2028-03-01,Groceries,East,Large,3,2,0,1,197,11.57,6.7,2210.88
+2028-03-02,Home & Garden,Central,Medium,3,3,0,1,114,8.58,4.6,994.88
+2028-03-03,Groceries,South,Small,3,4,0,0,118,11.47,20.8,1153.43
+2028-03-04,Clothing,South,Small,3,5,1,0,36,11.57,6.6,409.42
+2028-03-05,Groceries,Central,Large,3,6,1,1,280,12.61,1.8,3306.67
+2028-03-06,Home & Garden,East,Small,3,0,0,1,50,9.71,21.6,493.62
+2028-03-07,Sports,Central,Medium,3,1,0,1,32,10.99,20.7,441.51
+2028-03-08,Clothing,North,Large,3,2,0,1,43,8.75,20.6,354.57
+2028-03-09,Groceries,West,Large,3,3,0,0,249,9.9,9.8,2171.76
+2028-03-10,Electronics,Central,Medium,3,4,0,1,112,10.18,5.9,1208.86
+2028-03-11,Sports,Central,Medium,3,5,1,0,65,9.95,18.6,573.87
+2028-03-12,Groceries,South,Large,3,6,1,1,202,8.34,5.4,1793.26
+2028-03-13,Groceries,West,Medium,3,0,0,0,86,9.33,7.0,789.1
+2028-03-14,Sports,North,Large,3,1,0,0,74,9.1,18.9,551.79
+2028-03-15,Electronics,South,Small,3,2,0,1,38,9.27,13.8,512.4
+2028-03-16,Sports,East,Small,3,3,0,1,45,11.55,16.2,622.84
+2028-03-17,Sports,East,Medium,3,4,0,0,42,9.4,16.9,339.29
+2028-03-18,Clothing,North,Large,3,5,1,1,79,11.62,8.9,936.99
+2028-03-19,Sports,North,Medium,3,6,1,0,48,9.11,16.9,347.63
+2028-03-20,Clothing,Central,Small,3,0,0,1,45,8.94,7.0,466.66
+2028-03-21,Groceries,East,Medium,3,1,0,0,73,11.19,19.6,679.47
+2028-03-22,Home & Garden,West,Small,3,2,0,0,36,12.42,8.8,390.49
+2028-03-23,Home & Garden,North,Large,3,3,0,0,62,8.69,20.8,437.14
+2028-03-24,Groceries,North,Small,3,4,0,0,69,11.84,14.6,680.94
+2028-03-25,Clothing,West,Small,3,5,1,1,52,8.8,26.3,472.37
+2028-03-26,Home & Garden,South,Small,3,6,1,0,82,9.4,13.1,623.8
+2028-03-27,Groceries,East,Large,3,0,0,1,185,12.97,3.3,2370.5
+2028-03-28,Groceries,East,Large,3,1,0,1,166,10.33,29.7,1382.11
+2028-03-29,Electronics,Central,Large,3,2,0,1,229,7.84,23.7,1636.5
+2028-03-30,Home & Garden,South,Small,3,3,0,1,104,9.35,4.8,981.2
+2028-03-31,Sports,Central,Large,3,4,0,1,45,8.12,23.0,464.88
+2028-04-01,Home & Garden,East,Large,4,5,1,1,92,12.19,16.0,960.11
+2028-04-02,Home & Garden,East,Medium,4,6,1,0,78,10.56,18.7,620.36
+2028-04-03,Electronics,Central,Medium,4,0,0,1,107,10.34,24.0,928.51
+2028-04-04,Electronics,East,Small,4,1,0,1,94,8.09,22.9,804.3
+2028-04-05,Clothing,South,Small,4,2,0,0,49,11.93,11.3,533.49
+2028-04-06,Electronics,South,Medium,4,3,0,0,152,8.36,19.7,1045.3
+2028-04-07,Groceries,West,Medium,4,4,0,1,130,9.98,29.5,1176.98
+2028-04-08,Sports,West,Medium,4,5,1,0,72,9.04,12.8,561.21
+2028-04-09,Groceries,South,Large,4,6,1,1,266,10.01,14.2,2327.42
+2028-04-10,Clothing,East,Small,4,0,0,1,70,8.15,11.1,625.84
+2028-04-11,Home & Garden,East,Small,4,1,0,0,45,8.89,16.1,356.99
+2028-04-12,Clothing,South,Medium,4,2,0,0,68,9.78,14.8,569.83
+2028-04-13,Home & Garden,West,Medium,4,3,0,0,75,12.99,14.8,768.47
+2028-04-14,Groceries,East,Large,4,4,0,0,342,9.6,27.4,2255.49
+2028-04-15,Home & Garden,North,Large,4,5,1,1,147,10.34,16.9,1446.35
+2028-04-16,Home & Garden,East,Small,4,6,1,0,58,7.89,19.3,395.64
+2028-04-17,Home & Garden,North,Small,4,0,0,0,72,8.56,12.5,556.14
+2028-04-18,Sports,West,Large,4,1,0,1,103,8.23,29.5,706.04
+2028-04-19,Electronics,South,Large,4,2,0,1,152,8.85,24.3,1070.14
+2028-04-20,Electronics,West,Large,4,3,0,1,157,11.78,5.0,1790.56
+2028-04-21,Home & Garden,Central,Small,4,4,0,0,65,10.24,7.8,675.77
+2028-04-22,Home & Garden,East,Large,4,5,1,0,196,9.14,16.4,1472.63
+2028-04-23,Home & Garden,West,Medium,4,6,1,0,70,9.65,26.0,470.63
+2028-04-24,Home & Garden,Central,Medium,4,0,0,1,112,9.89,4.2,1292.87
+2028-04-25,Clothing,West,Small,4,1,0,1,54,8.82,10.5,524.37
+2028-04-26,Sports,West,Medium,4,2,0,1,49,9.63,6.3,594.91
+2028-04-27,Groceries,Central,Small,4,3,0,0,161,8.16,29.4,1017.86
+2028-04-28,Groceries,North,Large,4,4,0,1,184,10.18,12.9,1951.94
+2028-04-29,Clothing,North,Large,4,5,1,0,93,9.52,9.9,750.07
+2028-04-30,Electronics,Central,Medium,4,6,1,0,116,10.74,6.0,1198.2
+2028-05-01,Electronics,East,Small,5,0,0,0,66,9.71,8.1,554.63
+2028-05-02,Sports,South,Small,5,1,0,0,16,12.18,29.3,138.86
+2028-05-03,Groceries,Central,Small,5,2,0,1,165,8.09,17.9,1316.3
+2028-05-04,Electronics,East,Small,5,3,0,0,79,9.26,26.0,564.92
+2028-05-05,Sports,Central,Small,5,4,0,1,30,11.74,11.3,408.1
+2028-05-06,Sports,North,Small,5,5,1,1,35,9.39,13.8,390.55
+2028-05-07,Electronics,South,Small,5,6,1,0,66,8.34,0.9,557.66
+2028-05-08,Electronics,East,Large,5,0,0,0,166,11.57,3.9,1819.61
+2028-05-09,Sports,South,Medium,5,1,0,1,63,11.07,0.6,826.11
+2028-05-10,Sports,East,Large,5,2,0,1,51,10.48,20.5,570.92
+2028-05-11,Sports,East,Medium,5,3,0,0,47,9.61,1.8,433.04
+2028-05-12,Clothing,West,Medium,5,4,0,1,74,12.9,10.2,911.82
+2028-05-13,Home & Garden,Central,Large,5,5,1,0,112,13.27,29.1,983.62
+2028-05-14,Clothing,South,Medium,5,6,1,0,63,9.15,4.8,535.2
+2028-05-15,Electronics,East,Large,5,0,0,0,153,10.79,18.8,1273.62
+2028-05-16,Home & Garden,South,Small,5,1,0,1,103,9.72,27.5,848.46
+2028-05-17,Groceries,East,Large,5,2,0,1,285,9.01,2.6,2822.36
+2028-05-18,Groceries,Central,Large,5,3,0,1,299,9.26,13.7,2389.53
+2028-05-19,Groceries,South,Small,5,4,0,0,132,10.03,4.1,1269.36
+2028-05-20,Groceries,West,Small,5,5,1,0,91,11.34,20.4,799.88
+2028-05-21,Electronics,East,Medium,5,6,1,1,79,11.04,19.0,917.53
+2028-05-22,Sports,South,Large,5,0,0,0,125,9.41,25.2,925.07
+2028-05-23,Sports,West,Small,5,1,0,0,29,8.51,13.5,216.45
+2028-05-24,Electronics,East,Large,5,2,0,1,106,8.42,10.0,959.01
+2028-05-25,Clothing,North,Large,5,3,0,1,67,11.84,27.6,716.42
+2028-05-26,Home & Garden,East,Large,5,4,0,0,165,8.84,16.0,1300.47
+2028-05-27,Electronics,West,Small,5,5,1,0,64,11.52,4.4,673.27
+2028-05-28,Home & Garden,West,Small,5,6,1,0,56,9.71,3.7,494.89
+2028-05-29,Groceries,East,Small,5,0,0,1,150,8.49,29.3,1103.28
+2028-05-30,Sports,West,Medium,5,1,0,0,48,8.33,15.5,355.02
+2028-05-31,Groceries,West,Small,5,2,0,0,103,12.6,21.3,1001.01
+2028-06-01,Sports,East,Large,6,3,0,0,85,10.82,6.0,928.78
+2028-06-02,Home & Garden,South,Small,6,4,0,1,50,9.93,10.7,628.44
+2028-06-03,Electronics,North,Large,6,5,1,0,175,8.98,23.3,1338.07
+2028-06-04,Sports,East,Large,6,6,1,0,33,12.58,14.9,347.15
+2028-06-05,Clothing,Central,Medium,6,0,0,1,54,12.04,13.8,683.99
+2028-06-06,Clothing,Central,Small,6,1,0,0,45,10.03,23.2,355.25
+2028-06-07,Clothing,East,Medium,6,2,0,1,84,11.46,27.8,741.96
+2028-06-08,Groceries,South,Large,6,3,0,1,257,9.7,19.9,2185.35
+2028-06-09,Home & Garden,North,Small,6,4,0,1,39,8.8,0.0,420.45
+2028-06-10,Sports,East,Medium,6,5,1,0,62,8.33,1.8,568.67
+2028-06-11,Clothing,West,Large,6,6,1,1,145,11.02,3.8,1628.58
+2028-06-12,Home & Garden,East,Large,6,0,0,1,134,9.46,26.1,1066.12
+2028-06-13,Electronics,North,Small,6,1,0,1,62,9.99,29.7,499.17
+2028-06-14,Electronics,West,Medium,6,2,0,0,54,12.05,5.6,630.12
+2028-06-15,Home & Garden,North,Large,6,3,0,0,172,9.34,15.0,1280.54
+2028-06-16,Groceries,East,Large,6,4,0,0,202,10.98,8.0,1977.55
+2028-06-17,Home & Garden,East,Medium,6,5,1,1,55,12.21,6.5,684.18
+2028-06-18,Home & Garden,North,Large,6,6,1,0,131,10.48,19.5,1131.57
+2028-06-19,Sports,East,Medium,6,0,0,0,84,9.07,10.4,724.7
+2028-06-20,Sports,Central,Medium,6,1,0,1,30,12.44,25.7,326.3
+2028-06-21,Groceries,Central,Large,6,2,0,0,137,10.87,8.2,1334.93
+2028-06-22,Clothing,Central,Large,6,3,0,0,126,9.36,6.6,1064.3
+2028-06-23,Groceries,Central,Medium,6,4,0,1,119,10.26,0.1,1354.29
+2028-06-24,Groceries,South,Small,6,5,1,0,113,11.21,4.8,1276.77
+2028-06-25,Clothing,South,Medium,6,6,1,1,44,12.85,4.7,703.45
+2028-06-26,Home & Garden,Central,Large,6,0,0,1,41,8.33,2.6,503.1
+2028-06-27,Clothing,Central,Medium,6,1,0,0,31,8.69,13.6,253.12
+2028-06-28,Groceries,North,Medium,6,2,0,0,148,9.51,2.7,1308.94
+2028-06-29,Groceries,Central,Small,6,3,0,1,101,9.43,29.7,922.91
+2028-06-30,Sports,North,Small,6,4,0,0,23,8.53,9.4,204.35
+2028-07-01,Sports,East,Medium,7,5,1,0,32,11.71,16.6,322.91
+2028-07-02,Sports,South,Small,7,6,1,1,25,9.1,9.2,377.88
+2028-07-03,Groceries,West,Small,7,0,0,0,65,10.65,13.3,598.73
+2028-07-04,Sports,North,Large,7,1,0,0,60,8.73,3.5,561.15
+2028-07-05,Clothing,Central,Medium,7,2,0,1,46,9.35,26.2,358.9
+2028-07-06,Electronics,Central,Medium,7,3,0,1,67,9.15,3.3,731.36
+2028-07-07,Sports,East,Large,7,4,0,0,64,9.24,28.9,394.66
+2028-07-08,Electronics,West,Large,7,5,1,1,136,9.35,12.4,1198.56
+2028-07-09,Sports,North,Small,7,6,1,1,45,8.8,9.2,475.23
+2028-07-10,Sports,South,Small,7,0,0,1,28,10.95,2.0,422.24
+2028-07-11,Clothing,East,Large,7,1,0,0,86,11.35,27.9,653.03
+2028-07-12,Clothing,East,Medium,7,2,0,1,52,11.41,17.1,678.28
+2028-07-13,Groceries,Central,Medium,7,3,0,1,132,11.38,3.4,1532.56
+2028-07-14,Groceries,East,Medium,7,4,0,0,115,10.83,29.4,822.07
+2028-07-15,Home & Garden,East,Large,7,5,1,0,114,11.46,7.7,1122.25
+2028-07-16,Electronics,West,Medium,7,6,1,1,82,8.5,28.5,570.25
+2028-07-17,Clothing,East,Large,7,0,0,0,72,11.6,18.4,664.43
+2028-07-18,Groceries,West,Medium,7,1,0,1,123,8.97,3.2,1266.35
+2028-07-19,Groceries,North,Small,7,2,0,1,65,11.66,28.8,650.33
+2028-07-20,Electronics,Central,Large,7,3,0,0,164,9.25,28.8,1095.55
+2028-07-21,Electronics,South,Medium,7,4,0,1,67,8.93,26.6,498.01
+2028-07-22,Clothing,East,Medium,7,5,1,0,49,11.56,7.3,551.03
+2028-07-23,Sports,South,Small,7,6,1,0,22,10.17,24.2,171.27
+2028-07-24,Groceries,South,Small,7,0,0,1,108,11.14,14.0,1105.15
+2028-07-25,Sports,Central,Medium,7,1,0,0,34,10.02,9.1,302.93
+2028-07-26,Sports,Central,Small,7,2,0,1,50,9.01,17.6,453.21
+2028-07-27,Groceries,East,Medium,7,3,0,1,92,10.0,17.3,900.8
+2028-07-28,Groceries,East,Small,7,4,0,0,95,11.78,16.1,887.06
+2028-07-29,Sports,North,Small,7,5,1,0,28,8.3,13.6,209.5
+2028-07-30,Sports,West,Medium,7,6,1,0,69,10.14,27.8,474.36
+2028-07-31,Clothing,Central,Medium,7,0,0,1,54,9.42,21.3,468.42
+2028-08-01,Home & Garden,South,Medium,8,1,0,0,70,9.62,25.8,483.29
+2028-08-02,Sports,East,Medium,8,2,0,1,50,10.15,9.1,578.85
+2028-08-03,Sports,North,Large,8,3,0,1,24,11.05,12.2,459.42
+2028-08-04,Electronics,North,Small,8,4,0,0,70,7.67,11.8,524.94
+2028-08-05,Electronics,West,Medium,8,5,1,0,45,12.21,6.8,517.46
+2028-08-06,Electronics,Central,Large,8,6,1,1,96,10.44,3.2,1140.8
+2028-08-07,Groceries,Central,Medium,8,0,0,1,155,9.25,3.9,1359.05
+2028-08-08,Sports,East,Small,8,1,0,1,29,12.62,25.8,425.32
+2028-08-09,Groceries,South,Large,8,2,0,0,104,10.33,10.6,1039.23
+2028-08-10,Groceries,South,Large,8,3,0,1,131,8.85,20.3,1088.32
+2028-08-11,Sports,South,Small,8,4,0,1,13,12.53,20.5,185.49
+2028-08-12,Home & Garden,East,Medium,8,5,1,1,53,8.6,15.1,589.96
+2028-08-13,Groceries,West,Large,8,6,1,1,180,10.48,22.8,1639.0
+2028-08-14,Home & Garden,West,Large,8,0,0,1,66,12.46,29.2,753.21
+2028-08-15,Clothing,North,Small,8,1,0,0,18,10.26,10.3,173.64
+2028-08-16,Groceries,West,Small,8,2,0,0,119,9.91,13.0,957.02
+2028-08-17,Electronics,North,Small,8,3,0,0,38,10.94,25.8,330.73
+2028-08-18,Groceries,East,Medium,8,4,0,1,106,8.79,20.5,817.86
+2028-08-19,Sports,East,Medium,8,5,1,1,45,9.12,7.7,541.55
+2028-08-20,Clothing,North,Large,8,6,1,0,45,10.55,8.1,405.33
+2028-08-21,Sports,Central,Large,8,0,0,1,32,11.74,12.4,441.99
+2028-08-22,Electronics,North,Small,8,1,0,0,30,12.47,3.5,349.42
+2028-08-23,Electronics,North,Medium,8,2,0,1,91,9.72,26.0,812.79
+2028-08-24,Groceries,South,Small,8,3,0,1,37,10.25,15.7,398.03
+2028-08-25,Clothing,West,Small,8,4,0,0,25,10.22,20.2,201.47
+2028-08-26,Groceries,East,Large,8,5,1,0,139,11.41,15.4,1307.99
+2028-08-27,Groceries,Central,Large,8,6,1,1,164,9.46,0.1,1535.58
+2028-08-28,Groceries,West,Small,8,0,0,0,57,10.66,7.9,553.77
+2028-08-29,Groceries,East,Small,8,1,0,0,32,10.91,11.4,319.44
+2028-08-30,Home & Garden,South,Large,8,2,0,0,106,9.23,27.8,719.4
+2028-08-31,Groceries,Central,Small,8,3,0,0,88,8.68,23.6,582.14
+2028-09-01,Groceries,West,Small,9,4,0,1,35,9.46,13.8,479.89
+2028-09-02,Groceries,West,Medium,9,5,1,0,72,11.57,7.7,762.01
+2028-09-03,Clothing,East,Medium,9,6,1,0,28,9.35,6.2,277.94
+2028-09-04,Home & Garden,East,Medium,9,0,0,0,38,10.76,26.1,288.16
+2028-09-05,Groceries,Central,Medium,9,1,0,0,155,8.14,18.2,1110.03
+2028-09-06,Clothing,Central,Small,9,2,0,0,25,10.32,9.6,248.47
+2028-09-07,Electronics,Central,Large,9,3,0,0,114,9.69,22.7,791.11
+2028-09-08,Groceries,North,Medium,9,4,0,0,98,8.92,18.5,767.79
+2028-09-09,Groceries,North,Small,9,5,1,0,88,8.82,14.6,742.4
+2028-09-10,Sports,Central,Medium,9,6,1,1,34,11.55,23.4,459.11
+2028-09-11,Sports,West,Large,9,0,0,0,52,7.59,14.1,383.56
+2028-09-12,Clothing,North,Medium,9,1,0,0,30,9.65,28.8,206.36
+2028-09-13,Sports,North,Medium,9,2,0,0,25,9.78,29.2,196.27
+2028-09-14,Groceries,North,Medium,9,3,0,0,76,12.29,24.0,674.69
+2028-09-15,Electronics,South,Medium,9,4,0,0,85,9.59,10.1,730.38
+2028-09-16,Sports,Central,Medium,9,5,1,0,21,10.06,25.7,179.3
+2028-09-17,Sports,Central,Small,9,6,1,0,22,9.17,7.5,183.14
+2028-09-18,Electronics,Central,Large,9,0,0,0,83,9.31,1.8,789.76
+2028-09-19,Groceries,West,Small,9,1,0,0,35,10.45,14.7,338.68
+2028-09-20,Home & Garden,South,Large,9,2,0,0,86,12.39,10.6,883.35
+2028-09-21,Groceries,North,Large,9,3,0,1,119,9.62,28.0,903.16
+2028-09-22,Clothing,West,Small,9,4,0,0,14,8.42,7.8,113.68
+2028-09-23,Clothing,East,Small,9,5,1,0,20,8.66,0.4,194.53
+2028-09-24,Home & Garden,East,Small,9,6,1,0,32,10.84,12.8,309.91
+2028-09-25,Groceries,West,Medium,9,0,0,1,94,9.49,24.3,791.35
+2028-09-26,Clothing,Central,Small,9,1,0,1,22,8.59,15.7,358.77
+2028-09-27,Sports,South,Large,9,2,0,0,64,9.49,27.5,450.85
+2028-09-28,Groceries,North,Medium,9,3,0,0,66,9.91,19.1,558.54
+2028-09-29,Home & Garden,East,Medium,9,4,0,0,47,9.29,15.8,374.35
+2028-09-30,Sports,North,Medium,9,5,1,0,32,8.7,3.4,306.13
+2028-10-01,Sports,West,Small,10,6,1,0,30,8.31,10.7,233.35
+2028-10-02,Home & Garden,Central,Small,10,0,0,0,24,7.52,11.5,180.46
+2028-10-03,Sports,East,Small,10,1,0,1,11,8.2,14.0,229.71
+2028-10-04,Groceries,Central,Small,10,2,0,0,52,10.89,14.8,447.41
+2028-10-05,Home & Garden,West,Medium,10,3,0,0,44,10.2,21.8,357.73
+2028-10-06,Groceries,East,Large,10,4,0,0,105,8.56,29.5,641.46
+2028-10-07,Sports,West,Medium,10,5,1,1,31,10.25,25.6,340.9
+2028-10-08,Clothing,South,Large,10,6,1,0,73,8.78,14.3,527.09
+2028-10-09,Groceries,Central,Medium,10,0,0,0,95,8.2,24.2,610.02
+2028-10-10,Electronics,North,Medium,10,1,0,1,70,10.46,14.7,723.48
+2028-10-11,Electronics,East,Large,10,2,0,1,88,8.15,19.2,684.38
+2028-10-12,Home & Garden,South,Large,10,3,0,1,65,8.99,20.6,663.4
+2028-10-13,Groceries,Central,Large,10,4,0,0,184,8.83,9.0,1492.65
+2028-10-14,Electronics,South,Medium,10,5,1,0,39,12.22,4.7,476.24
+2028-10-15,Groceries,East,Large,10,6,1,0,129,9.19,7.8,1102.92
+2028-10-16,Home & Garden,South,Large,10,0,0,0,84,9.96,2.1,807.16
+2028-10-17,Sports,South,Medium,10,1,0,0,29,12.13,18.8,276.8
+2028-10-18,Clothing,Central,Large,10,2,0,0,43,11.78,9.9,480.66
+2028-10-19,Clothing,Central,Small,10,3,0,0,24,10.29,25.0,191.79
+2028-10-20,Clothing,South,Small,10,4,0,1,25,10.19,11.8,371.04
+2028-10-21,Clothing,West,Large,10,5,1,1,58,7.56,24.3,544.77
+2028-10-22,Groceries,East,Large,10,6,1,0,64,11.78,16.0,598.44
+2028-10-23,Clothing,East,Large,10,0,0,1,53,11.66,0.4,641.82
+2028-10-24,Groceries,South,Small,10,1,0,1,85,8.79,2.7,821.56
+2028-10-25,Clothing,North,Medium,10,2,0,1,50,8.59,11.4,548.98
+2028-10-26,Electronics,North,Large,10,3,0,1,60,12.62,1.0,765.65
+2028-10-27,Electronics,East,Small,10,4,0,0,34,12.23,17.5,333.09
+2028-10-28,Groceries,North,Large,10,5,1,0,96,8.04,3.4,775.39
+2028-10-29,Groceries,East,Large,10,6,1,1,76,8.26,22.0,627.82
+2028-10-30,Home & Garden,Central,Large,10,0,0,0,61,9.26,26.7,389.07
+2028-10-31,Electronics,East,Large,10,1,0,0,84,11.16,28.8,705.0
+2028-11-01,Clothing,West,Large,11,2,0,0,44,11.43,10.3,472.67
+2028-11-02,Electronics,South,Large,11,3,0,1,75,8.68,22.1,679.38
+2028-11-03,Clothing,Central,Large,11,4,0,0,75,8.78,28.9,485.7
+2028-11-04,Home & Garden,East,Small,11,5,1,1,44,9.82,29.7,393.03
+2028-11-05,Clothing,North,Medium,11,6,1,1,40,8.96,20.1,478.14
+2028-11-06,Clothing,East,Medium,11,0,0,0,35,9.33,6.8,327.14
+2028-11-07,Groceries,North,Large,11,1,0,1,62,10.41,17.0,714.39
+2028-11-08,Clothing,North,Medium,11,2,0,1,16,9.2,25.4,240.79
+2028-11-09,Clothing,North,Medium,11,3,0,1,38,10.71,7.4,556.98
+2028-11-10,Sports,East,Medium,11,4,0,1,34,10.28,25.3,413.6
+2028-11-11,Electronics,North,Large,11,5,1,0,81,9.57,1.1,778.2
+2028-11-12,Electronics,East,Small,11,6,1,0,49,8.22,26.2,312.38
+2028-11-13,Sports,West,Medium,11,0,0,1,40,9.67,26.9,329.36
+2028-11-14,Groceries,East,Large,11,1,0,0,130,12.02,19.6,1231.08
+2028-11-15,Sports,South,Medium,11,2,0,0,20,10.38,4.4,213.15
+2028-11-16,Sports,Central,Medium,11,3,0,1,32,10.57,26.1,414.82
+2028-11-17,Electronics,Central,Small,11,4,0,0,66,9.06,2.5,570.37
+2028-11-18,Electronics,East,Medium,11,5,1,0,55,11.11,25.1,426.06
+2028-11-19,Clothing,South,Small,11,6,1,0,23,8.21,28.4,154.64
+2028-11-20,Clothing,East,Small,11,0,0,0,29,9.8,29.4,202.34
+2028-11-21,Groceries,Central,Medium,11,1,0,0,95,8.54,13.9,741.4
+2028-11-22,Groceries,North,Medium,11,2,0,1,107,10.65,9.5,1210.41
+2028-11-23,Groceries,West,Medium,11,3,0,1,62,11.73,6.7,831.32
+2028-11-24,Home & Garden,Central,Small,11,4,0,0,38,10.3,18.4,337.95
+2028-11-25,Electronics,West,Small,11,5,1,1,24,10.25,28.6,280.43
+2028-11-26,Electronics,West,Medium,11,6,1,1,65,9.28,15.6,647.89
+2028-11-27,Home & Garden,West,Medium,11,0,0,1,30,11.65,4.7,420.31
+2028-11-28,Electronics,West,Large,11,1,0,0,39,11.01,0.8,482.8
+2028-11-29,Clothing,Central,Small,11,2,0,0,34,11.67,26.5,273.1
+2028-11-30,Groceries,West,Large,11,3,0,0,93,10.04,21.2,791.26
+2028-12-01,Home & Garden,South,Medium,12,4,0,0,53,8.14,6.5,441.7
+2028-12-02,Sports,North,Small,12,5,1,1,22,10.05,17.6,276.96
+2028-12-03,Clothing,West,Small,12,6,1,1,24,9.91,26.1,242.37
+2028-12-04,Sports,Central,Small,12,0,0,1,51,8.92,19.5,474.29
+2028-12-05,Sports,North,Large,12,1,0,1,20,10.97,18.0,392.68
+2028-12-06,Home & Garden,South,Large,12,2,0,1,89,9.56,22.7,833.34
+2028-12-07,Clothing,West,Large,12,3,0,1,60,10.25,2.7,866.06
+2028-12-08,Sports,East,Large,12,4,0,1,63,8.05,7.6,605.15
+2028-12-09,Groceries,North,Medium,12,5,1,1,87,12.02,19.6,944.4
+2028-12-10,Groceries,East,Large,12,6,1,1,169,8.53,11.2,1348.92
+2028-12-11,Home & Garden,North,Medium,12,0,0,1,40,12.88,10.3,579.11
+2028-12-12,Groceries,Central,Small,12,1,0,1,60,8.4,15.8,573.71
+2028-12-13,Electronics,South,Large,12,2,0,1,98,10.05,19.9,974.83
+2028-12-14,Home & Garden,North,Medium,12,3,0,1,55,12.75,21.9,638.57
+2028-12-15,Home & Garden,South,Medium,12,4,0,0,54,13.35,1.3,668.0
+2028-12-16,Sports,East,Small,12,5,1,1,34,9.07,20.0,303.23
+2028-12-17,Electronics,West,Small,12,6,1,0,61,8.16,18.7,415.68
+2028-12-18,Sports,West,Large,12,0,0,0,57,10.31,19.0,526.12
+2028-12-19,Groceries,East,Large,12,1,0,1,198,8.57,27.2,1308.61
+2028-12-20,Clothing,East,Large,12,2,0,1,34,12.03,6.3,456.16
+2028-12-21,Sports,Central,Medium,12,3,0,0,27,11.13,7.9,299.53
+2028-12-22,Electronics,North,Large,12,4,0,1,57,10.91,7.5,724.72
+2028-12-23,Home & Garden,West,Large,12,5,1,0,64,8.97,2.7,615.75
+2028-12-24,Groceries,North,Small,12,6,1,0,54,11.36,19.5,478.05
+2028-12-25,Electronics,East,Medium,12,0,0,1,50,11.02,22.0,566.83
+2028-12-26,Home & Garden,North,Small,12,1,0,0,38,9.89,2.4,385.39
+2028-12-27,Home & Garden,South,Large,12,2,0,1,102,9.04,17.2,818.15
+2028-12-28,Clothing,West,Medium,12,3,0,1,16,11.21,29.3,269.99
+2028-12-29,Home & Garden,Central,Large,12,4,0,0,88,8.73,18.9,617.3
+2028-12-30,Groceries,North,Small,12,5,1,0,58,11.88,16.1,577.43
+2028-12-31,Groceries,North,Small,12,6,1,0,71,9.7,21.5,520.53
+2029-01-01,Electronics,East,Large,1,0,0,0,134,8.7,29.3,847.93
+2029-01-02,Clothing,Central,Small,1,1,0,1,55,9.74,20.8,461.06
+2029-01-03,Electronics,South,Small,1,2,0,1,64,8.8,16.9,559.75
+2029-01-04,Sports,North,Small,1,3,0,0,39,10.89,11.9,421.06
+2029-01-05,Home & Garden,Central,Medium,1,4,0,0,56,10.01,20.1,491.62
+2029-01-06,Sports,East,Medium,1,5,1,1,67,10.38,3.9,831.66
+2029-01-07,Groceries,West,Medium,1,6,1,0,115,11.32,24.0,993.04
+2029-01-08,Electronics,South,Small,1,0,0,1,91,10.66,20.3,928.33
+2029-01-09,Home & Garden,East,Small,1,1,0,1,63,9.34,5.2,711.14
+2029-01-10,Clothing,South,Large,1,2,0,1,98,8.99,15.9,843.33
+2029-01-11,Electronics,South,Medium,1,3,0,1,106,9.66,7.4,1068.78
+2029-01-12,Home & Garden,West,Small,1,4,0,0,52,11.57,16.1,514.09
+2029-01-13,Sports,East,Medium,1,5,1,1,51,7.84,2.5,558.13
+2029-01-14,Sports,North,Large,1,6,1,1,73,8.52,9.6,720.4
+2029-01-15,Electronics,Central,Small,1,0,0,0,44,9.62,22.0,315.0
+2029-01-16,Home & Garden,Central,Medium,1,1,0,0,98,10.59,7.6,939.75
+2029-01-17,Electronics,South,Medium,1,2,0,0,138,8.49,6.4,1227.09
+2029-01-18,Home & Garden,West,Medium,1,3,0,1,51,12.04,24.8,600.5
+2029-01-19,Clothing,South,Medium,1,4,0,0,58,10.66,28.2,457.7
+2029-01-20,Groceries,North,Medium,1,5,1,1,123,8.61,14.9,1018.85
+2029-01-21,Sports,East,Small,1,6,1,1,22,12.51,10.8,399.36
+2029-01-22,Home & Garden,Central,Medium,1,0,0,1,62,10.95,12.6,700.9
+2029-01-23,Groceries,South,Small,1,1,0,0,109,11.48,24.6,1029.08
+2029-01-24,Electronics,Central,Large,1,2,0,0,61,12.38,15.9,601.56
+2029-01-25,Home & Garden,North,Small,1,3,0,0,56,9.29,8.6,486.42
+2029-01-26,Home & Garden,South,Medium,1,4,0,1,88,8.82,20.2,777.08
+2029-01-27,Groceries,South,Small,1,5,1,1,58,8.72,27.5,502.4
+2029-01-28,Clothing,East,Medium,1,6,1,1,35,8.53,21.9,372.6
+2029-01-29,Electronics,North,Medium,1,0,0,0,82,10.09,22.1,692.88
+2029-01-30,Groceries,Central,Large,1,1,0,0,162,10.77,19.6,1294.84
+2029-01-31,Groceries,Central,Large,1,2,0,1,160,9.8,13.8,1655.53
+2029-02-01,Groceries,East,Medium,2,3,0,1,114,9.91,2.7,1251.77
+2029-02-02,Groceries,Central,Medium,2,4,0,0,132,9.85,24.6,1041.63
+2029-02-03,Home & Garden,East,Medium,2,5,1,0,77,9.17,15.9,655.9
+2029-02-04,Home & Garden,North,Large,2,6,1,0,101,8.93,5.3,898.76
+2029-02-05,Groceries,South,Medium,2,0,0,1,154,11.71,3.9,1703.42
+2029-02-06,Home & Garden,West,Small,2,1,0,1,53,8.99,29.5,446.61
+2029-02-07,Home & Garden,Central,Large,2,2,0,0,89,9.46,6.9,839.7
+2029-02-08,Clothing,North,Small,2,3,0,0,27,10.16,23.1,206.42
+2029-02-09,Electronics,South,Large,2,4,0,0,123,10.65,8.4,1143.84
+2029-02-10,Electronics,North,Small,2,5,1,1,62,10.73,5.6,797.12
+2029-02-11,Sports,South,Large,2,6,1,0,88,11.13,28.0,718.96
+2029-02-12,Electronics,West,Medium,2,0,0,0,143,8.11,9.9,1157.52
+2029-02-13,Clothing,Central,Small,2,1,0,0,43,11.1,27.2,378.4
+2029-02-14,Electronics,Central,Medium,2,2,0,1,87,10.13,19.0,781.85
+2029-02-15,Groceries,North,Large,2,3,0,1,180,9.92,20.9,1482.64
+2029-02-16,Sports,South,Medium,2,4,0,1,47,12.15,20.1,518.13
+2029-02-17,Clothing,Central,Large,2,5,1,1,110,10.51,9.8,1095.02
+2029-02-18,Groceries,West,Small,2,6,1,1,99,10.73,16.4,988.56
+2029-02-19,Sports,Central,Large,2,0,0,0,71,12.0,24.7,627.13
+2029-02-20,Sports,East,Large,2,1,0,1,100,8.84,27.0,855.2
+2029-02-21,Sports,East,Small,2,2,0,1,48,8.66,22.3,447.87
+2029-02-22,Electronics,North,Small,2,3,0,1,24,9.55,21.8,349.72
+2029-02-23,Groceries,East,Small,2,4,0,1,89,11.94,19.4,985.99
+2029-02-24,Home & Garden,South,Medium,2,5,1,0,26,11.61,7.6,299.25
+2029-02-25,Home & Garden,Central,Small,2,6,1,0,55,10.89,26.4,421.58
+2029-02-26,Groceries,West,Small,2,0,0,1,75,8.83,2.5,850.7
+2029-02-27,Home & Garden,South,Large,2,1,0,1,103,13.11,29.9,975.78
+2029-02-28,Electronics,Central,Medium,2,2,0,0,105,11.01,17.7,890.89
+2029-03-01,Clothing,West,Medium,3,3,0,0,57,8.08,0.9,481.72
+2029-03-02,Groceries,Central,Small,3,4,0,0,106,10.02,26.2,835.7
+2029-03-03,Electronics,Central,Medium,3,5,1,1,111,9.22,20.7,851.31
+2029-03-04,Clothing,South,Small,3,6,1,0,46,11.29,0.7,480.1
+2029-03-05,Sports,East,Small,3,0,0,0,35,9.47,22.1,273.48
+2029-03-06,Home & Garden,East,Large,3,1,0,0,138,9.98,16.1,1074.65
+2029-03-07,Sports,North,Small,3,2,0,1,48,8.36,9.9,560.68
+2029-03-08,Sports,West,Medium,3,3,0,0,70,8.72,6.2,585.37
+2029-03-09,Clothing,West,Large,3,4,0,0,64,12.85,11.2,678.21
+2029-03-10,Groceries,East,Small,3,5,1,1,141,9.61,23.7,1160.23
+2029-03-11,Groceries,South,Large,3,6,1,1,237,9.34,29.7,1806.72
+2029-03-12,Groceries,East,Large,3,0,0,0,274,10.95,15.7,2354.48
+2029-03-13,Clothing,West,Small,3,1,0,0,43,9.61,11.5,407.49
+2029-03-14,Home & Garden,West,Large,3,2,0,0,119,11.33,9.1,1132.69
+2029-03-15,Clothing,South,Small,3,3,0,0,39,10.2,8.7,385.82
+2029-03-16,Sports,South,Small,3,4,0,0,38,8.47,3.7,331.85
+2029-03-17,Sports,North,Medium,3,5,1,0,47,10.66,10.5,448.77
+2029-03-18,Groceries,North,Large,3,6,1,1,306,8.86,26.2,2102.12
+2029-03-19,Groceries,South,Medium,3,0,0,1,188,9.36,24.1,1515.37
